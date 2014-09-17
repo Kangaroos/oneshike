@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="first commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/less/default.css" afterPath="$PROJECT_DIR$/public/static/less/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/less/default.less" afterPath="$PROJECT_DIR$/public/static/less/default.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneshike.iws" />
@@ -26,7 +26,17 @@
     <favorites_list name="oneshike" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="default.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="487" column="20" selection-start="8884" selection-end="8884" vertical-scroll-proportion="0.60784316" vertical-offset="7119" max-vertical-offset="7425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -87,9 +97,9 @@
         <option value="$PROJECT_DIR$/public/static/css/animate.css" />
         <option value="$PROJECT_DIR$/public/static/library/bootstrap/less/navbar.less" />
         <option value="$PROJECT_DIR$/public/static/less/variables.less" />
-        <option value="$PROJECT_DIR$/public/static/less/default.less" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/static/less/default.less" />
       </list>
     </option>
   </component>
@@ -141,6 +151,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,12 +277,20 @@
       <created>1410945107587</created>
       <updated>1410945107587</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1410953420367</created>
+      <updated>1410953420367</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1410953482066</created>
+      <updated>1410953482066</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="690" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -226,7 +298,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3513732" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3513732" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -488,7 +560,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="17" selection-start="9078" selection-end="9078" vertical-scroll-proportion="0.33202356" vertical-offset="3971" max-vertical-offset="12840" />
+        <state line="276" column="17" selection-start="9078" selection-end="9078" vertical-scroll-proportion="0.33202356" vertical-offset="3971" max-vertical-offset="12840">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/static/less/variables.less">
@@ -524,16 +598,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
+    <entry file="file://$PROJECT_DIR$/public/static/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="474" column="23" selection-start="8619" selection-end="8619" vertical-scroll-proportion="0.62349397" vertical-offset="6903" max-vertical-offset="7425">
+        <state line="1655" column="24" selection-start="31660" selection-end="31664" vertical-scroll-proportion="0.0" vertical-offset="24825" max-vertical-offset="47445">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/css/animate.css">
+    <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1655" column="24" selection-start="31660" selection-end="31664" vertical-scroll-proportion="0.0" vertical-offset="24825" max-vertical-offset="47445">
+        <state line="487" column="20" selection-start="8884" selection-end="8884" vertical-scroll-proportion="0.60784316" vertical-offset="7119" max-vertical-offset="7425">
           <folding />
         </state>
       </provider>

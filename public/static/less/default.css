@@ -197,7 +197,7 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
   overflow: hidden;
 }
 .osk-footer a {
-  font-size: 10px;
+  font-size: 12px;
   color: #a49e89;
 }
 .osk-footer a:hover,
@@ -357,7 +357,7 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
 }
 .cardlist .card-box .box-title .source {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   color: #888888;
 }
 .cardlist .card-box .box-handle {
