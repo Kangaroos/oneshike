@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="" />
+    <ignored path="oneshike.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="oneshike" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="357" column="24" selection-start="10736" selection-end="10736" vertical-scroll-proportion="0.934375" vertical-offset="5056" max-vertical-offset="7875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="474" column="23" selection-start="8619" selection-end="8619" vertical-scroll-proportion="-8.625" vertical-offset="6903" max-vertical-offset="7425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1655" column="24" selection-start="31660" selection-end="31664" vertical-scroll-proportion="0.0" vertical-offset="24825" max-vertical-offset="47445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/static/library/mod/amd/esl-mod.js" />
+        <option value="$PROJECT_DIR$/public/static/library/mod/mod.js" />
+        <option value="$PROJECT_DIR$/public/static/js/main.js" />
+        <option value="$PROJECT_DIR$/public/static/library/mod/test/test.html" />
+        <option value="$PROJECT_DIR$/public/html/demo.html" />
+        <option value="$PROJECT_DIR$/public/html/css/demo.css" />
+        <option value="$PROJECT_DIR$/public/html/吃喝玩乐.html" />
+        <option value="$PROJECT_DIR$/public/nrly/Modfile.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/views/cashier_log.js" />
+        <option value="$PROJECT_DIR$/public/html/css/style.css" />
+        <option value="$PROJECT_DIR$/public/html/启程南日.html" />
+        <option value="$PROJECT_DIR$/public/nrly/js/libs/unslider.min.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/libs/jquery.event.move.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/libs/jquery.event.swipe.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/libs/jquery-latest.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/main.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/views/chwl.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/views/qcnr.js" />
+        <option value="$PROJECT_DIR$/public/nrly/js/views/txfw.js" />
+        <option value="$PROJECT_DIR$/public/nrly/index.html" />
+        <option value="$PROJECT_DIR$/public/nrly/js/views/inner.js" />
+        <option value="$PROJECT_DIR$/app/views/index.php" />
+        <option value="$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/opacity.less" />
+        <option value="$PROJECT_DIR$/public/static/css/tmp-site.css" />
+        <option value="$PROJECT_DIR$/public/green-header.html" />
+        <option value="$PROJECT_DIR$/public/static/css/green-header.css" />
+        <option value="$PROJECT_DIR$/public/nrly/js/router.js" />
+        <option value="$PROJECT_DIR$/public/nrly/tpl/gywm.html" />
+        <option value="$PROJECT_DIR$/public/nrly/tpl/inner.html" />
+        <option value="$PROJECT_DIR$/public/nrly/tpl/qcnr.html" />
+        <option value="$PROJECT_DIR$/public/nrly/tpl/txfw.html" />
+        <option value="$PROJECT_DIR$/public/nrly/tpl/chwl.html" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/gywm.html" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/inner.html" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/less/main.css" />
+        <option value="$PROJECT_DIR$/public/nrly/js/views/gywm.js" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/chwl.html" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/qcnr.html" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/txfw.html" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/index.html" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/less/main.less" />
+        <option value="$PROJECT_DIR$/public/nrly/less/main.less" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/js/main.js" />
+        <option value="$PROJECT_DIR$/public/static/library/infiniteScroll/js/infiniteScroll.js" />
+        <option value="$PROJECT_DIR$/public/static/library/stickUp/stickUp.min.js" />
+        <option value="$PROJECT_DIR$/public/static/library/stickUp/example/js/stickUp.js" />
+        <option value="$PROJECT_DIR$/public/static/css/animate.css" />
+        <option value="$PROJECT_DIR$/public/static/library/bootstrap/less/navbar.less" />
+        <option value="$PROJECT_DIR$/public/static/less/variables.less" />
+        <option value="$PROJECT_DIR$/public/static/less/default.less" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Job/pafweblib" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/static/img" />
+      <recent name="$PROJECT_DIR$/public/static/less" />
+      <recent name="$PROJECT_DIR$/public/users/tmp" />
+      <recent name="$PROJECT_DIR$/public/nrly/redirect/js/libs" />
+      <recent name="$PROJECT_DIR$/public/nrly/redirect/less" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="" />
+      <created>1410274925839</created>
+      <updated>1410274925839</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="690" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3457189" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33441034" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/opacity.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="145" selection-end="145" vertical-scroll-proportion="0.27027026" vertical-offset="0" max-vertical-offset="333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/green-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.9666012" vertical-offset="183" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/js/libs/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="137940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/js/libs/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="35" selection-start="4297" selection-end="4297" vertical-scroll-proportion="0.2814259" vertical-offset="0" max-vertical-offset="555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/tpl/txfw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="247" selection-end="247" vertical-scroll-proportion="0.33066133" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/tpl/qcnr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="247" selection-end="247" vertical-scroll-proportion="0.16232465" vertical-offset="84" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/tpl/inner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="68" selection-end="68" vertical-scroll-proportion="0.09259259" vertical-offset="0" max-vertical-offset="486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/tpl/chwl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="280" selection-end="280" vertical-scroll-proportion="0.37274548" vertical-offset="24" max-vertical-offset="570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/tpl/gywm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="247" selection-end="247" vertical-scroll-proportion="0.33066133" vertical-offset="0" max-vertical-offset="1185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/inner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="49" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.9410609" vertical-offset="121" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/views/chwl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="142" selection-end="169" vertical-scroll-proportion="0.10989011" vertical-offset="0" max-vertical-offset="546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/views/txfw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="302" selection-end="313" vertical-scroll-proportion="0.3021978" vertical-offset="0" max-vertical-offset="546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/views/qcnr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="169" selection-end="169" vertical-scroll-proportion="0.10989011" vertical-offset="0" max-vertical-offset="546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/views/inner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="445" selection-end="445" vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="141" selection-end="141" vertical-scroll-proportion="0.054945055" vertical-offset="15" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/views/gywm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="457" selection-end="537" vertical-scroll-proportion="0.46703297" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/less/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="29" selection-end="51" vertical-scroll-proportion="0.057361376" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/js/libs/zepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="28875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="191" selection-end="191" vertical-scroll-proportion="0.36072144" vertical-offset="0" max-vertical-offset="6960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="361" column="38" selection-start="6426" selection-end="6426" vertical-scroll-proportion="0.7214429" vertical-offset="5055" max-vertical-offset="6960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/js/libs/fastclick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="406" column="82" selection-start="10825" selection-end="10832" vertical-scroll-proportion="-7.880165" vertical-offset="9904" max-vertical-offset="12360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/qcnr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="60" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.67695475" vertical-offset="556" max-vertical-offset="1065" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/txfw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="60" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.86213994" vertical-offset="466" max-vertical-offset="1065" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/chwl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="59" selection-start="1608" selection-end="1852" vertical-scroll-proportion="1.0884086" vertical-offset="316" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="52" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.4990177" vertical-offset="751" max-vertical-offset="1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/js/libs/jquery.event.move.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fis-conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.12637363" vertical-offset="69" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.302372" vertical-offset="6225" max-vertical-offset="7575" />
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/Modfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="375" selection-end="375" vertical-scroll-proportion="0.12087912" vertical-offset="129" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="536" selection-end="536" vertical-scroll-proportion="0.38310412" vertical-offset="0" max-vertical-offset="509" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nrly/redirect/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="29" selection-start="697" selection-end="697" vertical-scroll-proportion="0.8791209" vertical-offset="0" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/outlayer/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-5.347092" vertical-offset="2850" max-vertical-offset="7935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/outlayer/outlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-21.529081" vertical-offset="11475" max-vertical-offset="15225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/font-awesome/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/stickUp.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1411" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="507" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/js/holder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.330206" vertical-offset="4440" max-vertical-offset="6375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/stickUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="18" selection-start="1878" selection-end="1884" vertical-scroll-proportion="0.33333334" vertical-offset="791" max-vertical-offset="1920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/js/stickUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="213" selection-end="213" vertical-scroll-proportion="0.295858" vertical-offset="0" max-vertical-offset="1920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/stickup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="52" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.41391942" vertical-offset="989" max-vertical-offset="2670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/css/green-header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.83516484" vertical-offset="684" max-vertical-offset="1230" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7096775" vertical-offset="530" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="519" column="1" selection-start="8829" selection-end="11732" vertical-scroll-proportion="6.215625" vertical-offset="3846" max-vertical-offset="7965">
+          <folding>
+            <element signature="e#8845#11732#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="276" column="17" selection-start="9078" selection-end="9078" vertical-scroll-proportion="0.33202356" vertical-offset="3971" max-vertical-offset="12840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="49" selection-start="11862" selection-end="11868" vertical-scroll-proportion="-14.496895" vertical-offset="12357" max-vertical-offset="12840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="36" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.46365422" vertical-offset="424" max-vertical-offset="5625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1655" column="24" selection-start="31660" selection-end="31664" vertical-scroll-proportion="0.0" vertical-offset="24825" max-vertical-offset="47445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="474" column="23" selection-start="8619" selection-end="8619" vertical-scroll-proportion="-8.625" vertical-offset="6903" max-vertical-offset="7425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="24" selection-start="10736" selection-end="10736" vertical-scroll-proportion="0.934375" vertical-offset="5056" max-vertical-offset="7875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

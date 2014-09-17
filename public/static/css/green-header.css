@@ -1,0 +1,76 @@
+#header {
+	background-image: url(http://www.ehow.co.uk/ui/images/corporate_ccb0a72d.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 88px;
+	position: relative;
+	padding: 0;
+}
+
+.branding {
+	background: #69be28 url(http://www.ehow.co.uk/ui/images/corporate_ccb0a72d.png) 0 -521px no-repeat;
+	clear: left;
+	height: 96px;
+	color: #d4f0c0;
+}
+
+#corporateLogo {
+	background: url(http://www.ehow.co.uk/ui/images/paper.png) 0 -4px transparent no-repeat;
+	height: 129px;
+	left: 4px;
+	position: absolute;
+	width: 264px;
+	z-index: 120;
+}
+
+#corporateLogo:hover {
+	text-decoration: none;
+}
+
+#corporateLogo img {
+	margin: 0 0 0 22px;
+}
+
+.homepage #options-search {
+	padding-left: 313px;
+}
+
+#options-search {
+	padding: 7px 0 0 293px;
+}
+
+.homepage #header .mainul {
+	margin-left: 298px;
+}
+#header .mainul {
+	margin-left: 278px;
+	margin-top: 11px;
+}
+.sitenav.upper .mainul {
+	float: left;
+	list-style: none;
+	margin: 54px 0 0 298px;
+	width: 670px;
+	display: block;
+}
+.sitenav.upper .list {
+	background-color: transparent;
+	border-right: 2px dotted rgba(255,255,255,0.5);
+	color: #f1f1f1;
+	float: left;
+	font-size: 24px;
+	line-height: 34px;
+}
+a.title>span {
+	background-image: url(http://www.ehow.co.uk/ui/en-gb/nav-sprite.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 30px;
+	padding: 2px 15px;
+	text-indent: -999em;
+}
+.category-brand-food-cat {
+	background-position: -139px -4px;
+	height: 30px;
+	width: 44px;
+}
