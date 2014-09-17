@@ -30,7 +30,16 @@
       <file leaf-file-name="default.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="487" column="20" selection-start="8884" selection-end="8884" vertical-scroll-proportion="0.60784316" vertical-offset="7119" max-vertical-offset="7425">
+            <state line="76" column="20" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.33333334" vertical-offset="1038" max-vertical-offset="7425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/less/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="349" column="1" selection-start="11478" selection-end="11478" vertical-scroll-proportion="-4.4166665" vertical-offset="5129" max-vertical-offset="12840">
               <folding />
             </state>
           </provider>
@@ -285,7 +294,11 @@
       <created>1410953482066</created>
       <updated>1410953482066</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1410953628544</created>
+      <updated>1410953628544</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -565,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="49" selection-start="11862" selection-end="11868" vertical-scroll-proportion="-14.496895" vertical-offset="12357" max-vertical-offset="12840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="36" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.46365422" vertical-offset="424" max-vertical-offset="5625" />
@@ -605,9 +611,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="349" column="1" selection-start="11478" selection-end="11478" vertical-scroll-proportion="-4.4166665" vertical-offset="5129" max-vertical-offset="12840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="487" column="20" selection-start="8884" selection-end="8884" vertical-scroll-proportion="0.60784316" vertical-offset="7119" max-vertical-offset="7425">
+        <state line="76" column="20" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.33333334" vertical-offset="1038" max-vertical-offset="7425">
           <folding />
         </state>
       </provider>

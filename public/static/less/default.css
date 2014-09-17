@@ -48,7 +48,7 @@ body {
 }
 .navbar-osk .navbar-nav > li > a {
   color: #a2c397;
-  border-bottom: 5px inset #f8f8f8;
+  border-bottom: 5px solid #f8f8f8;
 }
 .navbar-osk .navbar-nav > li > a:hover,
 .navbar-osk .navbar-nav > li > a:focus {
@@ -57,7 +57,7 @@ body {
   background-color: transparent;
 }
 .navbar-osk .navbar-nav > .active > a {
-  border-bottom: 5px inset #e7e7e7;
+  border-bottom: 5px solid #e7e7e7;
 }
 .navbar-osk .navbar-nav > .active > a,
 .navbar-osk .navbar-nav > .active > a:hover,
