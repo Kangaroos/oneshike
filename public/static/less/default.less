@@ -1,321 +1,376 @@
-@import "./variables";
-@main-text-color:#a2c397;
-@main-text-hover-color: #7f9778;
-@main-text-active-color:#aacc9f;
+//颜色变量配置
 
-@brown-text-color:#a49e89;
+@main-text-color:#333333;
+@main-bg-text-color:#FFFFFF;
+@main-text-hover-color: #444444;
+@main-text-active-color:#555555;
+@main-text-disabled-color:#222222;
+@label-text-color:#CCCCCC;
+@gray-text-color:#BBBBBB;
+@high-gray-text-color:#EEEEEE;
+@high-logo-text-color:#FFFF66;
 
-@masonry-bg-color:#edecea;
 
-@label-text-color:#888;
-@placeholder-text-color:#ccc;
-@border-color:#B1C0C6;
-@white:#fff;
-@pink: #ffc0cb;
+@main-bg-color:#EEEEEE;
+@common-bg-color:#FFFFFF;
+@navbar-bg-color:rgba(0,51,0,1);
+@navbar-transparent-bg-color:rgba(0,51,0,0.5);
+@gray-bg-color:#DDDDDD;
+@transparent-bg-color:transparent;
+
+@split-green-color:#003300;
+@split-gray-color:#DDDDDD;
+
+@border-color:#DDDDDD;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+@screen-xs:                  480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min:              @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `@screen-md` as of v3.0.1
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop:          @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+@grid-columns:              12;
+//** Padding between columns. Gets divided in half for the left and right.
+@grid-gutter-width:         30px;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+@grid-float-breakpoint:     @screen-sm-min;
+//** Point at which the navbar begins collapsing.
+@grid-float-breakpoint-max: (@grid-float-breakpoint - 1);
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+// Small screen / tablet
+@container-tablet:             ((720px + @grid-gutter-width));
+//** For `@screen-sm-min` and up.
+@container-sm:                 @container-tablet;
+
+// Medium screen / desktop
+@container-desktop:            ((940px + @grid-gutter-width));
+//** For `@screen-md-min` and up.
+@container-md:                 @container-desktop;
+
+// Large screen / wide desktop
+@container-large-desktop:      ((1140px + @grid-gutter-width));
+//** For `@screen-lg-min` and up.
+@container-lg:                 @container-large-desktop;
+
+//z-index配置
+@zindex-navbar:            1000;
+@zindex-dropdown:          1000;
+@zindex-popover:           1060;
+@zindex-tooltip:           1070;
+@zindex-navbar-fixed:      1030;
+@zindex-modal-background:  1040;
+@zindex-modal:             1050;
+
+
+.box-default-shadow(){
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+.placeholder(@color: @main-text-color) {
+	&::-moz-placeholder           { color: @color;   // Firefox
+		opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
+	&:-ms-input-placeholder       { color: @color; } // Internet Explorer 10+
+	&::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
+}
 
 body {
-	background-color: @masonry-bg-color;
+	background-color: @main-bg-color;
+	color: @main-text-color;
+}
+
+.osk-box {
+	margin: 10px auto;
 }
 
 .navbar-osk.isStuck{
-	position: relative;
 	z-index: @zindex-navbar-fixed;
-	width:100%;
-	.navbar-nav {
-		float: left;
-	}
-	.navbar-brand {
-		padding: 0 15px;
-		.logo {
-			display: inline-block;
-			width: 174px;
-			height: 40px;
-			margin: auto;
-			position: absolute;
-			top: 0; left: 0; bottom: 0; right: 0;
-			background: url(../img/oneshike.png) center center no-repeat;
-			background-size: cover;
-		}
-	}
+	background: @navbar-bg-color;
 }
 
 .navbar-osk {
-	background-color: @navbar-default-bg;
-	border-color: @navbar-default-border;
+	margin: 0;
+	background-color: @navbar-transparent-bg-color;
 
-	.navbar-brand {
-		color: @navbar-default-brand-color;
-		&:hover,
-		&:focus {
-			color: @navbar-default-brand-hover-color;
-			background-color: @navbar-default-brand-hover-bg;
-		}
+	.container {
+		position: relative;
 	}
 
 	.navbar-text {
-		color: @navbar-default-color;
+		color: @gray-text-color;
+	}
+
+	.logo h1 {
+		margin: 0;
+		line-height: 20px;
+		color: @main-bg-text-color;
+		font-weight: bold;
+		transition: all 0.6s ease;
+		&:hover,
+		&:focus {
+			color: transparent;
+			text-decoration: none;
+			text-shadow: 0 0 3px @high-logo-text-color;
+			background-color: @transparent-bg-color;
+		}
 	}
 
 	.navbar-nav {
-
 		margin: 0 auto;
 		display: table;
 		table-layout: fixed;
 		float: none;
 
 		> li > a {
-			color: @navbar-default-link-color;
-			border-bottom: 5px solid @navbar-default-bg;
+			color: @high-gray-text-color;
 			&:hover,
 			&:focus {
-				color: @navbar-default-link-hover-color;
-				border-bottom: 5px solid @navbar-default-link-hover-color;
-				background-color: @navbar-default-link-hover-bg;
+				color: @main-bg-text-color;
+				background-color: @transparent-bg-color;
+			}
+			@media (min-width: @grid-float-breakpoint) {
+				&.register {
+					position: relative;
+					display: inline-block;
+					font-size: 18px;
+					color: @common-bg-color;
+					border: 2px solid @common-bg-color;
+					border-radius: 5px;
+					padding: 6px 12px;
+					top: 8px;
+					margin-left: 10px;
+
+					&:hover,
+					&:focus {
+						color: @navbar-bg-color;
+						border: 2px solid @common-bg-color;
+						background: @common-bg-color;
+					}
+				}
 			}
 		}
 		> .active > a {
-			border-bottom: 5px solid @navbar-default-link-active-bg;
 			&,
 			&:hover,
 			&:focus {
-				color: @navbar-default-link-active-color;
-				background-color: @navbar-default-link-active-bg;
+				color: @main-bg-text-color;
+				background-color: @transparent-bg-color;
 			}
 		}
 		> .disabled > a {
 			&,
 			&:hover,
 			&:focus {
-				color: @navbar-default-link-disabled-color;
-				background-color: @navbar-default-link-disabled-bg;
+				color: @main-text-disabled-color;
+				background-color: @transparent-bg-color;
 			}
+		}
+	}
+
+	.navbar-session {
+		position: absolute;
+		top: 0;
+		right: 0;
+		@media (max-width: @grid-float-breakpoint-max) {
+			position: static;
+
 		}
 	}
 
 	.navbar-toggle {
-		border-color: @navbar-default-toggle-border-color;
+		border-color: @high-gray-text-color;
 		&:hover,
 		&:focus {
-			background-color: @navbar-default-toggle-hover-bg;
+			border-color: @common-bg-color;
+			background-color: @transparent-bg-color;
 		}
 		.icon-bar {
-			background-color: @navbar-default-toggle-icon-bar-bg;
+			background-color: @common-bg-color;
 		}
 	}
 
-	.navbar-collapse,
-	.navbar-form {
-		border-color: @navbar-default-border;
+	.navbar-brand {
+		.logo {
+			display: block;
+		}
+		@media (min-width: @grid-float-breakpoint) {
+			.logo {
+				display: none;
+			}
+		}
 	}
 
-	// Dropdown menu items
+	.navbar-collapse {
+		@media (max-width: @grid-float-breakpoint-max) {
+			.logo {
+				display: none;
+			}
+		}
+	}
+
+	.navbar-form {
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 0;
+
+		@media (max-width: @grid-float-breakpoint-max) {
+			position: relative;
+			margin: 0 auto;
+			display: table;
+			table-layout: fixed;
+			border: 0;
+			float: none;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		.osk-search {
+			position: relative;
+			width: 150px;
+			line-height: 26px;
+			margin-top: 2px;
+			button {
+				position: absolute;
+				color: @high-gray-text-color;
+				top: 7px;
+				right: 5px;
+				z-index: 20;
+				outline: 0;
+				border: 0;
+				background: @transparent-bg-color;
+				transition: all 0.3s ease-out 0s;
+			}
+
+			input.search {
+				position: relative;
+				width: 100%;
+				height: 100%;
+				padding: 2px 35px 2px 10px;
+				font-size: 14px;
+				background: @transparent-bg-color;
+				border: 1px solid @high-gray-text-color;
+				color: @high-gray-text-color;
+				transition: all 0.3s ease-out 0s;
+				z-index: 10;
+
+				&:focus {
+					color: @main-bg-text-color;
+					border-color: @common-bg-color;
+					width: 230px;
+				}
+				&:focus + button {
+					color: @main-bg-text-color;
+					right: -75px;
+					transition: all 0.3s ease-out 0s;
+				}
+				.placeholder(@main-bg-text-color);
+			}
+		}
+	}
+
 	.navbar-nav {
-		// Remove background color from open dropdown
 		> .open > a {
 			&,
 			&:hover,
 			&:focus {
-				background-color: @navbar-default-link-active-bg;
-				color: @navbar-default-link-active-color;
+				background-color: @transparent-bg-color;
+				color: @main-bg-text-color;
 			}
 		}
 
 		@media (max-width: @grid-float-breakpoint-max) {
-			// Dropdowns get custom display when collapsed
 			.open .dropdown-menu {
 				> li > a {
-					color: @navbar-default-link-color;
+					color: @main-bg-text-color;
 					&:hover,
 					&:focus {
-						color: @navbar-default-link-hover-color;
-						background-color: @navbar-default-link-hover-bg;
+						color: @main-bg-text-color;
+						background-color: @transparent-bg-color;
 					}
 				}
 				> .active > a {
 					&,
 					&:hover,
 					&:focus {
-						color: @navbar-default-link-active-color;
-						background-color: @navbar-default-link-active-bg;
+						color: @main-bg-text-color;
+						background-color: @transparent-bg-color;
 					}
 				}
 				> .disabled > a {
 					&,
 					&:hover,
 					&:focus {
-						color: @navbar-default-link-disabled-color;
-						background-color: @navbar-default-link-disabled-bg;
+						color: @main-text-disabled-color;
+						background-color: @transparent-bg-color;
 					}
 				}
 			}
 		}
 	}
 
-
-	// Links in navbars
-	//
-	// Add a class to ensure links outside the navbar nav are colored correctly.
-
 	.navbar-link {
-		color: @navbar-default-link-color;
+		color: @main-bg-text-color;
 		&:hover {
-			color: @navbar-default-link-hover-color;
+			color: @main-bg-text-color;
 		}
 	}
 
 	.btn-link {
-		color: @navbar-default-link-color;
+		color: @main-bg-text-color;
 		&:hover,
 		&:focus {
-			color: @navbar-default-link-hover-color;
+			color: @main-bg-text-color;
 		}
 		&[disabled],
 		fieldset[disabled] & {
 			&:hover,
 			&:focus {
-				color: @navbar-default-link-disabled-color;
+				color: @main-bg-text-color;
 			}
-		}
-	}
-}
-
-.osk-header {
-	height: 155px;
-	padding-top: 20px;
-	background-color: @white;
-	border-bottom: 5px solid @main-text-color;
-	.osk-search {
-		margin: 0 auto;
-		padding-top: 30px;
-		width: 720px;
-		text-align: center;
-		height: 105px;
-		position: relative;
-
-		.logo {
-			display: inline-block;
-			width: 220px;
-			height: 50px;
-			line-height: 80px;
-			margin: 0;
-			background: url(../img/oneshike.png) center center no-repeat;
-			background-size: cover;
-		}
-
-		.inline {
-			display: inline-block;
-			vertical-align: top;
-			margin: 5px auto;
-		}
-		#search {
-			margin-left: 2em;
-			padding: 6px 8px;
-			font-size: 18px;
-			outline: none;
-			border: 3px solid @border-color;
-			color: @label-text-color;
-			width: 180px;
-			transition: all 0.3s ease-out 0s;
-			position: relative;
-			z-index: 10;
-		}
-		#search:focus {
-			border-color: @main-text-color;
-			width: 300px;
-		}
-
-		#search:focus + img {
-			right: 75px;
-			top: -20px;
-			opacity: 1;
-		}
-
-		#search.placeholder {
-			color: @placeholder-text-color;
-		}
-		img {
-			position: absolute;
-			top: 0;
-			right: 140px;
-			transition: all 0.3s ease-out 0s;
-			opacity: 0.8;
-		}
-	}
-}
-
-.osk-footer {
-	background-color: @white;
-	border-top: 5px solid @main-text-color;
-	overflow: hidden;
-
-	a {
-		font-size: 12px;
-		color: @brown-text-color;
-		&:hover,
-		&:active {
-			text-decoration: none;
-			outline: 0;
-		}
-	}
-
-	.copyright {
-		line-height: 22px;
-		margin-top: 15px;
-
-		.copy-main {
-			margin-left: 170px;
-			margin-right: -20px;
-
-			.item {
-				float: left;
-				height: 128px;
-				padding: 0 40px;
-				border-left: 1px dotted #d2d2d2;
-				dl {
-					margin: 0;
-					dt {
-						color: @label-text-color;
-						font-size: 14px;
-						font-weight: bold;
-					}
-					dd {
-						margin-left: 0;
-					}
-				}
-			}
-
-			.item-apps {
-				text-align: center;
-				padding: 0 25px;
-				color: @label-text-color;
-				.android {
-					display: inline-block;
-					width: 100px;
-					height: 100px;
-					background: url(../img/android-qrcode.jpg) center center no-repeat;
-					background-size: cover;
-				}
-
-				.ios {
-					display: inline-block;
-					width: 100px;
-					height: 100px;
-					background: url(../img/ios-qrcode.jpg) center center no-repeat;
-					background-size: cover;
-				}
-			}
-		}
-	}
-
-	.copy-footer {
-		clear: both;
-		background: #f6f6f6;
-		margin-top: 20px;
-		padding: 20px 0;
-		color: #999;
-		text-align: center;
-		p {
-			margin: 0;
 		}
 	}
 }
@@ -338,58 +393,50 @@ body {
 			padding-left: 100px;
 			a {
 				padding: 2px;
-				margin-right: 30px;
-				color: @brown-text-color;
+				margin-right: 20px;
+				color: @main-text-color;
 				text-decoration: none;
 			}
 			a:hover {
 				padding: 1px;
-				border: 1px solid @brown-text-color;
+				border: 1px solid @main-text-color;
 			}
 			a.active {
 				padding: 2px;
 				margin-right: 30px;
-				color: @white;
-				background-color:  @brown-text-color;
+				color: @main-bg-text-color;
+				background-color:  @main-text-color;
 				text-decoration: none;
 			}
 			a.active:hover {
 				padding: 1px;
-				border: 1px solid @brown-text-color;
+				border: 1px solid @main-text-color;
 			}
 		}
 	}
 }
 
-.cardlist {
-	margin: 10px auto;
-	ul {
-		display: inline;
-		margin: 0 auto;
-		padding: 0;
-		list-style: none;
-	}
-
-	.card-box {
+.waterfall-container {
+	.waterfall-item {
 		position: relative;
-		width: 230px;
-		height: 310px;
-		float: left;
-		margin-right: 19px;
-		margin-bottom: 20px;
-		background-color: @white;
-		-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
-		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
-		box-shadow: 0 1px 3px rgba(0,0,0,.3);
+		width: 200px;
+		line-height: 1.5;
+		background-color: #fff;
+		box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+		-moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+		-webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+		filter: progid:DXImageTransform.Microsoft.Shadow(color = #adacac, direction = 135, strength = 2);
 
 		a.img {
 			position: relative;
 			display: block;
+			width: 100%;
+			height: 200px;
 			text-decoration: none;
 			outline: 0;
 			img {
-				width: 230px;
-				height: 230px;
+				width: 100%;
+				height: 100%;
 			}
 
 			&:hover > .img-hover,&:active > .img-hover{
@@ -401,10 +448,10 @@ body {
 				top: 0;
 				left: 0;
 				display: inline-block;
-				width: 230px;
-				height: 230px;
+				width: 100%;
+				height: 100%;
 				z-index: 100;
-				background-color: transparent;
+				background-color: @transparent-bg-color;
 			}
 		}
 
@@ -416,7 +463,7 @@ body {
 			.caption {
 				display: block;
 				font-size: 16px;
-				color: @brown-text-color;
+				color: @main-text-color;
 				margin-bottom: 3px;
 			}
 			.source {
@@ -440,7 +487,7 @@ body {
 			.btn-group {
 				margin: 0 auto;
 				button {
-					color: @placeholder-text-color;
+					color: @gray-text-color;
 					outline: none;
 					border: 0;
 					background-color: transparent;
@@ -448,12 +495,161 @@ body {
 						color: @main-text-color;
 					}
 					&.active {
-						color: @pink;
+						color: palevioletred;
 					}
 				}
 			}
 		}
 
+	}
+
+	/*
+ * page-navigation
+ */
+	#page-navigation {
+		text-align: center;
+		padding: 20px 0 50px 0;
+		display: none;
+	}
+	#page-navigation a {
+		width:32px;
+		height: 32px;
+		line-height: 32px;
+		display: inline-block;
+		border: 1px #e4e4e4 solid;
+		text-decoration: none;
+	}
+	#page-navigation .page-navigation-prev, #page-navigation .page-navigation-next {
+		display: inline-block;
+		height: 32px;
+		line-height: 32px;
+		width: 80px !important;
+	}
+	#page-navigation a:hover {
+		border: 1px #c30 solid;
+		background: #c30;
+		color: #fff;
+	}
+	#page-navigation a:active {
+	}
+	#page-navigation a.cur {
+		border: 1px #c30 solid;
+		background: #c30;
+		color: #fff;
+	}
+	#page-navigation span.disabled {
+		color: #ccc;
+		border: 1px #e4e4e4 solid;
+	}
+}
+
+.osk-footer {
+	background-color: @common-bg-color;
+	border-top: 5px solid @split-green-color;
+	overflow: hidden;
+	.box-default-shadow();
+
+	a {
+		font-size: 12px;
+		color: @main-text-color;
+		&:hover,
+		&:active {
+			color: @main-text-hover-color;
+			text-decoration: none;
+			outline: 0;
+		}
+	}
+
+	.copyright {
+		line-height: 22px;
+		margin-top: 15px;
+		.box-default-shadow();
+		.copy-main {
+			margin-left: 170px;
+			margin-right: -20px;
+			.item {
+				float: left;
+				height: 128px;
+				padding: 0 40px;
+				border-left: 1px dotted #d2d2d2;
+				dl {
+					margin: 0;
+					dt {
+						color: @gray-text-color;
+						font-size: 14px;
+						font-weight: normal;
+					}
+					dd {
+						margin-left: 0;
+					}
+				}
+			}
+
+			.item-apps {
+				text-align: center;
+				padding: 0 25px;
+				color: @main-text-color;
+				.android {
+					display: inline-block;
+					width: 100px;
+					height: 100px;
+					background: url(../img/android-qrcode.jpg) center center no-repeat;
+					background-size: cover;
+				}
+
+				.ios {
+					display: inline-block;
+					width: 100px;
+					height: 100px;
+					background: url(../img/ios-qrcode.jpg) center center no-repeat;
+					background-size: cover;
+				}
+			}
+		}
+	}
+
+	.copy-footer {
+		clear: both;
+		background: @gray-bg-color;
+		margin-top: 20px;
+		padding: 20px 0;
+		text-align: center;
+		p {
+			margin: 0;
+		}
+	}
+
+	@media (max-width: @screen-md-max) {
+		.copyright {
+			.copy-main {
+				margin: 0 -40px 0 80px;
+			}
+		}
+	}
+	@media (max-width: @screen-sm-max) {
+		.copyright {
+			.copy-main {
+				margin: 0 -70px;
+			}
+		}
+	}
+
+	@media (max-width: 800px) {
+		.copyright {
+			display: none;
+		}
+		.copy-footer {
+			margin-top: 0;
+		}
+	}
+
+	@media (max-width: @grid-float-breakpoint-max) {
+		.copyright {
+			display: none;
+		}
+		.copy-footer {
+			margin-top: 0;
+		}
 	}
 }
 

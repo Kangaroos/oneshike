@@ -113,7 +113,7 @@ function($) {
 				$('.stuckMenu').next().closest('div').css({
 					'margin-top': currentMarginT + 'px'
 				}, 10);
-				$('.stuckMenu').css("position","relative");
+//				$('.stuckMenu').css("position","relative");
 			};
 
 		});

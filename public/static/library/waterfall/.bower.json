@@ -1,0 +1,15 @@
+{
+  "name": "waterfall",
+  "homepage": "https://github.com/bingdian/waterfall",
+  "version": "0.1.72",
+  "_release": "0.1.72",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.72",
+    "commit": "d60067fca4b908a49c23feea97bc782f55f5b461"
+  },
+  "_source": "https://github.com/bingdian/waterfall.git",
+  "_target": "~0.1.72",
+  "_originalSource": "https://github.com/bingdian/waterfall.git",
+  "_direct": true
+}

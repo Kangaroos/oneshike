@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>壹食客</title>
+	<!-- Bootstrap -->
+	<link href="static/library/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="static/library/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="static/library/font-awesome/css/font-awesome.min.css">
+	<link href="static/css/animate.css" rel="stylesheet">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="static/library/html5shiv/dist/html5shiv.min.js"></script>
+	<script src="static/library/respond/dest/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet/less" type="text/css" href="static/less/default.less" />
+	<script src="static/library/less/dist/less-1.7.3.min.js"></script>
+</head>
+<body>
+
+<header id="header" class="osk-header">
+	<div class="osk-search">
+		<span class="logo"></span>
+		<input type="text" placeholder="菜谱/食材/厨具" id="search" class="inline" autocomplete="off">
+		<img width="60" src="static/img/qiaoba.png">
+	</div>
+</header>
+<nav class="navbar navbar-osk" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">切换导航</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><span class="logo"></span></a>
+		</div>
+		<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+				<li><a href="#about">原产地</a></li>
+				<li><a href="#about">百科</a></li>
+				<li><a href="#about">食谱</a></li>
+				<li><a href="#contact">美食</a></li>
+				<li><a href="#contact">厨具</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">登录</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="panel panel-default panel-screening">
+		<div class="panel-body">
+			<div class="screening">
+				<span class="class-tag">菜系: </span>
+				<span class="class-link">
+					<a href="#" class="active">全部</a>
+					<a href="#">闽菜</a>
+					<a href="#">粤菜</a>
+					<a href="#">湘菜</a>
+					<a href="#">川菜</a>
+					<a href="#">鲁菜</a>
+					<a href="#">豫菜</a>
+					<a href="#">西北菜</a>
+					<a href="#">东北菜</a>
+					<a href="#">香港菜</a>
+					<a href="#">台湾菜</a>
+					<a href="#">韩国料理</a>
+					<a href="#">日本料理</a>
+				</span>
+			</div>
+			<div class="screening">
+				<span class="class-tag">人群/场景: </span>
+				<span class="class-link">
+					<a href="#" class="active">全部</a>
+					<a href="#">早餐食谱</a>
+					<a href="#">孕妇食谱</a>
+					<a href="#">产妇食谱</a>
+					<a href="#">婴儿食谱</a>
+					<a href="#">幼儿食谱</a>
+					<a href="#">懒人食谱</a>
+					<a href="#">儿童食谱</a>
+				</span>
+			</div>
+			<div class="screening">
+				<span class="class-tag">菜式: </span>
+				<span class="class-link">
+					<a href="#" class="active">全部</a>
+					<a href="#">家常菜</a>
+					<a href="#">下饭菜</a>
+					<a href="#">甜品</a>
+					<a href="#">肉类</a>
+					<a href="#">主食</a>
+					<a href="#">私家菜</a>
+					<a href="#">凉菜</a>
+				</span>
+			</div>
+			<div class="screening">
+				<span class="class-tag">烹饪方法: </span>
+				<span class="class-link">
+					<a href="#" class="active">全部</a>
+					<a href="#">煎</a>
+					<a href="#">炒</a>
+					<a href="#">炸</a>
+					<a href="#">红烧</a>
+					<a href="#">煮</a>
+					<a href="#">蒸</a>
+					<a href="#">烧烤</a>
+					<a href="#">闷</a>
+					<a href="#">炖</a>
+					<a href="#">拌</a>
+					<a href="#">腌</a>
+					<a href="#">焗</a>
+					<a href="#">卤</a>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid cardlist">
+	<ul>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/1.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/2.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/3.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/4.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/1.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/2.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/3.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/4.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/1.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/2.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/3.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/4.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/1.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+		<li class="card-box">
+			<a href="#" class="img">
+				<img src="users/tmp/2.jpg" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-title">
+				<a href="#" class="caption">茄子</a>
+				<span class="source">来源: <a href="#">淘宝网</a></span>
+			</div>
+			<div class="box-handle">
+				<span class="btn-group">
+					<button class="fa fa-heart active"> 59</button>
+					<button class="fa fa-star"> 20</button>
+					<button class="fa fa-comment"> 3</button>
+				</span>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<!--<div id="carousel-global-ad" class="carousel slide" data-ride="carousel">-->
+	<!--&lt;!&ndash; Indicators &ndash;&gt;-->
+	<!--<ol class="carousel-indicators">-->
+		<!--<li data-target="#carousel-global-ad" data-slide-to="0" class="active"></li>-->
+		<!--<li data-target="#carousel-global-ad" data-slide-to="1"></li>-->
+		<!--<li data-target="#carousel-global-ad" data-slide-to="2"></li>-->
+	<!--</ol>-->
+
+	<!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+	<!--<div class="carousel-inner" role="listbox">-->
+		<!--<div class="item active">-->
+			<!--<img src="static/img/tmp/slider1.jpg" alt="123">-->
+		<!--</div>-->
+		<!--<div class="item">-->
+			<!--<img src="static/img/tmp/slider2.jpg" alt="456">-->
+		<!--</div>-->
+		<!--<div class="item">-->
+			<!--<img src="static/img/tmp/slider3.jpg" alt="789">-->
+		<!--</div>-->
+	<!--</div>-->
+<!--</div>-->
+
+<footer class="osk-footer">
+	<div class="container">
+		<div class="copyright">
+			<div class="copy-main">
+				<div class="item">
+					<dl>
+						<dt>简介</dt>
+						<dd><a href="#" target="blank">壹食客简介</a></dd>
+						<dd><a href="#" target="_blank">食客动态</a></dd>
+						<dd><a href="#" target="_blank">食客文化</a></dd>
+						<dd><a href="#" target="_blank">免责声明</a></dd>
+						<dd><a href="#" target="_blank">联系我们</a></dd>
+					</dl>
+				</div>
+				<div class="item">
+					<dl>
+						<dt>帮助</dt>
+						<dd><a href="#" target="_blank">热门问题</a></dd>
+						<dd><a href="#" target="_blank">登录注册</a></dd>
+						<dd><a href="#" target="_blank">密码问题</a></dd>
+						<dd><a href="#" target="_blank">使用建议</a></dd>
+						<dd><a href="#" target="_blank">其他问题</a></dd>
+					</dl>
+				</div>
+				<div class="item">
+					<dl>
+						<dt>共赢</dt>
+						<dd><a href="#" target="_blank">网站合作</a></dd>
+						<dd><a href="#" target="_blank">用户协议</a></dd>
+						<dd><a href="#" target="_blank">网站地图</a></dd>
+						<dd><a href="#" target="_blank">意见反馈</a></dd>
+						<dd><a href="#" target="_blank">招贤纳士</a></dd>
+					</dl>
+				</div>
+				<div class="item">
+					<dl>
+						<dt>导航</dt>
+						<dd><a href="#" target="_blank">地图首页</a></dd>
+						<dd><a href="#" target="_blank">城市分类</a></dd>
+						<dd><a href="#" target="_blank">行业分类</a></dd>
+						<dd><a href="#" target="_blank">职能分类</a></dd>
+						<dd><a href="#" target="_blank">企业名录</a></dd>
+					</dl>
+				</div>
+				<div class="item item-apps">
+					<i class="android"></i>
+					<p>壹食客 Android</p>
+				</div>
+				<div class="item item-apps">
+					<i class="ios"></i>
+					<p>壹食客 IOS</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copy-footer">
+		<p>沪ICP备86868686号</p>
+		<p>Copyright©2000-2014 oneshike.com All Rights Reserved</p>
+	</div>
+</footer>
+<div id="elevator_item">
+	<a id="elevator" href="#" onclick="$(window).scrollTop();" title="回到顶部"></a>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="static/library/jquery-1.11.1/dist/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="static/library/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="static/library/headroom.js/dist/headroom.min.js"></script>
+<script src="static/library/headroom.js/dist/jQuery.headroom.min.js"></script>
+<script src="static/library/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="static/library/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="static/library/jquery-infinite-scroll/jquery.infinitescroll.min.js"></script>
+<script src="static/library/stickUp/stickUp.min.js"></script>
+<script src="static/library/jquery-pin/jquery.pin.min.js"></script>
+<script>
+	jQuery(function($) {
+		$(document).ready(function(){
+			$('#header').headroom({
+				"tolerance": 5,
+				"offset": 205,
+				"classes": {
+					"initial": "animated",
+					"pinned": "flipInX",
+					"unpinned": "flipOutX"
+				}
+			});
+
+			$('nav.navbar-osk').stickUp();
+
+//		$('.carousel').carousel({
+//			interval: 3000
+//		})
+		});
+	});
+</script>
+</body>
+</html>
+
