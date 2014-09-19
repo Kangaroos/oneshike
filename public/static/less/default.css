@@ -264,11 +264,6 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
   padding: 1px;
   border: 1px solid #333333;
 }
-.waterfall-container {
-  /*
- * page-navigation
- */
-}
 .waterfall-container .waterfall-item {
   position: relative;
   width: 200px;
@@ -349,39 +344,44 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
 .waterfall-container .waterfall-item .box-handle .btn-group button.active {
   color: palevioletred;
 }
-.waterfall-container #page-navigation {
+/*
+ 	* page-navigation
+ 	*/
+#page-navigation {
   text-align: center;
   padding: 20px 0 50px 0;
   display: none;
 }
-.waterfall-container #page-navigation a {
+#page-navigation a {
   width: 32px;
   height: 32px;
   line-height: 32px;
   display: inline-block;
-  border: 1px #e4e4e4 solid;
+  color: #333333;
+  border: 1px solid #dddddd;
+  background: #ffffff;
   text-decoration: none;
 }
-.waterfall-container #page-navigation .page-navigation-prev,
-.waterfall-container #page-navigation .page-navigation-next {
+#page-navigation a:hover {
+  border: 1px #003300 solid;
+  background: #003300;
+  color: #ffffff;
+}
+#page-navigation a.cur {
+  border: 1px #003300 solid;
+  background: #003300;
+  color: #ffffff;
+}
+#page-navigation .page-navigation-prev,
+#page-navigation .page-navigation-next {
   display: inline-block;
   height: 32px;
   line-height: 32px;
   width: 80px !important;
 }
-.waterfall-container #page-navigation a:hover {
-  border: 1px #c30 solid;
-  background: #c30;
-  color: #fff;
-}
-.waterfall-container #page-navigation a.cur {
-  border: 1px #c30 solid;
-  background: #c30;
-  color: #fff;
-}
-.waterfall-container #page-navigation span.disabled {
-  color: #ccc;
-  border: 1px #e4e4e4 solid;
+#page-navigation span.disabled {
+  color: #dddddd;
+  border: 1px #dddddd solid;
 }
 .osk-footer {
   background-color: #ffffff;

@@ -502,44 +502,44 @@ body {
 		}
 
 	}
+}
 
-	/*
- * page-navigation
- */
-	#page-navigation {
-		text-align: center;
-		padding: 20px 0 50px 0;
-		display: none;
-	}
-	#page-navigation a {
+/*
+ 	* page-navigation
+ 	*/
+#page-navigation {
+	text-align: center;
+	padding: 20px 0 50px 0;
+	display: none;
+	a {
 		width:32px;
 		height: 32px;
 		line-height: 32px;
 		display: inline-block;
-		border: 1px #e4e4e4 solid;
+		color: @main-text-color;
+		border: 1px solid @border-color;
+		background: @common-bg-color;
 		text-decoration: none;
+		&:hover {
+			border: 1px @split-green-color solid;
+			background: @split-green-color;
+			color: @main-bg-text-color;
+		}
+		&.cur {
+			border: 1px @split-green-color solid;
+			background: @split-green-color;
+			color: @main-bg-text-color;
+		}
 	}
-	#page-navigation .page-navigation-prev, #page-navigation .page-navigation-next {
+	.page-navigation-prev, .page-navigation-next {
 		display: inline-block;
 		height: 32px;
 		line-height: 32px;
 		width: 80px !important;
 	}
-	#page-navigation a:hover {
-		border: 1px #c30 solid;
-		background: #c30;
-		color: #fff;
-	}
-	#page-navigation a:active {
-	}
-	#page-navigation a.cur {
-		border: 1px #c30 solid;
-		background: #c30;
-		color: #fff;
-	}
-	#page-navigation span.disabled {
-		color: #ccc;
-		border: 1px #e4e4e4 solid;
+	span.disabled {
+		color: @border-color;
+		border: 1px @border-color solid;
 	}
 }
 
