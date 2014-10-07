@@ -244,7 +244,7 @@ header .weather .text span {
   margin-left: 2.5rem;
   margin-top: 7rem;
   color: #fff;
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 0.125rem 0.125rem 0.125rem #000;
 }
 .gywm-body .nav {
   display: inline-block;
@@ -328,6 +328,110 @@ header .weather .text span {
   line-height: 2.75rem;
   background: url('../img/arrow_back.gif');
   background-size: cover;
+}
+.header .title {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+.gywm-list {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  color: #5d5d5d;
+  background-color: #f0f0f0;
+}
+.gywm-list h3 {
+  font-weight: normal;
+  margin: 0.3rem 1rem 0 1rem;
+}
+.gywm-list h5 {
+  font-weight: normal;
+  color: #7a7a7a;
+  margin: 0 1rem 0 1rem;
+}
+.gywm-list article {
+  position: relative;
+  font-size: 0.825rem;
+  font-weight: normal;
+  padding: 1rem;
+}
+.gywm-list article img {
+  width: 100%;
+}
+.gywm-list article p {
+  position: relative;
+}
+.tab-view {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tab-view .tab-view-cell {
+  display: -webkit-box;
+  color: #202020;
+  border-bottom: 0.0625rem solid #cac9cd;
+  box-shadow: 0 0.0625rem 0 #ffffff;
+}
+.tab-view .tab-view-cell:active {
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  color: #202020;
+  border-bottom: 0.0625rem solid #cac9cd;
+}
+.tab-view .news-view-cell {
+  margin: 0.625rem 0.625rem 0 0.625rem;
+  position: relative;
+  height: 4.5625rem;
+  color: #787878;
+}
+.tab-view .news-view-cell > img {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 5rem;
+  height: 4.0625rem;
+}
+.tab-view .news-view-cell .title {
+  position: absolute;
+  display: block;
+  width: 95%;
+  top: 0;
+  left: 0;
+  padding-left: 5rem;
+  color: #252525;
+  margin-left: 0.625rem;
+  font-size: 0.875rem;
+}
+.tab-view .news-view-cell .desc {
+  position: absolute;
+  display: block;
+  width: 95%;
+  height: 2.875rem;
+  top: 1rem;
+  left: 0;
+  padding-left: 5rem;
+  margin-left: 0.625rem;
+  font-size: 0.75rem;
+  line-height: 1.0625rem;
+}
+.tab-view .news-view-cell .comments {
+  position: absolute;
+  bottom: 0.4375rem;
+  right: 0.375rem;
+  font-size: 0.75rem;
 }
 .gywm-inner {
   -webkit-box-flex: 1;

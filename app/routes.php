@@ -2,16 +2,30 @@
 
 /*
 |--------------------------------------------------------------------------
-| Application Routes
+| 基础权限
 |--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
 */
+Route::group(array('prefix' => 'auth'), function () {
+    $Admin = 'AdminController@';
 
-Route::get('/', function()
-{
-	return View::make('index');
+    Route::group(array('before' => 'admin.guest'), function () use ($Admin) {
+        # 登录
+        Route::get('admin', array('as' => 'admin', 'uses' => $Admin.'getSignin'));
+        Route::post('admin', $Admin.'postSignin');
+    });
+});
+
+/*
+|--------------------------------------------------------------------------
+| 管理员后台
+|--------------------------------------------------------------------------
+*/
+Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
+    $resource   = 'admin';
+    $controller = 'AdminController@';
+    Route::get('logout', array('as' => 'logout', 'uses' => $controller.'getLogout'));
+    # 后台首页
+    Route::get('/', array('as' => $resource, 'uses' => $controller.'getConsoleIndex'));
+    Route::get('/changePassword', array('as' => $resource.'.getChangePassword', 'uses' => $controller.'getChangePassword'));
+    Route::put('/changePassword', array('as' => $resource.'.putChangePassword' , 'uses' => $controller.'putChangePassword' ));
 });

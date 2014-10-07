@@ -1,10 +1,676 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="">
+    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="first commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/ajax-loader1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/credit/american-express.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/avatar-none.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/avatar04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/blur-background04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/blur-background08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/blur-background09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/credit/cirrus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/flat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/futurico/futurico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/futurico/futurico@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/ionicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/ionicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/ionicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/line@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/credit/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/credit/mestro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/minimal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/minimal@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/image/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/credit/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/credit/paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/polaris/polaris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/polaris/polaris@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/sprite-skin-nice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/square@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_100_e6e7e8_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_100_f56954_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_55_f39c12_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_flat_55_fbec88_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_65_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_75_dadada_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_75_e6e6e6_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_glass_75_d0e5f5_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_glass_85_dfeffc_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-icons_217bc0_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-icons_469bdd_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-icons_6da8d5_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-icons_d8e7f3_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/images/ui-icons_f9bd01_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/user-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/user.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/user2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/img/credit/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_03_055252_create_admins_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_03_060035_create_users_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_03_060443_create_user_logs_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_04_063943_create_dicts_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_04_071152_create_categorys_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_05_040940_create_articles_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_05_041011_create_cookbooks_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_05_041023_create_foods_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_05_072406_create_products_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_05_072518_create_comments_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_10_05_072942_create_admin_logs_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/404_500_errors.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/AdminController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/AdminLTE.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/AdminLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/AdminTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/BaseModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Admin/CategoryController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/CategoryTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Comment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Cookbook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Dict.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/seeds/DictTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Food.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Admin/FoodsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/scayt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/UserLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/zh-CN/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/AdminLTE/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/layouts/base.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/colorpicker/bootstrap-colorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/colorpicker/bootstrap-colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/colorpicker/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.rs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/bootstrap-slider/bootstrap-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/bootstrap-social.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/timepicker/bootstrap-timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/timepicker/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/timepicker/bootstrap-timepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/timepicker/bootstrap-timepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/boxes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/callout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/callout.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/AdminLTE/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datepicker/datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/daterangepicker/daterangepicker-bs3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/daterangepicker/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/AdminLTE/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/dropdown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/fullcalendar/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/fullcalendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/futurico/futurico.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/misc/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/html5shiv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/iCheck.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/iCheck.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/iCheck/icheck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/iCheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/category/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/invoice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/invoice.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/ionslider/ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ionslider/ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/ionslider/ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/ionslider/ion.rangeSlider.skinNice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/ionicons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/ionicons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/fonts/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jvectormap/jquery-jvectormap-1.2.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/jquery-ui-1.10.3.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/jQueryUI/jquery-ui-1.10.3.custom.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/jquery-ui-1.10.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/jquery-ui-1.10.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/misc/jquery.ba-resize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.colorhelpers.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.canvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.categories.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.crosshair.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.errorbars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.fillbetween.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.image.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.navigate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.pie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.resize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.selection.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.stack.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.symbol.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.threshold.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/flot/jquery.flot.time.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/jquery.inputmask.date.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/jquery.inputmask.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/jquery.inputmask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/jquery.inputmask.numeric.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/jquery.inputmask.phone.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/jquery.inputmask.regex.extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/jqueryKnob/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/misc/jquery.placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/slimScroll/jquery.slimscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/slimScroll/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/sparkline/jquery.sparkline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/sparkline/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/line.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/nrly/redirect/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/lockscreen.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/login_and_register.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/mailbox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/minimal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/misc/modernizr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/morris/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/pace.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/pace.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/zh-CN/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/phone-codes/phone-be.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/phone-codes/phone-codes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/polaris/polaris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/skins/moono/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/input-mask/phone-codes/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/zh-CN/reminders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/misc/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/sidebar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/skins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/bootstrap-slider/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/slimScroll/slimScroll.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/small-box.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/square.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/timeline.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/zh-CN/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/vars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/less/vars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/flat/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/line/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/minimal/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/iCheck/square/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/hello.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/cache.php" afterPath="$PROJECT_DIR$/app/config/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/less/default.css" afterPath="$PROJECT_DIR$/public/static/less/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/less/default.less" afterPath="$PROJECT_DIR$/public/static/less/default.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/nrly/redirect/less/main.css" afterPath="$PROJECT_DIR$/public/nrly/redirect/less/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/nrly/redirect/js/main.js" afterPath="$PROJECT_DIR$/public/nrly/redirect/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/nrly/redirect/less/main.less" afterPath="$PROJECT_DIR$/public/nrly/redirect/less/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneshike.iws" />
@@ -28,46 +694,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="admin.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="37" selection-start="4773" selection-end="4773" vertical-scroll-proportion="-4.25" vertical-offset="2193" max-vertical-offset="4515">
-              <folding>
-                <marker date="1411118484000" expanded="true" signature="7953:8419" placeholder="..." />
-                <marker date="1411118484000" expanded="true" signature="7980:8061" placeholder="..." />
-                <marker date="1411118484000" expanded="true" signature="8087:8189" placeholder="..." />
-                <marker date="1411118484000" expanded="true" signature="8216:8411" placeholder="..." />
-                <marker date="1411118484000" expanded="true" signature="8245:8402" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="540" column="28" selection-start="11364" selection-end="11364" vertical-scroll-proportion="13.871473" vertical-offset="0" max-vertical-offset="6690">
-              <folding>
-                <element signature="e#3857#3923#0" expanded="false" />
-                <element signature="e#3937#8228#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default-old.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/static/less/default-old.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="375" column="18" selection-start="6811" selection-end="6814" vertical-scroll-proportion="-6.875" vertical-offset="5460" max-vertical-offset="7440">
+            <state line="175" column="12" selection-start="6843" selection-end="6843" vertical-scroll-proportion="-98.125" vertical-offset="270" max-vertical-offset="3225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-old.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index-old.html">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="13" selection-start="3988" selection-end="4485" vertical-scroll-proportion="-4.6911764" vertical-offset="1856" max-vertical-offset="7455">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/category/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Admin/CategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="48" selection-start="337" selection-end="348" vertical-scroll-proportion="-5.625" vertical-offset="105" max-vertical-offset="1875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminTableSeeder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/seeds/AdminTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="1" selection-start="273" selection-end="273" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DictTableSeeder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/seeds/DictTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="17" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-13.916667" vertical-offset="251" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryTableSeeder.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/database/seeds/CategoryTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="132" column="11" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.8715278" vertical-offset="1729" max-vertical-offset="2205">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_10_04_071152_create_categorys_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_04_071152_create_categorys_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="26" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.25" vertical-offset="114" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="29" selection-start="264" selection-end="264" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -86,58 +788,63 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/html/css/style.css" />
-        <option value="$PROJECT_DIR$/public/html/启程南日.html" />
-        <option value="$PROJECT_DIR$/public/nrly/js/libs/unslider.min.js" />
-        <option value="$PROJECT_DIR$/public/nrly/js/libs/jquery.event.move.js" />
-        <option value="$PROJECT_DIR$/public/nrly/js/libs/jquery.event.swipe.js" />
-        <option value="$PROJECT_DIR$/public/nrly/js/libs/jquery-latest.js" />
-        <option value="$PROJECT_DIR$/public/nrly/js/main.js" />
-        <option value="$PROJECT_DIR$/public/nrly/js/views/chwl.js" />
-        <option value="$PROJECT_DIR$/public/nrly/js/views/qcnr.js" />
-        <option value="$PROJECT_DIR$/public/nrly/js/views/txfw.js" />
-        <option value="$PROJECT_DIR$/public/nrly/index.html" />
-        <option value="$PROJECT_DIR$/public/nrly/js/views/inner.js" />
-        <option value="$PROJECT_DIR$/app/views/index.php" />
-        <option value="$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/opacity.less" />
-        <option value="$PROJECT_DIR$/public/static/css/tmp-site.css" />
-        <option value="$PROJECT_DIR$/public/green-header.html" />
-        <option value="$PROJECT_DIR$/public/static/css/green-header.css" />
-        <option value="$PROJECT_DIR$/public/nrly/js/router.js" />
-        <option value="$PROJECT_DIR$/public/nrly/tpl/gywm.html" />
-        <option value="$PROJECT_DIR$/public/nrly/tpl/inner.html" />
-        <option value="$PROJECT_DIR$/public/nrly/tpl/qcnr.html" />
-        <option value="$PROJECT_DIR$/public/nrly/tpl/txfw.html" />
-        <option value="$PROJECT_DIR$/public/nrly/tpl/chwl.html" />
-        <option value="$PROJECT_DIR$/public/nrly/redirect/gywm.html" />
-        <option value="$PROJECT_DIR$/public/nrly/redirect/inner.html" />
-        <option value="$PROJECT_DIR$/public/nrly/redirect/less/main.css" />
-        <option value="$PROJECT_DIR$/public/nrly/js/views/gywm.js" />
-        <option value="$PROJECT_DIR$/public/nrly/redirect/chwl.html" />
-        <option value="$PROJECT_DIR$/public/nrly/redirect/qcnr.html" />
-        <option value="$PROJECT_DIR$/public/nrly/redirect/txfw.html" />
-        <option value="$PROJECT_DIR$/public/nrly/redirect/index.html" />
         <option value="$PROJECT_DIR$/public/nrly/redirect/less/main.less" />
-        <option value="$PROJECT_DIR$/public/nrly/less/main.less" />
+        <option value="$PROJECT_DIR$/public/nrly/redirect/list.html" />
         <option value="$PROJECT_DIR$/public/nrly/redirect/js/main.js" />
-        <option value="$PROJECT_DIR$/public/static/library/infiniteScroll/js/infiniteScroll.js" />
-        <option value="$PROJECT_DIR$/public/static/library/stickUp/stickUp.min.js" />
-        <option value="$PROJECT_DIR$/public/static/library/stickUp/example/js/stickUp.js" />
-        <option value="$PROJECT_DIR$/public/static/css/animate.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/public/static/library/masonry/dist/masonry.pkgd.js" />
-        <option value="$PROJECT_DIR$/public/static/less/variables.less" />
-        <option value="$PROJECT_DIR$/public/static/less/default-old.less" />
-        <option value="$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/vendor-prefixes.less" />
-        <option value="$PROJECT_DIR$/public/static/library/stickUp/stickUp.js" />
-        <option value="$PROJECT_DIR$/public/static/library/bootstrap/less/navbar.less" />
-        <option value="$PROJECT_DIR$/public/index-old.html" />
-        <option value="$PROJECT_DIR$/public/static/library/waterfall/demos/js/libs/jquery.easing.js" />
-        <option value="$PROJECT_DIR$/public/static/library/waterfall/demos/finitescroll.html" />
-        <option value="$PROJECT_DIR$/public/static/library/waterfall/demos/css/waterfall.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/static/less/default.less" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/views/index.php" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/public/admin/less/AdminLTE.less" />
+        <option value="$PROJECT_DIR$/public/admin/less/mixins.less" />
+        <option value="$PROJECT_DIR$/app/lang/zh-CN/admin/global.php" />
+        <option value="$PROJECT_DIR$/app/config/cache.php" />
+        <option value="$PROJECT_DIR$/app/config/app.php" />
+        <option value="$PROJECT_DIR$/public/admin/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/app/lang/zh-CN/reminders.php" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/app/lang/zh-CN/admin.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/filters.php" />
+        <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_03_060443_create_user_logs_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_05_072942_create_admin_logs_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_05_041011_create_cookbooks_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_05_041023_create_foods_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_05_072406_create_products_table.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_03_055252_create_admins_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_03_060035_create_users_table.php" />
+        <option value="$PROJECT_DIR$/app/models/BaseModel.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/AdminTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/Admin/FoodsCategoryController.php" />
+        <option value="$PROJECT_DIR$/app/models/Admin.php" />
+        <option value="$PROJECT_DIR$/app/models/Dict.php" />
+        <option value="$PROJECT_DIR$/app/models/UserLog.php" />
+        <option value="$PROJECT_DIR$/app/models/Food.php" />
+        <option value="$PROJECT_DIR$/app/models/Category.php" />
+        <option value="$PROJECT_DIR$/app/models/Article.php" />
+        <option value="$PROJECT_DIR$/app/models/Cookbook.php" />
+        <option value="$PROJECT_DIR$/app/models/AdminLog.php" />
+        <option value="$PROJECT_DIR$/app/models/Comment.php" />
+        <option value="$PROJECT_DIR$/app/models/Product.php" />
+        <option value="$PROJECT_DIR$/app/controllers/Admin/FoodsController.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_04_063943_create_dicts_table.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/DictTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/layouts/base.blade.php" />
+        <option value="$PROJECT_DIR$/app/functions.php" />
+        <option value="$PROJECT_DIR$/app/controllers/Admin/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_04_071152_create_categorys_table.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/CategoryTableSeeder.php" />
       </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="www.oneshike.com" name="www.oneshike.com" />
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
@@ -153,7 +860,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -172,7 +879,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,33 +887,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Job/pafweblib" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="SearchEverywhereHistory" value="" />
+    <property name="SearchEverywhereHistory" value="&#10;{{ url('/auth/admin') }}" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/static/data" />
-      <recent name="$PROJECT_DIR$/public/static/img" />
-      <recent name="$PROJECT_DIR$/public/static/less" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/users/tmp" />
+      <recent name="$PROJECT_DIR$/app/views/admin/category" />
+      <recent name="$PROJECT_DIR$/app/database/seeds" />
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/app/controllers/Admin" />
+      <recent name="$PROJECT_DIR$/public/static/admin/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/static" />
+      <recent name="$PROJECT_DIR$/app/lang/zh-CN" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -270,41 +995,45 @@
       <created>1411118015387</created>
       <updated>1411118015387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1411119165179</created>
+      <updated>1411119165179</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="690" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32752612" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3513732" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3352181" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32752612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32752612" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3513732" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36833602" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32752612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -323,379 +1052,424 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/routes.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/routes.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/filters.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/filters.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/controllers/AdminController.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/controllers/AdminController.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/routes.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/routes.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/controllers/BaseController.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="31" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/static/library/outlayer/outlayer.js">
+    <entry file="file://$PROJECT_DIR$/app/lang/zh-CN/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-21.529081" vertical-offset="11475" max-vertical-offset="15225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/font-awesome/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/stickUp.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1411" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="507" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/js/holder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.330206" vertical-offset="4440" max-vertical-offset="6375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/js/stickUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="213" selection-end="213" vertical-scroll-proportion="0.295858" vertical-offset="0" max-vertical-offset="1920" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/stickup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="52" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.41391942" vertical-offset="989" max-vertical-offset="2670" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/css/green-header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.83516484" vertical-offset="684" max-vertical-offset="1230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7096775" vertical-offset="530" max-vertical-offset="840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="17" selection-start="9078" selection-end="9078" vertical-scroll-proportion="0.33202356" vertical-offset="3971" max-vertical-offset="12840">
+        <state line="13" column="17" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/example/index.html">
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/jquery.min.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.46365422" vertical-offset="424" max-vertical-offset="5625">
+        <state line="0" column="70" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="32" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-8.75" vertical-offset="720" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Reminders/RemindableInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state line="2" column="10" selection-start="54" selection-end="54" vertical-scroll-proportion="0.06012024" vertical-offset="0" max-vertical-offset="499">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletingTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="106" selection-end="106" vertical-scroll-proportion="0.33707866" vertical-offset="0" max-vertical-offset="356">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.3507013" vertical-offset="2171" max-vertical-offset="2670">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/utilities.less">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_03_055252_create_admins_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8463856" vertical-offset="613" max-vertical-offset="945">
+        <state line="21" column="34" selection-start="547" selection-end="569" vertical-scroll-proportion="-9.625" vertical-offset="69" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/media.less">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_05_072942_create_admin_logs_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+        <state line="12" column="24" selection-start="220" selection-end="220" vertical-scroll-proportion="0.14004914" vertical-offset="108" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/code.less">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_05_041023_create_foods_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3433735" vertical-offset="778" max-vertical-offset="1110">
+        <state line="14" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.39534885" vertical-offset="25" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/alerts.less">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_05_041011_create_cookbooks_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="356">
+        <state line="14" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.3760504" vertical-offset="16" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/labels.less">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_05_040940_create_articles_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="356">
+        <state line="14" column="10" selection-start="227" selection-end="227" vertical-scroll-proportion="0.40966386" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/grid-framework.less">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_03_060443_create_user_logs_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.22590362" vertical-offset="75" max-vertical-offset="1455">
+        <state line="21" column="53" selection-start="607" selection-end="607" vertical-scroll-proportion="0.41379312" vertical-offset="84" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/alerts.less">
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3433735" vertical-offset="778" max-vertical-offset="1110">
+        <state line="16" column="18" selection-start="256" selection-end="258" vertical-scroll-proportion="0.4597701" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/mixins/vendor-prefixes.less">
+    <entry file="file://$PROJECT_DIR$/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="1" selection-start="2656" selection-end="3016" vertical-scroll-proportion="0.3180212" vertical-offset="1485" max-vertical-offset="3450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="320" selection-end="320" vertical-scroll-proportion="-18.397312" vertical-offset="9810" max-vertical-offset="47445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/stickUp/stickUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="16" selection-start="3124" selection-end="3124" vertical-scroll-proportion="2.120332" vertical-offset="508" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/navbar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="10" selection-start="7075" selection-end="7075" vertical-scroll-proportion="0.4340909" vertical-offset="4429" max-vertical-offset="9915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/bootstrap/less/forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="0" selection-start="10051" selection-end="10051" vertical-scroll-proportion="0.1322314" vertical-offset="5876" max-vertical-offset="8190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.573896" vertical-offset="5509" max-vertical-offset="6030">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/js/libs/jquery.easing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="67" selection-end="80" vertical-scroll-proportion="0.028790787" vertical-offset="0" max-vertical-offset="2760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/data/data1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="67" selection-end="71" vertical-scroll-proportion="-2.1991951" vertical-offset="1153" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="34" selection-start="13381" selection-end="13415" vertical-scroll-proportion="0.33333334" vertical-offset="5741" max-vertical-offset="12840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/data/data5.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="423" selection-end="423" vertical-scroll-proportion="0.4527163" vertical-offset="0" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/data/data3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/data/data2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="564" selection-end="565" vertical-scroll-proportion="0.6036217" vertical-offset="0" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/data/data4.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/animate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="608" selection-end="656" vertical-scroll-proportion="0.66346157" vertical-offset="0" max-vertical-offset="885">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/custom-width.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="722" selection-end="722" vertical-scroll-proportion="0.5673077" vertical-offset="65" max-vertical-offset="825">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/fadein.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.40384614" vertical-offset="210" max-vertical-offset="825">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/data/data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5352113" vertical-offset="763" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/infinitescroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5995976" vertical-offset="298" max-vertical-offset="795">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/jsonp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9607438" vertical-offset="465" max-vertical-offset="990">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/no-more-data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="29" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.3360161" vertical-offset="748" max-vertical-offset="1515">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1411015238000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/mustache.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.694165" vertical-offset="345" max-vertical-offset="975">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/min-max-columns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.36217305" vertical-offset="180" max-vertical-offset="840">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/fixed-left-or-right.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="885">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3846154" vertical-offset="200" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/methods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7692308" vertical-offset="390" max-vertical-offset="1680">
-          <folding>
-            <marker date="1411015238000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1411015238000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1411015238000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1411015238000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1411015238000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/less/default-old.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="375" column="18" selection-start="6811" selection-end="6814" vertical-scroll-proportion="-6.875" vertical-offset="5460" max-vertical-offset="7440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index-old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="13" selection-start="3988" selection-end="4485" vertical-scroll-proportion="-4.6911764" vertical-offset="1856" max-vertical-offset="7455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/finitescroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="262" selection-end="262" vertical-scroll-proportion="0.10576923" vertical-offset="95" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/library/waterfall/demos/css/waterfall.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="1" selection-start="1570" selection-end="2274" vertical-scroll-proportion="0.7740113" vertical-offset="1104" max-vertical-offset="1635">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="37" selection-start="4773" selection-end="4773" vertical-scroll-proportion="-4.25" vertical-offset="2193" max-vertical-offset="4515">
+        <state line="18" column="6" selection-start="861" selection-end="861" vertical-scroll-proportion="0.5555556" vertical-offset="0" max-vertical-offset="4515">
           <folding>
-            <marker date="1411118484000" expanded="true" signature="7953:8419" placeholder="..." />
-            <marker date="1411118484000" expanded="true" signature="7980:8061" placeholder="..." />
-            <marker date="1411118484000" expanded="true" signature="8087:8189" placeholder="..." />
-            <marker date="1411118484000" expanded="true" signature="8216:8411" placeholder="..." />
-            <marker date="1411118484000" expanded="true" signature="8245:8402" placeholder="..." />
+            <marker date="1411118484000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1411118484000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1411118484000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1411118484000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1411118484000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/less/default.less">
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="540" column="28" selection-start="11364" selection-end="11364" vertical-scroll-proportion="13.871473" vertical-offset="0" max-vertical-offset="6690">
+        <state line="35" column="83" selection-start="990" selection-end="996" vertical-scroll-proportion="-8.416667" vertical-offset="53" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="751" selection-end="751" vertical-scroll-proportion="-0.2654321" vertical-offset="324" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/AdminLTE/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.5588236" vertical-offset="3345" max-vertical-offset="3855">
           <folding>
-            <element signature="e#3857#3923#0" expanded="false" />
-            <element signature="e#3937#8228#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/admin/css/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-60.5" vertical-offset="30855" max-vertical-offset="53085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/admin/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="26" selection-start="928" selection-end="928" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/AdminLTE/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="36" selection-start="2513" selection-end="2522" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1305">
+          <folding>
+            <marker date="1406768476000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406768476000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="25" selection-start="607" selection-end="607" vertical-scroll-proportion="-4.5" vertical-offset="300" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/BaseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.12024048" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/UserLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.12024048" vertical-offset="0" max-vertical-offset="499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Dict.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="104" selection-end="104" vertical-scroll-proportion="0.18036072" vertical-offset="0" max-vertical-offset="499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Food.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="17" selection-end="17" vertical-scroll-proportion="0.06012024" vertical-offset="0" max-vertical-offset="499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.057471264" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="21" selection-end="21" vertical-scroll-proportion="0.057471264" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="165" selection-end="200" vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Cookbook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="199" selection-end="199" vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="57" selection-end="119" vertical-scroll-proportion="0.22988506" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/AdminLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="132" selection-end="132" vertical-scroll-proportion="0.22988506" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_05_072518_create_comments_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_05_072406_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="211" selection-end="211" vertical-scroll-proportion="0.31609195" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="197" selection-end="197" vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="197" selection-end="197" vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Admin/FoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="18" selection-end="18" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/AdminTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="273" selection-end="273" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_03_060035_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="34" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.66132265" vertical-offset="165" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DictTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="17" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-13.916667" vertical-offset="251" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/layouts/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="428" selection-end="428" vertical-scroll-proportion="0.3887689" vertical-offset="0" max-vertical-offset="463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="12" selection-start="6843" selection-end="6843" vertical-scroll-proportion="-98.125" vertical-offset="270" max-vertical-offset="3225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/category/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_04_063943_create_dicts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="404" selection-end="404" vertical-scroll-proportion="0.2920168" vertical-offset="116" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="1" selection-start="7522" selection-end="7522" vertical-scroll-proportion="0.537037" vertical-offset="3429" max-vertical-offset="4005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Admin/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="48" selection-start="337" selection-end="348" vertical-scroll-proportion="-5.625" vertical-offset="105" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="491" column="20" selection-start="11025" selection-end="11025" vertical-scroll-proportion="0.33193278" vertical-offset="7162" max-vertical-offset="12585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="264" selection-end="264" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_04_071152_create_categorys_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.25" vertical-offset="114" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/CategoryTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="11" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.8715278" vertical-offset="1729" max-vertical-offset="2205">
+          <folding />
         </state>
       </provider>
     </entry>

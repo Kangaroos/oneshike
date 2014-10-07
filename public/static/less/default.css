@@ -7,11 +7,11 @@ body {
 }
 .navbar-osk.isStuck {
   z-index: 1030;
-  background: #003300;
+  background: #ffffff;
 }
 .navbar-osk {
   margin: 0;
-  background-color: rgba(0, 51, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-osk .container {
   position: relative;
@@ -61,7 +61,7 @@ body {
   }
   .navbar-osk .navbar-nav > li > a.register:hover,
   .navbar-osk .navbar-nav > li > a.register:focus {
-    color: #003300;
+    color: #ffffff;
     border: 2px solid #ffffff;
     background: #ffffff;
   }
