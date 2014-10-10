@@ -56,29 +56,29 @@ class CategoryController extends BaseController
         // 开始验证
         $validator = Validator::make($data, Advise::$rules, Advise::$validatorMessages);
 
-        if ($validator->passes()) {
-            // 添加资源
-            $model = $this->model;
-            $model->subject = Input::get('subject');
-            $model->type  = Input::get('type');;
-            $model->desc = Input::get('desc');
-            $model->user_id = Input::get('user_id');
-            $model->status = '0';
-
-            if ($model->save()) {
-                // 添加成功
-                return Redirect::to("/admin/agent/advises")
-                    ->with('success', '<strong>'.$this->resourceName.'添加成功。</strong>');
-            } else {
-                // 添加失败
-                return Redirect::back()
-                    ->withInput()
-                    ->with('error', '<strong>'.$this->resourceName.'添加失败。</strong>');
-            }
-        } else {
-            // 验证失败
-            return Redirect::back()->withInput()->withErrors($validator);
-        }
+//        if ($validator->passes()) {
+//            // 添加资源
+//            $model = $this->model;
+//            $model->subject = Input::get('subject');
+//            $model->type  = Input::get('type');;
+//            $model->desc = Input::get('desc');
+//            $model->user_id = Input::get('user_id');
+//            $model->status = '0';
+//
+//            if ($model->save()) {
+//                // 添加成功
+//                return Redirect::to("/admin/agent/advises")
+//                    ->with('success', '<strong>'.$this->resourceName.'添加成功。</strong>');
+//            } else {
+//                // 添加失败
+//                return Redirect::back()
+//                    ->withInput()
+//                    ->with('error', '<strong>'.$this->resourceName.'添加失败。</strong>');
+//            }
+//        } else {
+//            // 验证失败
+//            return Redirect::back()->withInput()->withErrors($validator);
+//        }
     }
 
     public function edit($id)

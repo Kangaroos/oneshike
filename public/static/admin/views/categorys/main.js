@@ -1,8 +1,8 @@
 $(function(){
 	var editor = new $.fn.dataTable.Editor( {
-		ajax: "/admin/categorys/",
+		ajax: "/admin/categorys/curd/store",
 		table: "#categoryTables",
-		fields: [ {
+		fields: [{
 			label: "分类编码：",
 			name: "code"
 		}, {
@@ -20,8 +20,7 @@ $(function(){
 		}, {
 			label: "描述：",
 			name: "desc"
-		}
-		]
+		}]
 	} );
 
 	var table = $('#categoryTables').dataTable({
@@ -31,7 +30,7 @@ $(function(){
 		"bFilter": true,
 		"bInfo": true,
 		"bAutoWidth": false,
-		"sAjaxSource": "/admin/categorys/data/tables",
+		"sAjaxSource": "/admin/categorys/curd/tables",
 		"bServerSide": true,
 		"columns": [
 			{ data: "id" },

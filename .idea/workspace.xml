@@ -1,94 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="后台框架搭建">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/config/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/calender.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/collection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/psd/collection.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/collection_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/psd/copy document.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/swf/copy_csv_xls.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/swf/copy_csv_xls_pdf.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/copy_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/csv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/csv_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/psd/file_types.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/pdf_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/print_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/psd/printer.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/shadow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/shadow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/xls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/images/xls_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Columns/BaseColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Engines/BaseEngine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/Engines/BaseEngineTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Engines/CollectionEngine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/Engines/CollectionEngineTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Datatable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Facades/DatatableFacade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/DatatableServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/DatatableTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Columns/DateColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/Columns/DateColumnTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Columns/FunctionColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/Columns/FunctionColumnTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Engines/QueryEngine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/Engines/QueryEngineTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/TableTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Columns/TextColumn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/tests/Columns/TextColumnTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/dataTables.editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/dataTables.editor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/dataTables.tableTools.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.tableTools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/dataTables.tableTools.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.tableTools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/editor.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/editor.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.bubble.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.datatable.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.envelope.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.fields.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.inline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.lightbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/scss/editor.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/zh-CN/friendlyDate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/views/javascript.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/static/admin/views/categorys/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbench/xyezir/datatable/src/views/template.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/config/packages/chumper/datatable/.gitkeep" afterPath="$PROJECT_DIR$/app/config/packages/xyezir/datatable/.gitkeep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/config/packages/chumper/datatable/config.php" afterPath="$PROJECT_DIR$/app/config/packages/xyezir/datatable/config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/static/admin/css/datatables/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/public/static/admin/css/datatables/css/dataTables.bootstrap.css" />
+    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Admin/CategoryController.php" afterPath="$PROJECT_DIR$/app/controllers/Admin/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/layouts/base.blade.php" afterPath="$PROJECT_DIR$/app/views/admin/layouts/base.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/category/index.blade.php" afterPath="$PROJECT_DIR$/app/views/admin/category/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/jquery.dataTables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/oneshike.iml" afterPath="$PROJECT_DIR$/.idea/oneshike.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/workbench.php" afterPath="$PROJECT_DIR$/app/config/workbench.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.js" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/editor.bootstrap.js" afterPath="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/editor.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/views/categorys/main.js" afterPath="$PROJECT_DIR$/public/static/admin/views/categorys/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oneshike.iws" />
@@ -111,7 +29,73 @@
     <favorites_list name="oneshike" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="system.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/admin/js/AdminLTE/system.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="71" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0" vertical-offset="1074" max-vertical-offset="1935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="32" selection-start="1508" selection-end="1513" vertical-scroll-proportion="-9.958333" vertical-offset="301" max-vertical-offset="705">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/admin/views/categorys/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="9" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="1005">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Admin/CategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.1418918" vertical-offset="502" max-vertical-offset="1905">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.bootstrap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/editor.bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="30" selection-start="201" selection-end="201" vertical-scroll-proportion="-5.1923075" vertical-offset="0" max-vertical-offset="2700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataTables.editor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="266" column="187" selection-start="49134" selection-end="49134" vertical-scroll-proportion="-7.8461537" vertical-offset="3786" max-vertical-offset="7215">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/filters.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-4.2916665" vertical-offset="167" max-vertical-offset="1605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -124,12 +108,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/public/static/admin/css/system.css" />
         <option value="$PROJECT_DIR$/public/static/admin/js/plugins/jquery.gritter/css/jquery.gritter.css" />
-        <option value="$PROJECT_DIR$/public/static/admin/js/AdminLTE/system.js" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_10_04_071152_create_categorys_table.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/vendor/chumper/datatable/src/config/config.php" />
         <option value="$PROJECT_DIR$/vendor/chumper/datatable/src/views/javascript.blade.php" />
         <option value="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/jquery.dataTables.js" />
@@ -137,7 +117,6 @@
         <option value="$PROJECT_DIR$/vendor/chumper/datatable/src/Chumper/Datatable/Facades/DatatableFacade.php" />
         <option value="$PROJECT_DIR$/vendor/chumper/datatable/src/Chumper/Datatable/Engines/BaseEngine.php" />
         <option value="$PROJECT_DIR$/vendor/chumper/datatable/src/views/template.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/Admin/CategoryController.php" />
         <option value="$PROJECT_DIR$/public/static/admin/css/datatables/dataTables.bootstrap.css" />
         <option value="$PROJECT_DIR$/public/static/admin/css/AdminLTE.css" />
         <option value="$PROJECT_DIR$/public/static/admin/css/datatables/css/editor.bootstrap.css" />
@@ -148,7 +127,6 @@
         <option value="$PROJECT_DIR$/app/views/admin/category/index.blade.php" />
         <option value="$PROJECT_DIR$/workbench/xyezir/datatables/src/Xyezir/Datatables/DatatablesServiceProvider.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/public/static/admin/views/categorys/main.js" />
         <option value="$PROJECT_DIR$/app/config/workbench.php" />
         <option value="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Table.php" />
         <option value="$PROJECT_DIR$/workbench/xyezir/datatable/src/Xyezir/Datatable/Datatable.php" />
@@ -173,8 +151,14 @@
         <option value="$PROJECT_DIR$/app/views/admin/layouts/base.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
-        <option value="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/editor.bootstrap.js" />
         <option value="$PROJECT_DIR$/workbench/xyezir/datatable/src/plugins/editor/Ext/Ext.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/controllers/Admin/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/public/static/admin/js/AdminLTE/system.js" />
+        <option value="$PROJECT_DIR$/public/static/admin/views/categorys/main.js" />
+        <option value="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/editor.bootstrap.js" />
+        <option value="$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.js" />
       </list>
     </option>
   </component>
@@ -231,6 +215,378 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categorys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datatables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminLTE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="category" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneshike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,25 +699,29 @@
       <created>1412695185583</created>
       <updated>1412695185583</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="后台框架搭建">
+      <created>1412934862023</created>
+      <updated>1412934862023</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="690" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2062937" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2062937" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867134" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2062937" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30452344" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30452344" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32752612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -409,8 +769,13 @@
           <line>130</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/filters.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="46" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -442,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1291" selection-end="1294" vertical-scroll-proportion="-13.625" vertical-offset="183" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="510" selection-end="510" vertical-scroll-proportion="-11.864583" vertical-offset="3702" max-vertical-offset="3990">
@@ -472,13 +830,6 @@
             <marker date="1406768476000" expanded="false" signature="-1:-1" placeholder="..." />
             <marker date="1406768476000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/js/AdminLTE/system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="76" selection-end="76" vertical-scroll-proportion="-4.266854" vertical-offset="1579" max-vertical-offset="1935">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,24 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-20.034985" vertical-offset="6872" max-vertical-offset="7215">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-21.546875" vertical-offset="6895" max-vertical-offset="7215">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/admin/css/datatables/css/dataTables.tableTools.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="23" selection-start="925" selection-end="925" vertical-scroll-proportion="0.23762377" vertical-offset="315" max-vertical-offset="5490">
@@ -540,13 +873,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/admin/views/categorys/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
@@ -572,27 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/category/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="849" selection-end="849" vertical-scroll-proportion="0.6804734" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="460" selection-end="460" vertical-scroll-proportion="0.6804734" vertical-offset="0" max-vertical-offset="4020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/layouts/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="92" selection-end="106" vertical-scroll-proportion="0.115384616" vertical-offset="0" max-vertical-offset="520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workbench/xyezir/datatable/src/views/template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="19" selection-start="334" selection-end="334" vertical-scroll-proportion="0.28846154" vertical-offset="0" max-vertical-offset="520">
@@ -607,58 +912,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Admin/CategoryController.php">
+    <entry file="file://$PROJECT_DIR$/app/views/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="38" selection-start="1291" selection-end="1301" vertical-scroll-proportion="0.44378698" vertical-offset="345" max-vertical-offset="1905">
+        <state line="39" column="31" selection-start="2012" selection-end="2012" vertical-scroll-proportion="1.2699229" vertical-offset="91" max-vertical-offset="810">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="426">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="31" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5012854" vertical-offset="150" max-vertical-offset="4020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/layouts/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="455" selection-end="455" vertical-scroll-proportion="0.41044775" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="42" selection-start="19466" selection-end="19470" vertical-scroll-proportion="3.7209303" vertical-offset="0" max-vertical-offset="7215">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/editor.bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="15" selection-start="640" selection-end="640" vertical-scroll-proportion="-2.9705882" vertical-offset="2171" max-vertical-offset="2715">
+        <state line="9" column="30" selection-start="201" selection-end="201" vertical-scroll-proportion="-5.1923075" vertical-offset="0" max-vertical-offset="2700">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/xyezir/datatable/src/plugins/editor/Editor/Editor.php">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/category/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="9" selection-start="8509" selection-end="8509" vertical-scroll-proportion="-1.008316" vertical-offset="4565" max-vertical-offset="18525">
+        <state line="23" column="16" selection-start="849" selection-end="849" vertical-scroll-proportion="0.22131148" vertical-offset="264" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/xyezir/datatable/src/plugins/editor/Ext/Ext.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="12" selection-start="2232" selection-end="2232" vertical-scroll-proportion="2.0480769" vertical-offset="0" max-vertical-offset="1440">
+        <state line="36" column="32" selection-start="1508" selection-end="1513" vertical-scroll-proportion="-9.958333" vertical-offset="301" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/xyezir/datatable/src/plugins/editor/Editor/Join.php">
+    <entry file="file://$PROJECT_DIR$/public/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10995">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="426">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/xyezir/datatable/src/plugins/editor/Editor/Format.php">
+    <entry file="file://$PROJECT_DIR$/public/static/admin/views/categorys/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.8" vertical-offset="1976" max-vertical-offset="2520">
+        <state line="22" column="9" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/xyezir/datatable/src/plugins/editor/Editor/Validate.php">
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/AdminLTE/system.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-20.668638" vertical-offset="10479" max-vertical-offset="11010">
+        <state line="82" column="71" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0" vertical-offset="1074" max-vertical-offset="1935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench/xyezir/datatable/src/plugins/editor/Editor/Field.php">
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/plugins/datatables/dataTables.editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="18" selection-start="3735" selection-end="3741" vertical-scroll-proportion="-0.04158004" vertical-offset="2120" max-vertical-offset="9420">
+        <state line="266" column="187" selection-start="49134" selection-end="49134" vertical-scroll-proportion="-7.8461537" vertical-offset="3786" max-vertical-offset="7215">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-4.2916665" vertical-offset="167" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Admin/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.1418918" vertical-offset="502" max-vertical-offset="1905">
           <folding />
         </state>
       </provider>

@@ -7,7 +7,6 @@
 	 */
 	DataTable.Editor.defaults.display = "bootstrap";
 
-
 	$.extend(true, DataTable.Editor.defaults, {
 		i18n: {
 			create: {

@@ -33,7 +33,8 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
         $resource   = 'categorys';
         $controller = 'CategoryController@';
         Route::get('/', array('as' => $resource.'.index'  , 'uses' => $controller.'index'  ));
-        Route::get('/data/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::get('/curd/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/curd/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
     });
 
 
