@@ -2,7 +2,7 @@
 
 class CategoryController extends BaseController
 {
-    protected $resourceView = 'admin.category';
+    protected $resourceView = 'admin.categorys';
 
     protected $model = 'Category';
 
@@ -52,33 +52,52 @@ class CategoryController extends BaseController
     public function store()
     {
         // 获取所有表单数据.
-        $data   = Input::all();
-        // 开始验证
-        $validator = Validator::make($data, Advise::$rules, Advise::$validatorMessages);
+        $post = Input::all();
 
-//        if ($validator->passes()) {
-//            // 添加资源
-//            $model = $this->model;
-//            $model->subject = Input::get('subject');
-//            $model->type  = Input::get('type');;
-//            $model->desc = Input::get('desc');
-//            $model->user_id = Input::get('user_id');
-//            $model->status = '0';
-//
-//            if ($model->save()) {
-//                // 添加成功
-//                return Redirect::to("/admin/agent/advises")
-//                    ->with('success', '<strong>'.$this->resourceName.'添加成功。</strong>');
-//            } else {
-//                // 添加失败
-//                return Redirect::back()
-//                    ->withInput()
-//                    ->with('error', '<strong>'.$this->resourceName.'添加失败。</strong>');
-//            }
-//        } else {
-//            // 验证失败
-//            return Redirect::back()->withInput()->withErrors($validator);
-//        }
+        $response = array();
+
+        switch($post["action"]){
+            case "create":
+                $data = $post["data"];
+                $validator = Validator::make($data, Category::$rules, Category::$validatorMessages);
+
+                if ($validator->passes()) {
+                    // 添加资源
+                    $model = $this->model;
+                    $model->code = $data["code"];
+                    $model->parent_code  = $data["parent_code"];
+                    $model->name = $data["name"];
+                    $model->level = $data["level"];
+                    $model->add1 = $data["add1"];
+                    $model->desc = $data["desc"];
+
+                    if ($id = $model->save()) {
+                        $data["id"] = $model->id;
+                        $response["row"] = $data;
+                    } else {
+                        $response["error"] = "操作失败，请联系管理员";
+                    }
+                } else {
+                    $faild = $validator->messages();
+                    $messages = $faild->messages;
+                    $fieldErrors = array();
+                    foreach ($messages as $message)
+                    {
+                        $message->
+                        $fieldErrors[] = $message;
+                    }
+                    // 验证失败
+                }
+
+                break;
+            case "update":
+                break;
+            case "delete":
+                break;
+        }
+        return Response::json($response);
+        // 开始验证
+
     }
 
     public function edit($id)
