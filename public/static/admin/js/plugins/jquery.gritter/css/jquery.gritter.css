@@ -1,7 +1,7 @@
 /* the norm */
 #gritter-notice-wrapper {
 	position:fixed;
-	top:20px;
+	bottom:20px;
 	right:20px;
 	width:301px;
 	z-index:9999;
@@ -67,7 +67,6 @@
 	cursor:pointer;
 	width:30px;
 	height:30px;
-	text-indent:-9999em;
 }
 .gritter-title {
 	font-size:14px;

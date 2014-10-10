@@ -2,41 +2,47 @@
 
 class CategoryController extends BaseController
 {
-    protected $resourceView = 'admin.categroy';
+    protected $resourceView = 'admin.category';
 
-    protected $model = 'Categroy';
+    protected $model = 'Category';
 
-    protected $resource = 'categroys';
+    protected $resource = 'categorys';
 
-    protected $resourceTable = 'categroys';
+    protected $resourceTable = 'categorys';
 
     protected $resourceName = '分类管理';
 
+    public function __construct()
+    {
+        parent::__construct();
+        // 实例化资源模型
+        $this->model  = App::make($this->model);
+    }
+
     public function index()
     {
-        $parentCategory = find_dict("ADVISE_TYPE", true);
-        $adviseStatus = find_dict("ADVISE_STATUS", true);
+        $category = Category::where("level",1)->lists("name","code");
 
-        // 获取排序条件
-        $orderColumn = Input::get('sort_up', Input::get('sort_down', 'created_at'));
-        $direction   = Input::get('sort_up') ? 'asc' : 'desc' ;
-        // 获取搜索条件
-        $subject = Input::get('subject');
-        $status = Input::get('status',0);
-        $type = Input::get('type');
-        $feedback_at = Input::get('feedback_at');
-        $feedback_at_end = Input::get('feedback_at_end');
+        $resource     = $this->resource;
+        $resourceName = $this->resourceName;
+        $resourceDesc = '';
 
-        // 构造查询语句
-        $query = $this->model->orderBy($orderColumn, $direction);
+        $table = Datatable::table()
+            ->addColumn('编号', '分类编码', '父编码', '分类名称', '层级', '附加属性', '描述' ,'创建时间')
+            ->setUrl(route($resource.'.dataTables'))
+            ->noScript();
 
-        !empty($subject) AND $query->where('subject', 'like', "%{$subject}%");
-        (!empty($status) OR $status == '0') AND $query->where('status', (int)$status);
-        !empty($type) AND $query->where('type', $type);
-        !empty($feedback_at) AND $query->where('feedback_at', '>=', date("Y-m-d", strtotime($feedback_at)));
-        !empty($feedback_at_end) AND $query->where('feedback_at', '<=', date("Y-m-d", strtotime($feedback_at_end)));
-        $datas = $query->paginate(15);
-        return View::make($this->resourceView.'.index')->with(compact('datas','adviseType','adviseStatus'));
+        return View::make($this->resourceView.'.index')->with(compact('resource', 'resourceName', 'resourceDesc', 'table'));
+    }
+
+    public function dataTables(){
+        $category = Category::select(array('categorys.id','categorys.code','categorys.parent_code', 'categorys.name', 'categorys.level','categorys.add1', 'categorys.desc', 'categorys.created_at'));
+
+        return Datatable::collection(Category::all(array("id", "code", "parent_code", "name", "level", "add1", "desc", "created_at")))
+            ->showColumns("id", "code", "parent_code", "name", "level", "add1", "desc", "created_at")
+            ->searchColumns('name')
+            ->orderColumns('id','name')
+            ->make();
     }
 
     public function create()

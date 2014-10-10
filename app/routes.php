@@ -26,6 +26,15 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
     Route::get('logout', array('as' => 'logout', 'uses' => $controller.'getLogout'));
     # 后台首页
     Route::get('/', array('as' => $resource, 'uses' => $controller.'getConsoleIndex'));
-    Route::get('/changePassword', array('as' => $resource.'.getChangePassword', 'uses' => $controller.'getChangePassword'));
     Route::put('/changePassword', array('as' => $resource.'.putChangePassword' , 'uses' => $controller.'putChangePassword' ));
+
+    # 活动管理
+    Route::group(array('prefix' => 'categorys'), function () {
+        $resource   = 'categorys';
+        $controller = 'CategoryController@';
+        Route::get('/', array('as' => $resource.'.index'  , 'uses' => $controller.'index'  ));
+        Route::get('/data/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
+    });
+
+
 });

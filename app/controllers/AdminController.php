@@ -38,19 +38,6 @@ class AdminController extends BaseController
         return View::make($this->resourceView.'.index')->with(compact('resource', 'resourceName', 'resourceDesc'));
     }
 
-    /**
-     * 页面：修改当前账号密码
-     * @return Response
-     */
-    public function getChangePassword()
-    {
-        $resource     = $this->resource;
-        $resourceName = '修改密码';
-        $resourceDesc = '请输入旧密码和新密码，密码长度6到16位，必须全部由字母、数字、中划线或下划线字符构成';
-
-        return View::make($this->resourceView.'.changePassword')->with(compact('resource', 'resourceName'));
-    }
-
     public function getSignin()
     {
         return View::make('admin');
@@ -109,12 +96,17 @@ class AdminController extends BaseController
      */
     public function putChangePassword()
     {
+        $response = array();
         // 获取所有表单数据
         $data = Input::all();
         $admin = Session::get("admin");
         // 验证旧密码
-        if (! Hash::check($data['password_old'], $admin->pwd) )
-            return Redirect::back()->withErrors($this->messages->add('password_old', '原始密码错误'));
+        if (! Hash::check($data['password_old'], $admin->pwd) ) {
+            $response['success'] = false;
+            $response['message'] = '原始密码错误';
+            return Response::json($response);
+        }
+
         // 创建验证规则
         $rules = array(
             'password' => 'alpha_dash|between:6,16|confirmed',
@@ -132,19 +124,17 @@ class AdminController extends BaseController
             // 更新用户
             $admin->pwd = Hash::make(Input::get('password'));
             if ($admin->save()) {
-                // 更新成功
-                return Redirect::back()
-                    ->with('success', '<strong>密码修改成功。</strong>');
+                $response['success'] = true;
+                $response['message'] = '密码修改成功';
             } else {
-                // 更新失败
-                return Redirect::back()
-                    ->withInput()
-                    ->with('error', '<strong>密码修改失败。</strong>');
+                $response['success'] = false;
+                $response['message'] = '密码修改失败';
             }
         } else {
-            // 验证失败，跳回
-            return Redirect::back()->withInput()->withErrors($validator);
+            $response['success'] = false;
+            $response['message'] = $validator->errors->first();
         }
+        return Response::json($response);
     }
 
     public function getLogout(){

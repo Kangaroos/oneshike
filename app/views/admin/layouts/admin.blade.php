@@ -22,15 +22,17 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
 @section('title') 后台管理-{{ $resourceName }} @parent @stop
 
 @section('head')
-<link href="{{ asset('/static/admin/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('/static/admin/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/css/ionicons.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('/static/admin/js/plugins/jquery.gritter/css/jquery.gritter.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/css/AdminLTE.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('/static/admin/css/system.css') }}" rel="stylesheet" type="text/css" />
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-<script src="{{ asset('/static/admin/js/html5shiv.js') }}"></script>
-<script src="{{ asset('/static/admin/js/respond.min.js') }}"></script>
+<script src="{{ asset('/static/admin/js/plugins/misc/html5shiv.js') }}"></script>
+<script src="{{ asset('/static/admin/js/plugins/misc/respond.min.js') }}"></script>
 <![endif]-->
 @parent @stop
 
@@ -74,10 +76,10 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
         <!-- Menu Footer-->
         <li class="user-footer">
             <div class="pull-left">
-                <a href="{{ url('/admin/changePassword') }}" class="btn btn-default btn-flat">修改密码</a>
+                <a href="#" class="btn btn-default btn-flat" data-toggle="modal" data-target="#changePwdModal">修改密码</a>
             </div>
             <div class="pull-right">
-                <a href="{{ url('/admin/logout') }}" class="btn btn-default btn-flat">退出系统</a>
+                <a id="logout-system" href="#" data-url="{{ url('/admin/logout') }}" class="btn btn-default btn-flat">退出系统</a>
             </div>
         </li>
     </ul>
@@ -150,8 +152,8 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> 图文审核</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="">
+                <li class="{{ $is_active('categorys') }}">
+                    <a href="{{ url('/admin/categorys') }}">
                         <i class="fa fa-th"></i> <span>分类管理</span>
                     </a>
                 </li>
@@ -194,16 +196,70 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
         </section><!-- /.content -->
     </aside><!-- /.right-side -->
 </div><!-- ./wrapper -->
+
+<div class="modal fade" id="changePwdModal" tabindex="-1" role="dialog" aria-labelledby="changePwdModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="changePwdModalLabel">修改密码</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" action="{{ route('admin.putChangePassword') }}" autocomplete="off" id="changePwd-form" onsubmit="return false;">
+                    <!-- CSRF Token -->
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+                    <input type="hidden" name="_method" value="PUT" />
+
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 no-padding-right" for="name">原始密码：</label>
+                        <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                                <input type="password" name="password_old" id="changePwd_password_old" class="form-control" placeholder="请输入原始密码"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 no-padding-right" for="name">新密码：</label>
+                        <div class="col-xs-12 col-sm-9">
+                            <div class="input-group">
+                                <input type="password" name="password" id="changePwd_password" class="form-control" placeholder="请输入新密码"/>
+                                <span class="input-group-btn">
+                                    <span id="pwdPopover" class="help-button"  data-toggle="tooltip" data-placement="top" data-animation="true" title="请使用字母、数字、下划线、中划线。长度在5-15位之间。">?</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-xs-12 col-sm-3 no-padding-right" for="name">确认密码：</label>
+                        <div class="col-xs-12 col-sm-9">
+                            <div class="clearfix">
+                                <input type="password" name="password_confirmation" id="changePwd_password_confirmation" class="form-control" placeholder="请输入确认密码"/>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关 闭</button>
+                <button id="changePwdSubmit" type="button" class="btn btn-primary">保 存</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 @stop
 
 
 @section('end')
 <!-- jQuery 2.0.2 -->
 <script src="{{ asset('/static/admin/js/jquery.min.js') }}"></script>
+<script src="{{ asset('/static/admin/js/plugins/bootbox.min.js') }}"></script>
+<script src="{{ asset('/static/admin/js/plugins/jquery.gritter/jquery.gritter.min.js') }}"></script>
+<script src="{{ asset('/static/admin/js/plugins/jquery.validate.min.js') }}"></script>
 <!-- Bootstrap -->
-<script src="{{ asset('/static/admin/js/bootstrap.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/static/admin/js/bootstrap.min.js') }}"></script>
 <!-- AdminLTE App -->
-<script src="{{ asset('/static/admin/js/AdminLTE/app.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/static/admin/js/AdminLTE/app.js') }}"></script>
+<script src="{{ asset('/static/admin/js/AdminLTE/system.js') }}"></script>
 @parent @stop
 
 
