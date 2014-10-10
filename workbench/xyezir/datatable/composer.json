@@ -1,0 +1,20 @@
+{
+    "name": "xyezir/datatable",
+    "description": "",
+    "authors": [
+        {
+            "name": "xyezir",
+            "email": "xyezir@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Xyezir\\Datatable": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

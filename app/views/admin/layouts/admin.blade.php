@@ -19,8 +19,7 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
 
 }
 ?>
-@section('title') 后台管理-{{ $resourceName }} @parent @stop
-
+@section('title')后台管理-{{ $resourceName }}@stop
 @section('head')
 <link href="{{ asset('/static/admin/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
@@ -247,8 +246,6 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 @stop
-
-
 @section('end')
 <!-- jQuery 2.0.2 -->
 <script src="{{ asset('/static/admin/js/jquery.min.js') }}"></script>

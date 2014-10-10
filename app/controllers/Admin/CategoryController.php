@@ -27,21 +27,17 @@ class CategoryController extends BaseController
         $resourceName = $this->resourceName;
         $resourceDesc = '';
 
-        $table = Datatable::table()
-            ->addColumn('编号', '分类编码', '父编码', '分类名称', '层级', '附加属性', '描述' ,'创建时间')
-            ->setUrl(route($resource.'.dataTables'))
-            ->noScript();
-
-        return View::make($this->resourceView.'.index')->with(compact('resource', 'resourceName', 'resourceDesc', 'table'));
+        return View::make($this->resourceView.'.index')->with(compact('resource', 'resourceName', 'resourceDesc'));
     }
 
     public function dataTables(){
-        $category = Category::select(array('categorys.id','categorys.code','categorys.parent_code', 'categorys.name', 'categorys.level','categorys.add1', 'categorys.desc', 'categorys.created_at'));
+//        $category = Category::select(array('categorys.id','categorys.code','categorys.parent_code', 'categorys.name', 'categorys.level','categorys.add1', 'categorys.desc', 'categorys.created_at'));
 
         return Datatable::collection(Category::all(array("id", "code", "parent_code", "name", "level", "add1", "desc", "created_at")))
             ->showColumns("id", "code", "parent_code", "name", "level", "add1", "desc", "created_at")
             ->searchColumns('name')
-            ->orderColumns('id','name')
+            ->orderColumns('created_at')
+            ->setAliasMapping()
             ->make();
     }
 

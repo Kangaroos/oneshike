@@ -68,7 +68,7 @@ return array(
             "bPaginate" => true,
             "bLengthChange" => true,
             "bFilter" => true,
-            "bSort" => false,
+//            "bSort" => false,
             "bInfo" => true,
             "bAutoWidth" => false
         ),
