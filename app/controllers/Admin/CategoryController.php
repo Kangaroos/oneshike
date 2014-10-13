@@ -78,15 +78,18 @@ class CategoryController extends BaseController
                         $response["error"] = "操作失败，请联系管理员";
                     }
                 } else {
-                    $faild = $validator->messages();
-                    $messages = $faild->messages;
+                    $failed = $validator->messages();
+                    $messages = $failed->getMessages();
+                    $keys = array_keys($messages);
                     $fieldErrors = array();
-                    foreach ($messages as $message)
+                    foreach ($keys as $key)
                     {
-                        $message->
-                        $fieldErrors[] = $message;
+                        $error = array();
+                        $error["name"] = $key;
+                        $error["status"] = $messages[$key][0];
+                        array_push($fieldErrors,$error);
                     }
-                    // 验证失败
+                    $response["fieldErrors"] = $fieldErrors;
                 }
 
                 break;
@@ -96,8 +99,6 @@ class CategoryController extends BaseController
                 break;
         }
         return Response::json($response);
-        // 开始验证
-
     }
 
     public function edit($id)

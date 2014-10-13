@@ -61,7 +61,7 @@
 			"wrapper": "DTE_Field",
 			"label":   "col-lg-4 control-label",
 			"input":   "col-lg-8 controls",
-			"error":   "error",
+			"error":   "has-error",
 			"msg-labelInfo": "help-block",
 			"msg-info":      "help-block",
 			"msg-message":   "help-block",
