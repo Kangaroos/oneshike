@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="后台框架搭建">
+    <list default="true" id="3f603720-8491-4e27-8c3a-e10a958ef1ca" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
@@ -402,7 +402,11 @@
       <created>1413200447973</created>
       <updated>1413200447973</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="后台框架搭建">
+      <created>1413201390970</created>
+      <updated>1413201390970</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
