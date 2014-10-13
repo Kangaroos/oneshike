@@ -2,6 +2,7 @@ $(function(){
 	var editor = new $.fn.dataTable.Editor( {
 		ajax: "/admin/categorys/curd/store",
 		table: "#categoryTables",
+		idSrc: "id",
 		fields: [{
 			label: "分类编码：",
 			name: "code"
