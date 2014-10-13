@@ -26,7 +26,6 @@ class CategoryController extends BaseController
         $resource     = $this->resource;
         $resourceName = $this->resourceName;
         $resourceDesc = '';
-
         return View::make($this->resourceView.'.index')->with(compact('resource', 'resourceName', 'resourceDesc'));
     }
 
@@ -41,7 +40,6 @@ class CategoryController extends BaseController
 
     public function store()
     {
-        // 获取所有表单数据.
         $post = Input::all();
 
         $response = array();
@@ -50,12 +48,12 @@ class CategoryController extends BaseController
             case "create":
                 $data = $post["data"];
                 $model = $this->model;
-                $response = $this->saveModel($data, $model);
+                $response = $this->saveModel($data, $model, Category::$rules, Category::$validatorMessages);
                 break;
             case "edit":
                 $data = $post["data"];
                 $model = $this->model->find($post["id"]);
-                $response = $this->saveModel($data, $model);
+                $response = $this->saveModel($data, $model, Category::$rules, Category::$validatorMessages);
                 break;
             case "remove":
                 $ids = $post["id"];

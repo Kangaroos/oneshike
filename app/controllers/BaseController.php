@@ -34,9 +34,9 @@ class BaseController extends Controller {
 		}
 	}
 
-    protected function saveModel(array $data, $model, $response = array()) {
+    protected function saveModel(array $data, $model, array $rules, array $validatorMessages, $response = array()) {
 
-        $validator = Validator::make($data, Category::$rules, Category::$validatorMessages);
+        $validator = Validator::make($data, $rules, $validatorMessages);
 
         if ($validator->passes()) {
 
