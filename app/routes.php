@@ -28,6 +28,15 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
     Route::get('/', array('as' => $resource, 'uses' => $controller.'getConsoleIndex'));
     Route::put('/changePassword', array('as' => $resource.'.putChangePassword' , 'uses' => $controller.'putChangePassword' ));
 
+    # 用户管理
+    Route::group(array('prefix' => 'users'), function () {
+        $resource   = 'users';
+        $controller = 'UserController@';
+        Route::get('/', array('as' => $resource.'.index'  , 'uses' => $controller.'index'));
+        Route::get('/curd/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/curd/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
+    });
+
     # 活动管理
     Route::group(array('prefix' => 'categorys'), function () {
         $resource   = 'categorys';

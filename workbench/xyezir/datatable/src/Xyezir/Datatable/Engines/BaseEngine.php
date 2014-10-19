@@ -59,6 +59,11 @@ abstract class BaseEngine {
     /**
      * @var array
      */
+    protected $selects = array();
+
+    /**
+     * @var array
+     */
     protected  $searchColumns = array();
 
     /**
@@ -145,6 +150,21 @@ abstract class BaseEngine {
         return $this;
     }
 
+    public function addSelect() {
+        if(func_num_args() != 2)
+            throw new Exception('Invalid number of arguments');
+
+        if(is_callable(func_get_arg(1)))
+        {
+            $this->selects[func_get_arg(0)] = call_user_func(func_get_arg(1));
+        }
+        else
+        {
+            $this->selects[func_get_arg(0)] = func_get_arg(1);
+        }
+        return $this;
+    }
+
     /**
      * @param $name
      * @return mixed
@@ -227,6 +247,11 @@ abstract class BaseEngine {
             "iTotalRecords" => $this->totalCount(),
             "iTotalDisplayRecords" => $this->count(),
         );
+        $selects = $this->selects;
+        foreach($selects as $key => $select) {
+            $output[$key] = $select;
+        }
+
         return Response::json($output);
     }
 

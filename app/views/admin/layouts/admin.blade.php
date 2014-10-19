@@ -156,9 +156,9 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                         <i class="fa fa-th"></i> <span>分类管理</span>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <i class="fa fa-th"></i> <span>会员管理</span>
+                <li class="{{ $is_active('users') }}">
+                    <a href="{{ url('/admin/users') }}">
+                        <i class="fa fa-th"></i> <span>用户管理</span>
                     </a>
                 </li>
                 <li class="treeview">

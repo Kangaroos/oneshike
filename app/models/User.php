@@ -23,4 +23,17 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 */
 	protected $hidden = array('password', 'remember_token');
 
+    public static $rules  = array(
+        'account'    => 'required',
+        'email'    => 'required'
+    );
+
+    /**
+     * 自定义验证消息
+     * @var array
+     */
+    public static $validatorMessages = array(
+        'account.required'      => '请输入用户名。',
+        'email.required'      => '请输入邮箱。'
+    );
 }

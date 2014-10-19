@@ -26,6 +26,13 @@ class AdminController extends BaseController
      */
     protected $resourceTable = 'admins';
 
+    public function __construct()
+    {
+        parent::__construct();
+        // 实例化资源模型
+        $this->model = App::make($this->model);
+    }
+
     /**
      * 后台首页
      * @return Response
@@ -68,7 +75,7 @@ class AdminController extends BaseController
         // 开始验证
         $validator = Validator::make($data, $rules, $messages);
         if ($validator->passes()) {
-            $admin = new Admin;
+            $admin = $this->model;
             // 验证登录
             if ($admin->hasLogin($credentials)) {
                 // 登录成功，跳回之前被拦截的页面

@@ -8,6 +8,7 @@ $.extend( true, $.fn.dataTable.defaults, {
 		"sLengthMenu" : "每页显示 _MENU_ 条记录",
 		"sInfo" : "从 _START_ 到 _END_ /共 _TOTAL_ 条数据",
 		"sInfoEmpty" : "没有数据",
+		"sEmptyTable" : "没有数据",
 		"sInfoFiltered" : "(从 _MAX_ 条数据中检索)",
 		"oPaginate" : {
 		"sFirst" : "首页",
