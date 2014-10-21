@@ -1,20 +1,15 @@
 $(function(){
 	var editor = new $.fn.dataTable.Editor( {
-		ajax: "/admin/categorys/store",
+		ajax: "/admin/foods/category/store",
 		table: "#categoryTables",
 		idSrc: "id",
 		fields: [{
 			label: "分类编码：",
-			name: "code"
+			name: "code",
+			def: "FOOD_CATEGORY_"
 		}, {
-			label: "父编码：",
-			name: "parent_code"
-		}, {
-			label: "名称：",
+			label: "分类名称：",
 			name: "name"
-		}, {
-			label: "附加属性：",
-			name: "add1"
 		}, {
 			label: "描述：",
 			name: "desc"
@@ -28,28 +23,24 @@ $(function(){
 		"bFilter": true,
 		"bInfo": true,
 		"bAutoWidth": false,
-		"sAjaxSource": "/admin/categorys/tables",
+		"sAjaxSource": "/admin/foods/category/tables",
 		"bServerSide": true,
 		"columns": [
 			{ data: "id" },
 			{ data: "code" },
-			{ data: "parent_code" },
 			{ data: "name" },
-			{ data: "add1" },
 			{ data: "desc" },
 			{ data: "created_at" }
-		]
+		],
+		"fnDrawCallback": function ( oSettings ) {
+			if ( oSettings.bSorted || oSettings.bFiltered ) {
+				for ( var i=0, iLen=oSettings.aiDisplay.length ; i<iLen ; i++ ) {
+					$('td:eq(0)', oSettings.aoData[ oSettings.aiDisplay[i] ].nTr ).html( i+1 );
+				}
+			}
+		}
 	});
 
-	// Apply the search
-//	table.columns().eq( 0 ).each( function ( colIdx ) {
-//		$( 'input', table.column( colIdx ).footer() ).on( 'keyup change', function () {
-//			table
-//				.column( colIdx )
-//				.search( this.value )
-//				.draw();
-//		} );
-//	} );
 
 	var tableTools = new $.fn.dataTable.TableTools( table, {
 		sRowSelect: "os",

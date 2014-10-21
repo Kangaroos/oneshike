@@ -110,15 +110,16 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                         <i class="fa fa-dashboard"></i> <span> 控制台 </span>
                     </a>
                 </li>
-                <li class="treeview">
+                <li class="treeview {{ $is_active(array('foods', 'foods.category', 'foods.area'),true) }}">
                     <a href="#">
                         <i class="fa fa-th"></i>
                         <span>食材百科</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 食材管理</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 产地管理</a></li>
+                        <li class="{{ $is_active('foods') }}"><a href="{{ url('/admin/foods') }}"><i class="fa fa-angle-double-right"></i> 食材管理</a></li>
+                        <li class="{{ $is_active('foods.area') }}"><a href="{{ url('/admin/foods/area') }}"><i class="fa fa-angle-double-right"></i> 食材产地管理</a></li>
+                        <li class="{{ $is_active('foods.category') }}"><a href="{{ url('/admin/foods/category') }}"><i class="fa fa-angle-double-right"></i> 食材分类管理</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
@@ -129,6 +130,7 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                     </a>
                     <ul class="treeview-menu">
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> 商品管理</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 商品分类管理</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
@@ -139,6 +141,7 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                     </a>
                     <ul class="treeview-menu">
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> 菜谱审核</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 菜谱分类管理</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
@@ -151,24 +154,26 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> 图文审核</a></li>
                     </ul>
                 </li>
-                <li class="{{ $is_active('categorys') }}">
-                    <a href="{{ url('/admin/categorys') }}">
-                        <i class="fa fa-th"></i> <span>分类管理</span>
+                <li class="treeview {{ $is_active(array('users', 'users.level'),true) }}">
+                    <a href="#">
+                        <i class="fa fa-th"></i>
+                        <span>用户管理</span>
+                        <i class="fa fa-angle-left pull-right"></i>
                     </a>
+                    <ul class="treeview-menu">
+                        <li class="{{ $is_active('users') }}"><a href="{{ url('/admin/users') }}"><i class="fa fa-angle-double-right"></i> 会员管理</a></li>
+                        <li class="{{ $is_active('users.level') }}"><a href="{{ url('/admin/users/level') }}"><i class="fa fa-angle-double-right"></i> 会员等级管理</a></li>
+                    </ul>
                 </li>
-                <li class="{{ $is_active('users') }}">
-                    <a href="{{ url('/admin/users') }}">
-                        <i class="fa fa-th"></i> <span>用户管理</span>
-                    </a>
-                </li>
-                <li class="treeview">
+                <li class="treeview {{ $is_active(array('system.admin', 'dicts'),true) }}">
                     <a href="#">
                         <i class="fa fa-th"></i>
                         <span>系统管理</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 数据字典维护</a></li>
+                        <li class="{{ $is_active('system.admin') }}"><a href="{{ url('/admin/system/admin') }}"><i class="fa fa-angle-double-right"></i> 管理员管理</a></li>
+                        <li class="{{ $is_active('dicts') }}"><a href="{{ url('/admin/dicts') }}"><i class="fa fa-angle-double-right"></i> 数据字典维护</a></li>
                     </ul>
                 </li>
             </ul>

@@ -2,29 +2,15 @@
 
 class AdminController extends BaseController
 {
-    /**
-     * 资源视图目录
-     * @var string
-     */
     protected $resourceView = 'admin';
 
-    /**
-     * 资源模型名称，初始化后转为模型实例
-     * @var string|Illuminate\Database\Eloquent\Model
-     */
     protected $model = 'Admin';
 
-    /**
-     * 资源标识
-     * @var string
-     */
     protected $resource = 'admin';
 
-    /**
-     * 资源数据库表
-     * @var string
-     */
     protected $resourceTable = 'admins';
+
+    protected $resourceName = '管理员管理';
 
     public function __construct()
     {
@@ -147,5 +133,44 @@ class AdminController extends BaseController
     public function getLogout(){
         Session::forget('admin');
         return Redirect::to("/admin");
+    }
+
+    public function dataTables(){
+        $admins = Admin::all();
+        return Datatable::collection($admins)
+            ->showColumns("id", "account", "name", "created_at")
+            ->searchColumns('account')
+            ->orderColumns('created_at')
+            ->setAliasMapping()
+            ->make();
+    }
+
+    public function store()
+    {
+        $post = Input::all();
+
+        $response = array();
+
+        switch($post["action"]){
+            case "create":
+                $data = $post["data"];
+                $data["pwd"] = Hash::make('oneshike');
+                $model = $this->model;
+                $response = $this->saveModel($data, $model, Admin::$rules, Admin::$validatorMessages);
+                break;
+            case "edit":
+                $data = $post["data"];
+                $model = $this->model->find($post["id"]);
+                $response = $this->saveModel($data, $model, Admin::$rules, Admin::$validatorMessages);
+                break;
+            case "remove":
+                $ids = $post["id"];
+                foreach($ids as $id) {
+                    $data = $this->model->find($id);
+                    $data->delete();
+                }
+                break;
+        }
+        return Response::json($response);
     }
 }

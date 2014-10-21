@@ -1,16 +1,16 @@
 <?php
 
-class CategoryController extends BaseController
+class DictController extends BaseController
 {
-    protected $resourceView = 'admin.categorys';
+    protected $resourceView = 'admin.dicts';
 
-    protected $model = 'Category';
+    protected $model = 'Dict';
 
-    protected $resource = 'categorys';
+    protected $resource = 'dicts';
 
-    protected $resourceTable = 'categorys';
+    protected $resourceTable = 'dicts';
 
-    protected $resourceName = '分类管理';
+    protected $resourceName = '数据字典管理';
 
     public function __construct()
     {
@@ -21,8 +21,6 @@ class CategoryController extends BaseController
 
     public function index()
     {
-        $category = Category::where("level",1)->lists("name","code");
-
         $resource     = $this->resource;
         $resourceName = $this->resourceName;
         $resourceDesc = '';
@@ -30,9 +28,11 @@ class CategoryController extends BaseController
     }
 
     public function dataTables(){
-        return Datatable::collection(Category::all(array("id", "code", "parent_code", "name", "level", "add1", "desc", "created_at")))
-            ->showColumns("id", "code", "parent_code", "name", "level", "add1", "desc", "created_at")
-            ->searchColumns(array('code', 'parent_code', 'name', 'level'))
+        $dicts = Dict::whereNotIn('code', array('USER_LEVEL'))->get();
+
+        return Datatable::collection($dicts)
+            ->showColumns("id", "code", "name", "para_code", "para_name", "para_add1", "desc", "created_at")
+            ->searchColumns('code')
             ->orderColumns('created_at')
             ->setAliasMapping()
             ->make();
@@ -48,12 +48,12 @@ class CategoryController extends BaseController
             case "create":
                 $data = $post["data"];
                 $model = $this->model;
-                $response = $this->saveModel($data, $model, Category::$rules, Category::$validatorMessages);
+                $response = $this->saveModel($data, $model, Dict::$rules, Dict::$validatorMessages);
                 break;
             case "edit":
                 $data = $post["data"];
                 $model = $this->model->find($post["id"]);
-                $response = $this->saveModel($data, $model, Category::$rules, Category::$validatorMessages);
+                $response = $this->saveModel($data, $model, Dict::$rules, Dict::$validatorMessages);
                 break;
             case "remove":
                 $ids = $post["id"];

@@ -11,4 +11,22 @@ class Dict extends BaseModel
      * @var string
      */
     protected $table = 'dicts';
+
+    public static $rules  = array(
+        'code'    => 'required',
+        'name'    => 'required',
+        'para_code'    => 'required',
+        'para_name'    => 'required'
+    );
+
+    /**
+     * 自定义验证消息
+     * @var array
+     */
+    public static $validatorMessages = array(
+        'code.required'      => '请输入字典组编码。',
+        'name.required'      => '请输入字典组名称。',
+        'para_code.required'      => '请输入字典编码。',
+        'para_name.required'      => '请输入字典名称。'
+    );
 }

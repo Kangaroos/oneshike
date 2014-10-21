@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration {
             $table->string('nickname', 60)->nullable();//昵称
             $table->char('status',3)->default('001');//用户状态
             $table->char('level',3)->default('001');//会员等级
+            $table->integer('points')->default(0)->nullable();//会员积分
             $table->string('phone_number', 16)->nullable();//联系电话
             $table->string('email',255);//邮箱
             $table->string('portrait')->nullable();//头像

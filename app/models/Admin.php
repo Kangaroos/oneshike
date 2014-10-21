@@ -14,6 +14,20 @@ class Admin extends BaseModel
      */
     protected $table = 'admins';
 
+    public static $rules  = array(
+        'account'    => 'required',
+        'name'    => 'required'
+    );
+
+    /**
+     * 自定义验证消息
+     * @var array
+     */
+    public static $validatorMessages = array(
+        'account.required'      => '请输入用户名。',
+        'name.required'      => '请输入姓名。'
+    );
+
     public function hasLogin(array $credentials = array(), $remember = false, $login=true)
     {
         $admin = $this::where('account', $credentials['account'])->find(1);

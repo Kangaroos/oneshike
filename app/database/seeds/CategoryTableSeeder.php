@@ -12,6 +12,13 @@ class  CategoryTableSeeder extends Seeder {
             'name'=> '原产地'
         ));
 
+        Category::create(array(
+            'code' => 'FOOD_CATEGORY',
+            'parent_code' => 'FOOD',
+            'level' => 1,
+            'name'=> '食材分类'
+        ));
+
         /*** 菜系 ***/
 
         Category::create(array(

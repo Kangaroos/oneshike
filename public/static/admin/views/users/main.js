@@ -1,6 +1,6 @@
 $(function(){
 	var editor = new $.fn.dataTable.Editor( {
-		ajax: "/admin/users/curd/store",
+		ajax: "/admin/users/store",
 		table: "#userTables",
 		idSrc: "id",
 		fields: [{
@@ -21,6 +21,9 @@ $(function(){
 			name: "level",
 			type:  "select"
 		}, {
+			label: "积分：",
+			name: "points"
+		}, {
 			label: "联系电话：",
 			name: "phone_number"
 		},{
@@ -38,6 +41,14 @@ $(function(){
 		}]
 	} );
 
+	editor.on( 'onInitCreate', function () {
+		editor.enable('account');
+	});
+
+	editor.on( 'onInitEdit', function () {
+		editor.disable('account');
+	});
+
 	var table = $('#userTables').dataTable({
 		"sScrollX": "200%",
 		"bProcessing": false,
@@ -46,7 +57,7 @@ $(function(){
 		"bFilter": true,
 		"bInfo": true,
 		"bAutoWidth": false,
-		"sAjaxSource": "/admin/users/curd/tables",
+		"sAjaxSource": "/admin/users/tables",
 		"bServerSide": true,
 		"columns": [
 			{ data: "id" },
@@ -55,6 +66,7 @@ $(function(){
 			{ data: "nickname" },
 			{ data: "status_list.label" },
 			{ data: "level_list.label" },
+			{ data: "points" },
 			{ data: "phone_number" },
 			{ data: "email" },
 			{ data: "qq" },
@@ -67,7 +79,6 @@ $(function(){
 			{ data: "created_at" }
 		],
 		initComplete: function ( settings, json ) {
-			console.log(json.aaData);
 			editor.field( 'status' ).update( json.status_list );
 			editor.field( 'level' ).update( json.level_list );
 		}

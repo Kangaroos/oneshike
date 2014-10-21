@@ -30,7 +30,7 @@ class UserController extends BaseController
     public function dataTables(){
         $users = User::all();
         return Datatable::collection($users)
-            ->showColumns("id", "account", "signature", "nickname", "status", "level", "phone_number", "email", "portrait", "qq", "wechat", "age", "address", "last_login_time", "last_login_ip", "total_login", "created_at")
+            ->showColumns("id", "account", "signature", "nickname", "status", "level", "points", "phone_number", "email", "portrait", "qq", "wechat", "age", "address", "last_login_time", "last_login_ip", "total_login", "created_at")
             ->addColumn('status_list',function($model){
                 return Dict::where('code', 'USER_STATUS')->where('para_code', $model->status)->select('para_name as label', 'para_code as value')->first();
             })
@@ -54,7 +54,6 @@ class UserController extends BaseController
         $post = Input::all();
 
         $response = array();
-
         switch($post["action"]){
             case "create":
                 $data = $post["data"];
@@ -76,5 +75,54 @@ class UserController extends BaseController
                 break;
         }
         return Response::json($response);
+    }
+
+    public function getUserLevel()
+    {
+        $resource     = $this->resource.'.level';
+        $resourceName = '会员等级管理';
+        $resourceDesc = '';
+        return View::make($this->resourceView.'.level')->with(compact('resource', 'resourceName', 'resourceDesc'));
+    }
+
+    public function getUserLevelStore() {
+        $post = Input::all();
+
+        $response = array();
+        $model = App::make("Dict");
+
+        switch($post["action"]){
+            case "create":
+                $data = $post["data"];
+                $data["code"] = "USER_LEVEL";
+                $data["name"] = "会员等级";
+                $response = $this->saveModel($data, $model, Dict::$rules, Dict::$validatorMessages);
+                break;
+            case "edit":
+                $data = $post["data"];
+                $data["code"] = "USER_LEVEL";
+                $data["name"] = "会员等级";
+                $model = $model->find($post["id"]);
+                $response = $this->saveModel($data, $model, Dict::$rules, Dict::$validatorMessages);
+                break;
+            case "remove":
+                $ids = $post["id"];
+                foreach($ids as $id) {
+                    $data = $model->find($id);
+                    $data->delete();
+                }
+                break;
+        }
+        return Response::json($response);
+    }
+
+    public function getUserLevelDataTables() {
+        $levels = Dict::where('code', 'USER_LEVEL')->get();
+        return Datatable::collection($levels)
+            ->showColumns("id", "code", "name", "para_code", "para_name", "para_add1", "desc", "created_at")
+            ->searchColumns('para_code')
+            ->orderColumns('created_at')
+            ->setAliasMapping()
+            ->make();
     }
 }
