@@ -15,7 +15,7 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function main()
+	public function getIndex()
 	{
 		return View::make('index');
 	}

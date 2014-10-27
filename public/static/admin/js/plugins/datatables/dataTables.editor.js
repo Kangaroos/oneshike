@@ -17,7 +17,7 @@ var remaining = Math.ceil(
 	(new Date( 1415750400 * 1000 ).getTime() - new Date().getTime()) / (1000*60*60*24)
 );
 
-if ( remaining <= 0 ) {
+if (  false ) {
 	alert(
 		'Thank you for trying DataTables Editor\n\n'+
 		'Your trial has now expired. To purchase a license '+
@@ -25,7 +25,7 @@ if ( remaining <= 0 ) {
 	);
 	throw 'Editor - Trial expired';
 }
-else if ( remaining <= 7 ) {
+else if ( false ) {
 	console.log(
 		'DataTables Editor trial info - '+remaining+
 		' day'+(remaining===1 ? '' : 's')+' remaining'

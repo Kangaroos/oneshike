@@ -2,6 +2,18 @@ body {
   background-color: #eeeeee;
   color: #333333;
 }
+.osk-header.isStuck {
+  position: fixed;
+  z-index: 1030;
+  background: #ffffff;
+  height: 100px;
+}
+.osk-header {
+  position: fixed;
+  z-index: 1030;
+  background: #ffffff;
+  height: 60px;
+}
 .osk-box {
   margin: 10px auto;
 }
@@ -345,8 +357,8 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
   color: palevioletred;
 }
 /*
- 	* page-navigation
- 	*/
+ * page-navigation
+ */
 #page-navigation {
   text-align: center;
   padding: 20px 0 50px 0;

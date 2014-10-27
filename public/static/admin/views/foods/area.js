@@ -16,6 +16,26 @@ $(function(){
 		}]
 	} );
 
+	var editorCity = new $.fn.dataTable.Editor( {
+		ajax: "/admin/foods/area/store",
+		table: "#areaTables",
+		idSrc: "id",
+		fields: [{
+			label: "父产地名称：",
+			name: "parent_code"
+		}, {
+			label: "产地编码：",
+			name: "code",
+			def: "FOOD_AREA_"
+		}, {
+			label: "产地名称：",
+			name: "name"
+		}, {
+			label: "描述：",
+			name: "desc"
+		}]
+	} );
+
 	var table = $('#areaTables').dataTable({
 		"bProcessing": false,
 		"bPaginate": true,
@@ -51,14 +71,11 @@ $(function(){
 				sExtends: 'select_single',
 				sButtonClass: 'marginLeft',
 				sButtonText: '新增市区',
-				fnClick: function () {
-					if ( table.row( '.selected' ).length !== 0 ) {
-						// Show the salary submit form
-//						salaryEditor
-//							.title( 'Edit salary' )
-//							.buttons( { label: 'Save', fn: function() { this.submit(); } } )
-//							.edit( table.row( '.selected' ).node() );
-					}
+				fnClick: function (){
+					editorCity
+						.title( '新增市区' )
+						.buttons( { label: '保存', fn: function() { this.submit(); } } )
+						.edit( table.api().row('.active').node() );
 				}
 			},
 			{ sExtends: "editor_edit",   editor: editor },
