@@ -91,15 +91,9 @@
                  * @param {String} data
                  * @param {String} dataType , "json", "jsonp", "html"
                  */
-                renderData: function (data, dataType) {
-                    var tpl,
-                        template;
-
+                renderData: function (data, dataType, template) {
                     if ( dataType === 'json' ||  dataType === 'jsonp'  ) { // json or jsonp format
-                        tpl = $('#waterfall-tpl').html();
-                        template = Handlebars.compile(tpl);
-
-                        return template(data);
+						return template(data);
                     } else { // html format
                         return data;
                     }
@@ -491,7 +485,7 @@
         _handleResponse: function(data, callback) {
             var self = this,
                 options = this.options,
-                content = $.trim(options.callbacks.renderData(data, options.dataType)),
+                content = $.trim(options.callbacks.renderData(data, options.dataType, options.template)),
                 $content = $(content),
                 checkImagesLoaded = options.checkImagesLoaded;
 

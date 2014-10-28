@@ -2,36 +2,43 @@
 
 @section('head')
 @parent
+@section('title')壹食客首页 @parent @stop
 <link href="{{ asset('/static/admin/css/datatables/css/dataTables.tableTools.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/css/datatables/css/dataTables.bootstrap.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/css/datatables/css/editor.bootstrap.css') }}" rel="stylesheet" type="text/css" />
 @stop
 
 @section('container')
-<header class="osk-header">
+<div class="osk-carousel">
+    <div id="carousel-global-ad" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-global-ad" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-global-ad" data-slide-to="1"></li>
+            <li data-target="#carousel-global-ad" data-slide-to="2"></li>
+        </ol>
 
-</header>
-
-<div id="carousel-global-ad" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-global-ad" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-global-ad" data-slide-to="1"></li>
-        <li data-target="#carousel-global-ad" data-slide-to="2"></li>
-    </ol>
-
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="static/img/tmp/slider1.jpg" alt="123">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="static/img/tmp/slider1.jpg" alt="123">
+            </div>
+            <div class="item">
+                <img src="static/img/tmp/slider2.jpg" alt="456">
+            </div>
+            <div class="item">
+                <img src="static/img/tmp/slider3.jpg" alt="789">
+            </div>
         </div>
-        <div class="item">
-            <img src="static/img/tmp/slider2.jpg" alt="456">
-        </div>
-        <div class="item">
-            <img src="static/img/tmp/slider3.jpg" alt="789">
-        </div>
+        <a class="left carousel-control" href="#carousel-global-ad" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-global-ad" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
-<div class="container osk-box">
+<div class="osk-screening">
     <div class="panel panel-default panel-screening">
         <div class="panel-body">
             <div class="screening">
@@ -99,7 +106,7 @@
             </div>
         </div>
     </div>
-    <div id="waterfall" class="osk-box waterfall-container"></div>
+    <div id="waterfall" class="osk-waterfall"></div>
 </div>
 <div id="page-navigation" class="clear">
     <span class="disabled page-navigation-prev" title="上一页">«上一页</span>
@@ -123,41 +130,6 @@
 
 @section('end')
 @parent
-<script src="static/library/waterfall/build/waterfall.min.js"></script>
-<script src="static/library/handlebars/handlebars.min.js"></script>
-<script src="static/library/jquery.easing/js/jquery.easing.min.js"></script>
-<script type="text/x-handlebars-template" id="waterfall-tpl" src="static/tpl/waterfall-tpl.hbs"></script>
-<script>
-    jQuery(function($) {
-        $(document).ready(function(){
-//            $('.osk-header').stickUp();
-            $('.carousel').carousel({interval: 3000});
-
-            $('#waterfall').waterfall({
-                itemCls: 'waterfall-item',
-                colWidth: 214,
-                gutterWidth: 10,
-                gutterHeight: 20,
-                maxPage: 5,
-                checkImagesLoaded: true,
-//				isFadeIn: true,
-                isAnimated: true,
-                callbacks: {
-                    loadingFinished: function($loading, isBeyondMaxPage) {
-                        if ( !isBeyondMaxPage ) {
-                            $loading.fadeOut();
-                        } else {
-                            $loading.hide();
-                            $('#page-navigation').show();
-                        }
-                    }
-                },
-                path: function(page) {
-                    return 'static/data/data' + page + '.json';
-                }
-            });
-        });
-    });
-</script>
+<script data-main="/static/js/views/index/main" src="/static/library/requirejs/require.js"></script>
 @stop
 

@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title')@stop
+@section('title') 壹食客，做最好的美食网站 @stop
 @section('head')
 <link href="static/library/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="static/library/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -13,12 +13,55 @@
 <script src="static/library/less/dist/less-1.7.3.min.js"></script>
 @parent @stop
 @section('body')
-<header class="osk-header">
-
-</header>
-@yield('container')
-<footer class="osk-footer">
+<nav class="navbar navbar-osk navbar-fixed-top" role="navigation">
     <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="logo">
+            <a href="#"><img src="/static/img/logo.png" alt="食客网"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#about" class="active">原产地</a></li>
+                <li><a href="#about">百科</a></li>
+                <li><a href="#about">食谱</a></li>
+                <li><a href="#contact">美食</a></li>
+                <li><a href="#contact">厨具</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-lg"></i> 账户 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#"><i class="fa fa-weibo fa-lg"></i> 微博登录</a></li>
+                        <li><a href="#"><i class="fa fa-qq fa-lg"></i> QQ登录</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-in fa-lg"></i> 登录</a></li>
+                        <li><a href="#"><i class="fa fa-users fa-lg"></i> 注册</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <div class="osk-search">
+                        <input type="search" class="search" placeholder="食材/菜谱/厨具" autocomplete="off">
+                        <button type="submit" class="fa fa-search fa-lg"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="container osk-box">
+    @yield('container')
+</div>
+<footer class="osk-footer">
+    <div class="container-fluid">
         <div class="copyright">
             <div class="copy-main">
                 <div class="item">
@@ -78,10 +121,4 @@
     </div>
 </footer>
 @stop
-@section('end')
-<script src="static/library/jquery-1.11.1/dist/jquery.min.js"></script>
-<script src="static/library/bootstrap/dist/js/bootstrap.min.js"></script>
-<!--<script src="static/library/stickUp/stickUp.js"></script>-->
-@parent @stop
-
-
+@section('end')@parent @stop
