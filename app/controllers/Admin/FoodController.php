@@ -20,7 +20,7 @@ class FoodController extends BaseController
         return View::make($this->resourceView.'.category')->with(compact('resource', 'resourceName', 'resourceDesc'));
     }
 
-    public function getFoodCategoryStore() {
+    public function postFoodCategoryStore() {
         $post = Input::all();
 
         $response = array();
@@ -69,7 +69,7 @@ class FoodController extends BaseController
         return View::make($this->resourceView.'.area')->with(compact('resource', 'resourceName', 'resourceDesc'));
     }
 
-    public function getFoodAreaStore() {
+    public function postFoodAreaStore() {
         $post = Input::all();
 
         $response = array();

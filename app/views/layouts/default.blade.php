@@ -1,16 +1,16 @@
 @extends('layouts.base')
 @section('title') 壹食客，做最好的美食网站 @stop
 @section('head')
-<link href="static/library/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="static/library/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-<link rel="stylesheet" href="static/library/font-awesome/css/font-awesome.min.css">
-<link href="static/css/animate.css" rel="stylesheet">
+<link href="/static/library/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--<link href="/static/library/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">-->
+<link rel="stylesheet" href="/static/library/font-awesome/css/font-awesome.min.css">
+<link href="/static/css/animate.css" rel="stylesheet">
 <!--[if lt IE 9]>
-<script src="static/library/html5shiv/dist/html5shiv.min.js"></script>
-<script src="static/library/respond/dest/respond.min.js"></script>
+<script src="/static/library/html5shiv/dist/html5shiv.min.js"></script>
+<script src="/static/library/respond/dest/respond.min.js"></script>
 <![endif]-->
 <link rel="stylesheet/less" type="text/css" href="static/less/default.less" />
-<script src="static/library/less/dist/less-1.7.3.min.js"></script>
+<script src="/static/library/less/dist/less-1.7.3.min.js"></script>
 @parent @stop
 @section('body')
 <nav class="navbar navbar-osk navbar-fixed-top" role="navigation">
@@ -41,8 +41,8 @@
                         <li><a href="#"><i class="fa fa-weibo fa-lg"></i> 微博登录</a></li>
                         <li><a href="#"><i class="fa fa-qq fa-lg"></i> QQ登录</a></li>
                         <li class="divider"></li>
-                        <li><a href="#"><i class="fa fa-sign-in fa-lg"></i> 登录</a></li>
-                        <li><a href="#"><i class="fa fa-users fa-lg"></i> 注册</a></li>
+                        <li><a href="/signin"><i class="fa fa-sign-in fa-lg"></i> 登录</a></li>
+                        <li><a href="signup"><i class="fa fa-users fa-lg"></i> 注册</a></li>
                     </ul>
                 </li>
             </ul>

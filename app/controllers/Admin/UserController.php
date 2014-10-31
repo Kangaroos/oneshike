@@ -85,7 +85,7 @@ class UserController extends BaseController
         return View::make($this->resourceView.'.level')->with(compact('resource', 'resourceName', 'resourceDesc'));
     }
 
-    public function getUserLevelStore() {
+    public function postUserLevelStore() {
         $post = Input::all();
 
         $response = array();

@@ -20,4 +20,13 @@ class HomeController extends BaseController {
 		return View::make('index');
 	}
 
+    public function getSignup()
+    {
+        return View::make('signup');
+    }
+
+    public function getSignin()
+    {
+        return View::make('signin');
+    }
 }

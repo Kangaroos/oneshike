@@ -122,9 +122,8 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Xyezir\Datatable\DatatableServiceProvider',
-        'Way\Generators\GeneratorsServiceProvider',
 
-    ),
+	),
 
 	/*
 	|--------------------------------------------------------------------------

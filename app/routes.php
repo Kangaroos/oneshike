@@ -23,6 +23,8 @@ Route::group(array('prefix' => 'auth'), function () {
 Route::group(array(), function () {
     $controller = 'HomeController@';
     Route::get('/', array('as' => 'index', 'uses' => $controller.'getIndex'));
+    Route::get('/signin', array('as' => 'signin', 'uses' => $controller.'getSignin'));
+    Route::get('/signup', array('as' => 'signup', 'uses' => $controller.'getSignup'));
 });
 
 
@@ -51,11 +53,11 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
 
         Route::get('/category', array('as' => $resource.'.category'  , 'uses' => $controller.'getFoodCategory'));
         Route::get('/category/tables', array('as' => $resource.'.category.dataTables' , 'uses' => $controller.'getFoodCategoryDataTables' ));
-        Route::post('/category/store', array('as' => $resource.'.category.store' , 'uses' => $controller.'getFoodCategoryStore' ));
+        Route::post('/category/store', array('as' => $resource.'.category.store' , 'uses' => $controller.'postFoodCategoryStore' ));
 
         Route::get('/area', array('as' => $resource.'.area'  , 'uses' => $controller.'getFoodArea'));
         Route::get('/area/tables', array('as' => $resource.'.area.dataTables' , 'uses' => $controller.'getFoodAreaDataTables' ));
-        Route::post('/area/store', array('as' => $resource.'.area.store' , 'uses' => $controller.'getFoodAreaStore' ));
+        Route::post('/area/store', array('as' => $resource.'.area.store' , 'uses' => $controller.'postFoodAreaStore' ));
     });
 
     #导购商品
@@ -82,7 +84,7 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
 
         Route::get('/level', array('as' => $resource.'.level'  , 'uses' => $controller.'getUserLevel'));
         Route::get('/level/tables', array('as' => $resource.'.level.dataTables'  , 'uses' => $controller.'getUserLevelDataTables'));
-        Route::post('/level/store', array('as' => $resource.'.level.store'  , 'uses' => $controller.'getUserLevelStore'));
+        Route::post('/level/store', array('as' => $resource.'.level.store'  , 'uses' => $controller.'postUserLevelStore'));
     });
 
     Route::group(array('prefix' => 'categorys'), function () {
@@ -108,4 +110,36 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
         Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
         Route::post('/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
     });
+});
+
+
+/*
+|--------------------------------------------------------------------------
+| Common
+|--------------------------------------------------------------------------
+*/
+Route::any('/captcha', function()
+{
+
+    if (Request::getMethod() == 'POST')
+    {
+        $rules =  array('captcha' => array('required', 'captcha'));
+        $validator = Validator::make(Input::all(), $rules);
+        if ($validator->fails())
+        {
+            echo '<p style="color: #ff0000;">Incorrect!</p>';
+        }
+        else
+        {
+            echo '<p style="color: #00ff30;">Matched :)</p>';
+        }
+    }
+
+    $content = Form::open(array(URL::to(Request::segment(1))));
+    $content .= '<p>' . HTML::image(Captcha::img(), 'Captcha image') . '</p>';
+    $content .= '<p>' . Form::text('captcha') . '</p>';
+    $content .= '<p>' . Form::submit('Check') . '</p>';
+    $content .= '<p>' . Form::close() . '</p>';
+    return $content;
+
 });

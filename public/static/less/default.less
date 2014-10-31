@@ -219,7 +219,9 @@ body {
 	}
 }
 
-.osk-carousel {
+.osk-page {
+	display: inline-block;
+	width: 100%;
 	margin-top: 90px;
 	.carousel {
 		.carousel-inner>.item>img, .carousel-inner>.item>a>img {
@@ -227,7 +229,23 @@ body {
 			height: 300px;
 		}
 	}
+
+	.register {
+		margin: 100px auto;
+		width: 500px;
+
+		.separated {
+			display: block;
+			width: 100%;
+			border-bottom: 1px solid @navbar-default-border;
+		}
+
+		.form-horizontal {
+			margin-top: 20px;
+		}
+	}
 }
+
 .osk-screening {
 	margin-top: 10px;
 }

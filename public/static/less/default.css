@@ -184,13 +184,27 @@ fieldset[disabled] .navbar-osk .btn-link:hover,
 fieldset[disabled] .navbar-osk .btn-link:focus {
   color: #cccccc;
 }
-.osk-carousel {
+.osk-page {
+  display: inline-block;
+  width: 100%;
   margin-top: 90px;
 }
-.osk-carousel .carousel .carousel-inner > .item > img,
-.osk-carousel .carousel .carousel-inner > .item > a > img {
+.osk-page .carousel .carousel-inner > .item > img,
+.osk-page .carousel .carousel-inner > .item > a > img {
   width: 100%;
   height: 300px;
+}
+.osk-page .register {
+  margin: 100px auto;
+  width: 500px;
+}
+.osk-page .register .separated {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+}
+.osk-page .register .form-horizontal {
+  margin-top: 20px;
 }
 .osk-screening {
   margin-top: 10px;
