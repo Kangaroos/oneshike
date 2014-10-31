@@ -145,5 +145,13 @@ class  CategoryTableSeeder extends Seeder {
             'level' => 2,
             'name'=> '炸'
         ));
+
+        #商品种类
+        Category::create(array(
+            'code' => 'PRODUCT_CATEGORY_xxsp',
+            'parent_code' => 'PRODUCT_CATEGORY',
+            'level' => 2,
+            'name'=> '休闲食品'
+        ));
     }
 }

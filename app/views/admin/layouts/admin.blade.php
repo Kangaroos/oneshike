@@ -129,8 +129,8 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 商品管理</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 商品分类管理</a></li>
+                        <li><a class="{{ $is_active('products') }}" href="{{ url('/admin/products') }}"><i class="fa fa-angle-double-right"></i> 商品管理</a></li>
+                        <li><a class="{{ $is_active('products.category') }}" href="{{ url('/admin/products/category') }}"><i class="fa fa-angle-double-right"></i> 商品分类管理</a></li>
                     </ul>
                 </li>
                 <li class="treeview">

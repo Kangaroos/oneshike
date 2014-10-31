@@ -41,7 +41,7 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
     Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
     Route::post('/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
 
-
+    #食材百科
     Route::group(array('prefix' => 'foods'), function () {
         $resource   = 'foods';
         $controller = 'FoodController@';
@@ -56,6 +56,20 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
         Route::get('/area', array('as' => $resource.'.area'  , 'uses' => $controller.'getFoodArea'));
         Route::get('/area/tables', array('as' => $resource.'.area.dataTables' , 'uses' => $controller.'getFoodAreaDataTables' ));
         Route::post('/area/store', array('as' => $resource.'.area.store' , 'uses' => $controller.'getFoodAreaStore' ));
+    });
+
+    #导购商品
+    Route::group(array('prefix'=>'products'),function(){
+        $resource   = 'products';
+        $controller = 'ProductController@';
+        Route::get('/',array('as'=>$resource.'.index' , 'uses'=>$controller.'index'));
+        Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/store',array('as'=>$resource.'.store','uses'=>$controller.'store'));
+
+        Route::get('/category',array('as'=>$resource.'.category' , 'uses'=>$controller.'getProductCategory'));
+        Route::get('/category/tables', array('as' => $resource.'.category.dataTables' , 'uses' => $controller.'getProductCategoryDataTables' ));
+        Route::post('/category/store', array('as' => $resource.'.product.store' , 'uses' => $controller.'getProductCategoryStore' ));
+
     });
 
     # 用户管理

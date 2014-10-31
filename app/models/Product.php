@@ -2,6 +2,7 @@
 
 class Product extends BaseModel
 {
+    #软删除
     use SoftDeletingTrait;
 
     protected $dates = ['deleted_at'];
@@ -11,4 +12,16 @@ class Product extends BaseModel
      * @var string
      */
     protected $table = 'products';
+
+    public static $rules  = array(
+        'name'    => 'required',
+    );
+
+    /**
+     * 自定义验证消息
+     * @var array
+     */
+    public static $validatorMessages = array(
+        'name.required'      => '请输入分类名称。'
+    );
 }

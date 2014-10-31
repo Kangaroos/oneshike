@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'oneshike',
 			'username'  => 'root',
-			'password'  => '644458',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => 'osk_',

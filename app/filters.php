@@ -31,12 +31,12 @@
 //App::before(function($request){});
 
 # CSRF保护过滤器，防止跨站点请求伪造攻击
-Route::filter('csrf', function()
-{
-    $token = Request::ajax() ? Request::header('X-CSRF-Token') : Input::get('_token');
-    if (Session::token() != $token)
-        throw new Illuminate\Session\TokenMismatchException;
-});
+//Route::filter('csrf', function()
+//{
+//    $token = Request::ajax() ? Request::header('X-CSRF-Token') : Input::get('_token');
+//    if (Session::token() != $token)
+//        throw new Illuminate\Session\TokenMismatchException;
+//});
 
 # 必须是管理员
 Route::filter('admin', function () {

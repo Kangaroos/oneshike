@@ -9,14 +9,19 @@
 
 @section('container')
 <div class="col-xs-12">
-    <table id="adminTables" class="table table-striped table-bordered">
+    <table id="productTables" class="table table-striped table-bordered">
         <thead>
-        <tr>
-            <th>编号</th>
-            <th>帐号</th>
-            <th>姓名</th>
-            <th>注册时间</th>
-        </tr>
+            <tr>
+                <th>名称</th>
+                <th>编号</th>
+                <th>品号</th>
+                <th>国产/进口</th>
+                <th>原产地</th>
+                <th>品牌</th>
+                <th>价格</th>
+                <th>详细介绍</th>
+                <th>创建时间</th>
+            </tr>
         </thead>
     </table>
 </div>
@@ -29,5 +34,5 @@
 <script src="{{ asset('/static/admin/js/plugins/datatables/dataTables.editor.js') }}"></script>
 <script src="{{ asset('/static/admin/js/plugins/datatables/dataTables.bootstrap.js') }}"></script>
 <script src="{{ asset('/static/admin/js/plugins/datatables/editor.bootstrap.js') }}"></script>
-<script src="{{ asset('/static/admin/views/system/admin.js') }}"></script>
+<script src="{{ asset('/static/admin/views/products/main.js') }}"></script>
 @stop
