@@ -1,6 +1,6 @@
 {
-    "name": "xyezir/oauth",
-    "description": "Stupid simple OAuth authentication with Laravel and Eloquent",
+    "name": "xyezir/eloquent-oauth",
+    "description": "",
     "authors": [
         {
             "name": "xyezir",
@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-		"php": ">=5.3.0",
+        "php": ">=5.4.0",
 		"illuminate/auth": "4.*",
 		"illuminate/session": "4.*",
 		"illuminate/database": "4.*",
@@ -20,7 +20,7 @@
 	},
     "autoload": {
         "psr-0": {
-            "Xyezir\\Oauth": "src/"
+            "Xyezir\\EloquentOAuth": "src/"
         },
 		"classmap": [
 			"tests/FunctionalTestCase.php"

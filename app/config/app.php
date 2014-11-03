@@ -121,7 +121,10 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+        'Way\Generators\GeneratorsServiceProvider',
+        'Mews\Captcha\CaptchaServiceProvider',
         'Xyezir\Datatable\DatatableServiceProvider',
+        'Xyezir\EloquentOAuth\EloquentOAuthServiceProvider',
 
 	),
 
@@ -190,6 +193,8 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
         'Datatable'       => 'Xyezir\Datatable\Facades\DatatableFacade',
+        'Captcha' => 'Mews\Captcha\Facades\Captcha',
+        'OAuth' => 'Xyezir\EloquentOAuth\Facades\OAuth',
 
 	),
 

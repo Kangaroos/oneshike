@@ -1,6 +1,6 @@
 <?php
 
-use Xyezir\Oauth\ProviderUserDetails;
+use Xyezir\EloquentOAuth\ProviderUserDetails;
 
 class ProviderUserDetailsTest extends PHPUnit_Framework_TestCase
 {

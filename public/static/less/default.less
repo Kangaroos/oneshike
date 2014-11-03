@@ -1,4 +1,5 @@
 @import "../library/bootstrap/less/variables.less";
+@import "bootstrap-social.less";
 @import "defind-variables.less";
 
 .box-default-shadow(){
@@ -230,7 +231,7 @@ body {
 		}
 	}
 
-	.register {
+	.sign-in-up {
 		margin: 100px auto;
 		width: 500px;
 
@@ -240,8 +241,21 @@ body {
 			border-bottom: 1px solid @navbar-default-border;
 		}
 
+		.quick-login {
+			margin: 20px auto;
+		}
+
 		.form-horizontal {
 			margin-top: 20px;
+
+			.icons {
+				display: inline-block;
+				width: 18px;
+			}
+
+			.protocol {
+				margin: 0 auto;
+			}
 		}
 	}
 }

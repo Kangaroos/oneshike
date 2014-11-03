@@ -1,9 +1,9 @@
 <?php
 
 use Mockery as M;
-use Xyezir\Oauth\OauthManager;
+use Xyezir\EloquentOAuth\OAuthManager;
 
-class OauthManagerTest extends PHPUnit_Framework_TestCase
+class OAuthManagerTest extends PHPUnit_Framework_TestCase
 {
     public function tearDown()
     {
@@ -14,15 +14,15 @@ class OauthManagerTest extends PHPUnit_Framework_TestCase
     {
         $auth = M::mock('Illuminate\\Auth\\AuthManager')->shouldIgnoreMissing();
         $redirector = M::mock('Illuminate\\Routing\\Redirector')->shouldIgnoreMissing();
-        $stateManager  = M::mock('Xyezir\\Oauth\\StateManager')->shouldIgnoreMissing();
-        $users  = M::mock('Xyezir\\Oauth\\UserStore')->shouldIgnoreMissing();
-        $identities  = M::mock('Xyezir\\Oauth\\IdentityStore')->shouldIgnoreMissing();
+        $stateManager  = M::mock('Xyezir\\EloquentOAuth\\StateManager')->shouldIgnoreMissing();
+        $users  = M::mock('Xyezir\\EloquentOAuth\\UserStore')->shouldIgnoreMissing();
+        $identities  = M::mock('Xyezir\\EloquentOAuth\\IdentityStore')->shouldIgnoreMissing();
 
-        $oauth = new OauthManager($auth, $redirector, $stateManager, $users, $identities);
+        $oauth = new OAuthManager($auth, $redirector, $stateManager, $users, $identities);
 
         $redirectResponse = M::mock('Illuminate\\Http\\RedirectResponse');
         $redirectUrl = 'http://example.com/authorize';
-        $provider = M::mock('Xyezir\\Oauth\\Providers\\ProviderInterface');
+        $provider = M::mock('Xyezir\\EloquentOAuth\\Providers\\ProviderInterface');
         $provider->shouldReceive('authorizeUrl')->andReturn($redirectUrl);
         $redirector->shouldReceive('to')->with($redirectUrl)->andReturn($redirectResponse);
 
@@ -35,17 +35,17 @@ class OauthManagerTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Xyezir\Oauth\Exceptions\ProviderNotRegisteredException
+     * @expectedException Xyezir\EloquentOAuth\Exceptions\ProviderNotRegisteredException
      */
     public function test_authorize_throws_exception_when_provider_is_not_registered()
     {
         $auth = M::mock('Illuminate\\Auth\\AuthManager')->shouldIgnoreMissing();
         $redirector = M::mock('Illuminate\\Routing\\Redirector')->shouldIgnoreMissing();
-        $stateManager  = M::mock('AdamWathan\\EloquentOauth\\StateManager')->shouldIgnoreMissing();
-        $users  = M::mock('Xyezir\\Oauth\\UserStore')->shouldIgnoreMissing();
-        $identities  = M::mock('Xyezir\\Oauth\\IdentityStore')->shouldIgnoreMissing();
+        $stateManager  = M::mock('Xyezir\\EloquentOAuth\\StateManager')->shouldIgnoreMissing();
+        $users  = M::mock('Xyezir\\EloquentOAuth\\UserStore')->shouldIgnoreMissing();
+        $identities  = M::mock('Xyezir\\EloquentOAuth\\IdentityStore')->shouldIgnoreMissing();
 
-        $oauth = new OauthManager($auth, $redirector, $stateManager, $users, $identities);
+        $oauth = new OAuthManager($auth, $redirector, $stateManager, $users, $identities);
 
         $result = $oauth->authorize('missingProvider');
     }
@@ -54,16 +54,16 @@ class OauthManagerTest extends PHPUnit_Framework_TestCase
     {
         $auth = M::mock('Illuminate\\Auth\\AuthManager');
         $redirector = M::mock('Illuminate\\Routing\\Redirector');
-        $stateManager  = M::mock('Xyezir\\Oauth\\StateManager')->shouldIgnoreMissing();
-        $users  = M::mock('Xyezir\\Oauth\\UserStore');
-        $identities  = M::mock('Xyezir\\Oauth\\IdentityStore')->shouldIgnoreMissing();
+        $stateManager  = M::mock('Xyezir\\EloquentOAuth\\StateManager')->shouldIgnoreMissing();
+        $users  = M::mock('Xyezir\\EloquentOAuth\\UserStore');
+        $identities  = M::mock('Xyezir\\EloquentOAuth\\IdentityStore')->shouldIgnoreMissing();
 
-        $provider = M::mock('Xyezir\\Oauth\\Providers\\ProviderInterface');
-        $userDetails = M::mock('Xyezir\\Oauth\\ProviderUserDetails');
+        $provider = M::mock('Xyezir\\EloquentOAuth\\Providers\\ProviderInterface');
+        $userDetails = M::mock('Xyezir\\EloquentOAuth\\ProviderUserDetails');
 
         $user = M::mock('stdClass')->shouldIgnoreMissing();
 
-        $oauth = new OauthManager($auth, $redirector, $stateManager, $users, $identities);
+        $oauth = new OAuthManager($auth, $redirector, $stateManager, $users, $identities);
         $oauth->registerProvider('provider', $provider);
 
         $stateManager->shouldReceive('verifyState')->andReturn(true);
@@ -79,17 +79,17 @@ class OauthManagerTest extends PHPUnit_Framework_TestCase
     {
         $auth = M::mock('Illuminate\\Auth\\AuthManager');
         $redirector = M::mock('Illuminate\\Routing\\Redirector');
-        $stateManager  = M::mock('Xyezir\\Oauth\\StateManager')->shouldIgnoreMissing();
-        $users  = M::mock('Xyezir\\Oauth\\UserStore');
-        $identities  = M::mock('Xyezir\\Oauth\\IdentityStore')->shouldIgnoreMissing();
+        $stateManager  = M::mock('Xyezir\\EloquentOAuth\\StateManager')->shouldIgnoreMissing();
+        $users  = M::mock('Xyezir\\EloquentOAuth\\UserStore');
+        $identities  = M::mock('Xyezir\\EloquentOAuth\\IdentityStore')->shouldIgnoreMissing();
 
-        $provider = M::mock('Xyezir\\Oauth\\Providers\\ProviderInterface');
-        $freshUserDetails = M::mock('Xyezir\\Oauth\\ProviderUserDetails');
-        $existingUserDetails = M::mock('Xyezir\\Oauth\\ProviderUserDetails');
+        $provider = M::mock('Xyezir\\EloquentOAuth\\Providers\\ProviderInterface');
+        $freshUserDetails = M::mock('Xyezir\\EloquentOAuth\\ProviderUserDetails');
+        $existingUserDetails = M::mock('Xyezir\\EloquentOAuth\\ProviderUserDetails');
 
         $user = M::mock('stdClass')->shouldIgnoreMissing();
 
-        $oauth = new OauthManager($auth, $redirector, $stateManager, $users, $identities);
+        $oauth = new OAuthManager($auth, $redirector, $stateManager, $users, $identities);
         $oauth->registerProvider('provider', $provider);
 
         $stateManager->shouldReceive('verifyState')->andReturn(true);

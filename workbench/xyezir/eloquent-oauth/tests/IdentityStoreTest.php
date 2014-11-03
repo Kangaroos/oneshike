@@ -1,8 +1,8 @@
 <?php
 
-use Xyezir\Oauth\OauthIdentity;
-use Xyezir\Oauth\IdentityStore;
-use Xyezir\Oauth\ProviderUserDetails;
+use Xyezir\EloquentOAuth\OAuthIdentity;
+use Xyezir\EloquentOAuth\IdentityStore;
+use Xyezir\EloquentOAuth\ProviderUserDetails;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Mockery as M;
 
@@ -16,13 +16,13 @@ class IdentityStoreTest extends FunctionalTestCase
 
     public function test_getByProvider()
     {
-        OauthIdentity::create(array(
+        OAuthIdentity::create(array(
             'user_id' => 1,
             'provider' => 'facebook',
             'provider_user_id' => 'foobar',
             'access_token' => 'abc123',
             ));
-        OauthIdentity::create(array(
+        OAuthIdentity::create(array(
             'user_id' => 2,
             'provider' => 'facebook',
             'provider_user_id' => 'bazfoo',
@@ -47,13 +47,13 @@ class IdentityStoreTest extends FunctionalTestCase
 
     public function test_getByProvider_when_no_match()
     {
-        OauthIdentity::create(array(
+        OAuthIdentity::create(array(
             'user_id' => 1,
             'provider' => 'facebook',
             'provider_user_id' => 'foobar',
             'access_token' => 'abc123',
             ));
-        OauthIdentity::create(array(
+        OAuthIdentity::create(array(
             'user_id' => 2,
             'provider' => 'facebook',
             'provider_user_id' => 'bazfoo',
@@ -75,43 +75,43 @@ class IdentityStoreTest extends FunctionalTestCase
 
     public function test_flush()
     {
-        OauthIdentity::create(array(
+        OAuthIdentity::create(array(
             'user_id' => 1,
             'provider' => 'facebook',
             'provider_user_id' => 'foobar',
             'access_token' => 'abc123',
             ));
-        OauthIdentity::create(array(
+        OAuthIdentity::create(array(
             'user_id' => 2,
             'provider' => 'facebook',
             'provider_user_id' => 'bazfoo',
             'access_token' => 'def456',
             ));
 
-        $this->assertEquals(1, OauthIdentity::where('provider', 'facebook')->where('user_id', 2)->count());
+        $this->assertEquals(1, OAuthIdentity::where('provider', 'facebook')->where('user_id', 2)->count());
 
         $identities = new IdentityStore;
         $user = M::mock();
         $user->shouldReceive('getKey')->andReturn(2);
         $identities->flush($user, 'facebook');
 
-        $this->assertEquals(0, OauthIdentity::where('provider', 'facebook')->where('user_id', 2)->count());
+        $this->assertEquals(0, OAuthIdentity::where('provider', 'facebook')->where('user_id', 2)->count());
     }
 
     public function test_store()
     {
-        $identity = new OauthIdentity(array(
+        $identity = new OAuthIdentity(array(
             'user_id' => 1,
             'provider' => 'facebook',
             'provider_user_id' => 'foobar',
             'access_token' => 'abc123',
             ));
 
-        $this->assertEquals(0, OauthIdentity::count());
+        $this->assertEquals(0, OAuthIdentity::count());
 
         $identities = new IdentityStore;
         $identities->store($identity);
 
-        $this->assertEquals(1, OauthIdentity::count());
+        $this->assertEquals(1, OAuthIdentity::count());
     }
 }

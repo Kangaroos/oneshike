@@ -1,7 +1,7 @@
 <?php
 
 use Mockery as M;
-use Xyezir\Oauth\StateManager;
+use Xyezir\EloquentOAuth\StateManager;
 
 class StateManagerTest extends PHPUnit_Framework_TestCase
 {

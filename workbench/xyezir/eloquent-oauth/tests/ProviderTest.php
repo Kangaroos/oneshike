@@ -1,8 +1,8 @@
 <?php
 
 use Mockery as M;
-use Xyezir\Oauth\OAuthManager;
-use Xyezir\Oauth\Providers\Provider as AbstractProvider;
+use Xyezir\EloquentOAuth\OAuthManager;
+use Xyezir\EloquentOAuth\Providers\Provider as AbstractProvider;
 
 class ProviderTest extends PHPUnit_Framework_TestCase
 {
@@ -67,7 +67,7 @@ class ProviderTest extends PHPUnit_Framework_TestCase
         $input->shouldReceive('get')->andReturn('authorization-code');
 
         $details = $provider->getUserDetails();
-        $this->assertInstanceOf('Xyezir\\Oauth\\ProviderUserDetails', $details);
+        $this->assertInstanceOf('Xyezir\\EloquentOAuth\\ProviderUserDetails', $details);
         $this->assertEquals('abc123', $details->accessToken);
         $this->assertEquals('john.doe', $details->nickname);
         $this->assertEquals('John', $details->firstName);
@@ -77,7 +77,7 @@ class ProviderTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Xyezir\Oauth\Exceptions\ApplicationRejectedException
+     * @expectedException Xyezir\EloquentOAuth\Exceptions\ApplicationRejectedException
      */
     public function test_get_user_details_throws_exception_if_user_rejects_application()
     {
