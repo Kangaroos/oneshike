@@ -43,6 +43,7 @@
                 <div class="form-group">
                     <div class="col-sm-10">
                         <span class="go-register pull-left">还没账号？<a href="/auth/signup">去注册</a></span>
+                        <span class="go-register pull-right"><a href="/password/remind">忘记密码？</a></span>
                     </div>
                 </div>
             </form>
