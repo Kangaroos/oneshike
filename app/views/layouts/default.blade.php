@@ -35,16 +35,33 @@
                 <li><a href="#contact">厨具</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                @if (Auth::check())
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user fa-lg"></i> 账户 <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-user fa-lg"></i>{{ Auth::user()->nickname }}<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#"><i class="fa fa-weibo fa-lg"></i> 绑定微博</a></li>
+                        <li><a href="#"><i class="fa fa-qq fa-lg"></i> 绑定QQ</a></li>
+                        <li><a href="#"><i class="fa fa-users fa-lg"></i> 会员中心</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/auth/logout"><i class="fa fa-sign-out fa-lg"></i> 登出</a></li>
+                    </ul>
+                </li>
+                @else
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-user fa-lg"></i>账户<span class="caret"></span>
+                    </a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#"><i class="fa fa-weibo fa-lg"></i> 微博登录</a></li>
                         <li><a href="#"><i class="fa fa-qq fa-lg"></i> QQ登录</a></li>
                         <li class="divider"></li>
-                        <li><a href="/auth/signin"><i class="fa fa-sign-in fa-lg"></i> 登录</a></li>
                         <li><a href="/auth/signup"><i class="fa fa-users fa-lg"></i> 注册</a></li>
+                        <li><a href="/auth/signin"><i class="fa fa-sign-in fa-lg"></i> 登录</a></li>
                     </ul>
                 </li>
+                @endif
             </ul>
             <form class="navbar-form navbar-right" role="search">
                 <div class="form-group">
