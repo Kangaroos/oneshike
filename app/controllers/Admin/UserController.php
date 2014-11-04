@@ -30,7 +30,7 @@ class UserController extends BaseController
     public function dataTables(){
         $users = User::all();
         return Datatable::collection($users)
-            ->showColumns("id", "account", "signature", "nickname", "status", "level", "points", "phone_number", "email", "portrait", "qq", "wechat", "age", "address", "last_login_time", "last_login_ip", "total_login", "created_at")
+            ->showColumns("id", "email", "signature", "nickname", "status", "level", "points", "phone_number", "portrait", "qq", "wechat", "age", "address", "signin_at", "signin_ip", "signin_count", "created_at")
             ->addColumn('status_list',function($model){
                 return Dict::where('code', 'USER_STATUS')->where('para_code', $model->status)->select('para_name as label', 'para_code as value')->first();
             })
@@ -57,7 +57,7 @@ class UserController extends BaseController
         switch($post["action"]){
             case "create":
                 $data = $post["data"];
-                $data["pwd"] = Hash::make('oneshike');
+                $data["password"] = Hash::make('oneshike');
                 $model = $this->model;
                 $response = $this->saveModel($data, $model, User::$rules, User::$validatorMessages);
                 break;

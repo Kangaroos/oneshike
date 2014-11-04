@@ -25,8 +25,22 @@ class HomeController extends BaseController {
         return View::make('signup');
     }
 
+    public function postSignup()
+    {
+
+    }
+
     public function getSignin()
     {
         return View::make('signin');
+    }
+
+    public function postSignin()
+    {
+
+    }
+
+    public function getUCenter() {
+        return View::make('ucenter');
     }
 }

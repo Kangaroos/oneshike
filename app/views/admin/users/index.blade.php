@@ -13,14 +13,13 @@
         <thead>
             <tr>
                 <th>编号</th>
-                <th>帐号</th>
+                <th>邮箱</th>
                 <th>签名</th>
                 <th>昵称</th>
                 <th>状态</th>
                 <th>等级</th>
                 <th>积分</th>
                 <th>联系电话</th>
-                <th>邮箱</th>
                 <th>QQ</th>
                 <th>微信</th>
                 <th>年龄</th>

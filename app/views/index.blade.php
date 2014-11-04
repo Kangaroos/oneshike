@@ -2,7 +2,7 @@
 
 @section('head')
 @parent
-@section('title')壹食客首页 @parent @stop
+@section('title')壹食客首页{{ action('RemindersController@postRemind') }} @parent @stop
 @stop
 
 @section('container')

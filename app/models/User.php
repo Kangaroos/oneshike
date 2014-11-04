@@ -5,7 +5,7 @@ use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\Reminders\RemindableInterface;
 
-class User extends Eloquent implements UserInterface, RemindableInterface {
+class User extends BaseModel implements UserInterface, RemindableInterface {
 
 	use UserTrait, RemindableTrait;
 
@@ -24,7 +24,6 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	protected $hidden = array('password', 'remember_token');
 
     public static $rules  = array(
-        'account'    => 'required',
         'email'    => 'required'
     );
 
@@ -33,7 +32,17 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
      * @var array
      */
     public static $validatorMessages = array(
-        'account.required'      => '请输入用户名。',
         'email.required'      => '请输入邮箱。'
     );
+
+    /**
+     * 调整器：密码
+     * @param  string $value 未处理的密码字符串
+     * @return void
+     */
+    public function setPasswordAttribute($value)
+    {
+        // 若传入的字符串已经进行了 Hash 加密，则不重复处理
+        $this->attributes['password'] = Hash::needsRehash($value) ? Hash::make($value) : $value;
+    }
 }

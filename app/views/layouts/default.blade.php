@@ -9,7 +9,7 @@
 <script src="/static/library/html5shiv/dist/html5shiv.min.js"></script>
 <script src="/static/library/respond/dest/respond.min.js"></script>
 <![endif]-->
-<link rel="stylesheet/less" type="text/css" href="static/less/default.less" />
+<link rel="stylesheet/less" type="text/css" href="/static/less/default.less" />
 <script src="/static/library/less/dist/less-1.7.3.min.js"></script>
 @parent @stop
 @section('body')
@@ -41,8 +41,8 @@
                         <li><a href="#"><i class="fa fa-weibo fa-lg"></i> 微博登录</a></li>
                         <li><a href="#"><i class="fa fa-qq fa-lg"></i> QQ登录</a></li>
                         <li class="divider"></li>
-                        <li><a href="/signin"><i class="fa fa-sign-in fa-lg"></i> 登录</a></li>
-                        <li><a href="signup"><i class="fa fa-users fa-lg"></i> 注册</a></li>
+                        <li><a href="/auth/signin"><i class="fa fa-sign-in fa-lg"></i> 登录</a></li>
+                        <li><a href="/auth/signup"><i class="fa fa-users fa-lg"></i> 注册</a></li>
                     </ul>
                 </li>
             </ul>

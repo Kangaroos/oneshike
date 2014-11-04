@@ -6,6 +6,28 @@
 |--------------------------------------------------------------------------
 */
 Route::group(array('prefix' => 'auth'), function () {
+    $Authority = 'AuthorityController@';
+    # 退出
+    Route::get('logout', array('as' => 'logout', 'uses' => $Authority.'getLogout'));
+    Route::group(array('before' => 'guest'), function () use ($Authority) {
+        # 登录
+        Route::get(                   'signin', array('as' => 'signin'        , 'uses' => $Authority.'getSignin'));
+        Route::post(                  'signin', $Authority.'postSignin');
+        # 注册
+        Route::get(                   'signup', array('as' => 'signup'        , 'uses' => $Authority.'getSignup'));
+        Route::post(                  'signup', $Authority.'postSignup');
+        # 注册成功提示用户激活
+        Route::get(          'success/{email}', array('as' => 'signupSuccess' , 'uses' => $Authority.'getSignupSuccess'));
+        # 激活账号
+        Route::get('activate/{activationCode}', array('as' => 'activate'      , 'uses' => $Authority.'getActivate'));
+        # 忘记密码
+        Route::get(          'forgot-password', array('as' => 'forgotPassword', 'uses' => $Authority.'getForgotPassword'));
+        Route::post(         'forgot-password', $Authority.'postForgotPassword');
+        # 密码重置
+        Route::get(  'forgot-password/{token}', array('as' => 'reset'         , 'uses' => $Authority.'getReset'));
+        Route::post( 'forgot-password/{token}', $Authority.'postReset');
+    });
+
     $Admin = 'AdminController@';
 
     Route::group(array('before' => 'admin.guest'), function () use ($Admin) {
@@ -27,6 +49,7 @@ Route::group(array(), function () {
     Route::get('/signup', array('as' => 'signup', 'uses' => $controller.'getSignup'));
 });
 
+Route::controller('password', 'RemindersController');
 
 /*
 |--------------------------------------------------------------------------
@@ -34,81 +57,74 @@ Route::group(array(), function () {
 |--------------------------------------------------------------------------
 */
 Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
-    $resource   = 'admin';
     $controller = 'AdminController@';
     Route::get('logout', array('as' => 'logout', 'uses' => $controller.'getLogout'));
     # 后台首页
-    Route::get('/', array('as' => $resource, 'uses' => $controller.'getConsoleIndex'));
-    Route::put('/changePassword', array('as' => $resource.'.putChangePassword' , 'uses' => $controller.'putChangePassword' ));
-    Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
-    Route::post('/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
+    Route::get('/', array('as' => 'admin', 'uses' => $controller.'getConsoleIndex'));
+    Route::put('/changePassword', array('as' => 'admin.putChangePassword' , 'uses' => $controller.'putChangePassword' ));
+    Route::get('/tables', array('as' => 'admin.dataTables' , 'uses' => $controller.'dataTables' ));
+    Route::post('/store', array('as' => 'admin.store' , 'uses' => $controller.'store' ));
 
     #食材百科
     Route::group(array('prefix' => 'foods'), function () {
-        $resource   = 'foods';
         $controller = 'FoodController@';
-        Route::get('/', array('as' => $resource.'.index'  , 'uses' => $controller.'index'));
-        Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
-        Route::post('/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
+        Route::get('/', array('as' => 'foods.index'  , 'uses' => $controller.'index'));
+        Route::get('/tables', array('as' => 'foods.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/store', array('as' => 'foods.store' , 'uses' => $controller.'store' ));
 
-        Route::get('/category', array('as' => $resource.'.category'  , 'uses' => $controller.'getFoodCategory'));
-        Route::get('/category/tables', array('as' => $resource.'.category.dataTables' , 'uses' => $controller.'getFoodCategoryDataTables' ));
-        Route::post('/category/store', array('as' => $resource.'.category.store' , 'uses' => $controller.'postFoodCategoryStore' ));
+        Route::get('/category', array('as' => 'foods.category'  , 'uses' => $controller.'getFoodCategory'));
+        Route::get('/category/tables', array('as' => 'foods.category.dataTables' , 'uses' => $controller.'getFoodCategoryDataTables' ));
+        Route::post('/category/store', array('as' => 'foods.category.store' , 'uses' => $controller.'postFoodCategoryStore' ));
 
-        Route::get('/area', array('as' => $resource.'.area'  , 'uses' => $controller.'getFoodArea'));
-        Route::get('/area/tables', array('as' => $resource.'.area.dataTables' , 'uses' => $controller.'getFoodAreaDataTables' ));
-        Route::post('/area/store', array('as' => $resource.'.area.store' , 'uses' => $controller.'postFoodAreaStore' ));
+        Route::get('/area', array('as' => 'foods.area'  , 'uses' => $controller.'getFoodArea'));
+        Route::get('/area/tables', array('as' => 'foods.area.dataTables' , 'uses' => $controller.'getFoodAreaDataTables' ));
+        Route::post('/area/store', array('as' => 'foods.area.store' , 'uses' => $controller.'postFoodAreaStore' ));
     });
 
     #导购商品
     Route::group(array('prefix'=>'products'),function(){
-        $resource   = 'products';
         $controller = 'ProductController@';
-        Route::get('/',array('as'=>$resource.'.index' , 'uses'=>$controller.'index'));
-        Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
-        Route::post('/store',array('as'=>$resource.'.store','uses'=>$controller.'store'));
+        Route::get('/',array('as'=>'products.index' , 'uses'=>$controller.'index'));
+        Route::get('/tables', array('as' => 'products.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/store',array('as'=> 'products.store','uses'=>$controller.'store'));
 
-        Route::get('/category',array('as'=>$resource.'.category' , 'uses'=>$controller.'getProductCategory'));
-        Route::get('/category/tables', array('as' => $resource.'.category.dataTables' , 'uses' => $controller.'getProductCategoryDataTables' ));
-        Route::post('/category/store', array('as' => $resource.'.product.store' , 'uses' => $controller.'getProductCategoryStore' ));
+        Route::get('/category',array('as'=> 'products.category' , 'uses'=>$controller.'getProductCategory'));
+        Route::get('/category/tables', array('as' => 'products.category.dataTables' , 'uses' => $controller.'getProductCategoryDataTables' ));
+        Route::post('/category/store', array('as' => 'products.product.store' , 'uses' => $controller.'getProductCategoryStore' ));
 
     });
 
     # 用户管理
     Route::group(array('prefix' => 'users'), function () {
-        $resource   = 'users';
         $controller = 'UserController@';
-        Route::get('/', array('as' => $resource.'.index'  , 'uses' => $controller.'index'));
-        Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
-        Route::post('/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
+        Route::get('/', array('as' => 'users.index'  , 'uses' => $controller.'index'));
+        Route::get('/tables', array('as' => 'users.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/store', array('as' => 'users.store' , 'uses' => $controller.'store' ));
 
-        Route::get('/level', array('as' => $resource.'.level'  , 'uses' => $controller.'getUserLevel'));
-        Route::get('/level/tables', array('as' => $resource.'.level.dataTables'  , 'uses' => $controller.'getUserLevelDataTables'));
-        Route::post('/level/store', array('as' => $resource.'.level.store'  , 'uses' => $controller.'postUserLevelStore'));
+        Route::get('/level', array('as' => 'users.level'  , 'uses' => $controller.'getUserLevel'));
+        Route::get('/level/tables', array('as' => 'users.level.dataTables'  , 'uses' => $controller.'getUserLevelDataTables'));
+        Route::post('/level/store', array('as' => 'users.level.store'  , 'uses' => $controller.'postUserLevelStore'));
     });
 
     Route::group(array('prefix' => 'categorys'), function () {
-        $resource   = 'categorys';
         $controller = 'CategoryController@';
-        Route::get('/', array('as' => $resource.'.index'  , 'uses' => $controller.'index'));
-        Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
-        Route::post('/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
+        Route::get('/', array('as' => 'categorys.index'  , 'uses' => $controller.'index'));
+        Route::get('/tables', array('as' => 'categorys.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/store', array('as' => 'categorys.store' , 'uses' => $controller.'store' ));
     });
 
     # 系统管理
     Route::group(array('prefix' => 'system'), function () {
-        $resource   = 'system';
         $controller = 'SystemController@';
-        Route::get('/admin', array('as' => $resource.'.admin'  , 'uses' => $controller.'getAdminIndex'));
+        Route::get('/admin', array('as' => 'system.admin'  , 'uses' => $controller.'getAdminIndex'));
     });
 
     # 字典管理
     Route::group(array('prefix' => 'dicts'), function () {
-        $resource   = 'dicts';
         $controller = 'DictController@';
-        Route::get('/', array('as' => $resource.'.index'  , 'uses' => $controller.'index'));
-        Route::get('/tables', array('as' => $resource.'.dataTables' , 'uses' => $controller.'dataTables' ));
-        Route::post('/store', array('as' => $resource.'.store' , 'uses' => $controller.'store' ));
+        Route::get('/', array('as' => 'dicts.index'  , 'uses' => $controller.'index'));
+        Route::get('/tables', array('as' => 'dicts.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/store', array('as' => 'dicts.store' , 'uses' => $controller.'store' ));
     });
 });
 

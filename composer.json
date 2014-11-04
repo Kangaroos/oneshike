@@ -1,11 +1,12 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"name": "xyezir/oneshike",
+	"description": "www.oneshike.com",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"mews/captcha": "dev-master"
+		"mews/captcha": "dev-master",
+		"intervention/image": "dev-master"
 	},
     "require-dev": {
         "way/generators": "~2.0"

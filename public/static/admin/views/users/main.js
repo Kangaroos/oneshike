@@ -4,8 +4,8 @@ $(function(){
 		table: "#userTables",
 		idSrc: "id",
 		fields: [{
-			label: "帐号：",
-			name: "account"
+			label: "邮箱：",
+			name: "email"
 		}, {
 			label: "签名：",
 			name: "signature"
@@ -26,9 +26,6 @@ $(function(){
 		}, {
 			label: "联系电话：",
 			name: "phone_number"
-		},{
-			label: "邮箱：",
-			name: "email"
 		}, {
 			label: "微信：",
 			name: "wechat"
@@ -42,11 +39,11 @@ $(function(){
 	} );
 
 	editor.on( 'onInitCreate', function () {
-		editor.enable('account');
+		editor.enable('email');
 	});
 
 	editor.on( 'onInitEdit', function () {
-		editor.disable('account');
+		editor.disable('email');
 	});
 
 	var table = $('#userTables').dataTable({
@@ -61,21 +58,20 @@ $(function(){
 		"bServerSide": true,
 		"columns": [
 			{ data: "id" },
-			{ data: "account" },
+			{ data: "email" },
 			{ data: "signature" },
 			{ data: "nickname" },
 			{ data: "status_list.label" },
 			{ data: "level_list.label" },
 			{ data: "points" },
 			{ data: "phone_number" },
-			{ data: "email" },
 			{ data: "qq" },
 			{ data: "wechat" },
 			{ data: "age" },
 			{ data: "address" },
-			{ data: "last_login_time" },
-			{ data: "last_login_ip" },
-			{ data: "total_login" },
+			{ data: "signin_at" },
+			{ data: "signin_ip" },
+			{ data: "signin_count" },
 			{ data: "created_at" }
 		],
 		initComplete: function ( settings, json ) {

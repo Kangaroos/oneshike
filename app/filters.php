@@ -1,5 +1,6 @@
 <?php
 
+use Carbon\Carbon;
 /*
 |--------------------------------------------------------------------------
 | 注册应用程序事件，执行顺序如下：
@@ -106,7 +107,9 @@ Route::filter('not.self', function ($route) {
 # 用户登录事件
 Event::listen('auth.login', function ($user, $remember) {
     // 记录最后登录时间
-    $user->signin_at = new Carbon;
+    $user->signin_at = Carbon::now();
+    $user->signin_ip = Request::getClientIp();
+    $user->signin_count += 1;
     $user->save();
     // 后期可附加权限相关操作
     // ...
