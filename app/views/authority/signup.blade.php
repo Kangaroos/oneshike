@@ -23,7 +23,7 @@
                     <div class="col-sm-10">
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon"><span class="icons"><i class="fa fa-envelope"></i></span></span>
-                            <input type="email" class="form-control" placeholder="邮箱">
+                            <input type="email" class="form-control" name="email" placeholder="邮箱">
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,15 @@
                     <div class="col-sm-10">
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon"><span class="icons"><i class="fa fa-lock"></i></span></span>
-                            <input type="password" class="form-control" placeholder="密码（6-16位数字，字母或符号的组合）">
+                            <input type="password" class="form-control" name="password" placeholder="密码（6-16位数字，字母或符号的组合）">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10">
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><span class="icons"><i class="fa fa-lock"></i></span></span>
+                            <input type="password" class="form-control" name="password_confirmation" placeholder="确认密码">
                         </div>
                     </div>
                 </div>

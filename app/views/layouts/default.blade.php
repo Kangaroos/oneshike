@@ -43,7 +43,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#"><i class="fa fa-weibo fa-lg"></i> 绑定微博</a></li>
                         <li><a href="#"><i class="fa fa-qq fa-lg"></i> 绑定QQ</a></li>
-                        <li><a href="#"><i class="fa fa-users fa-lg"></i> 会员中心</a></li>
+                        <li><a href="/ucenter"><i class="fa fa-users fa-lg"></i> 会员中心</a></li>
                         <li class="divider"></li>
                         <li><a href="/auth/logout"><i class="fa fa-sign-out fa-lg"></i> 登出</a></li>
                     </ul>

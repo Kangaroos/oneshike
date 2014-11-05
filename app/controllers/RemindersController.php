@@ -21,11 +21,13 @@ class RemindersController extends Controller {
 	{
 		switch ($response = Password::remind(Input::only('email'), function($message)
         {
-            $message->subject('Password Reminder');
+            $message->subject('登录密码重置邮件');
         }))
 		{
 			case Password::INVALID_USER:
-				return Redirect::back()->with('error', Lang::get($response));
+				return Redirect::back()
+                    ->withInput()
+                    ->with('error', Lang::get($response));
 
 			case Password::REMINDER_SENT:
 				return Redirect::back()->with('status', Lang::get($response));
@@ -56,10 +58,10 @@ class RemindersController extends Controller {
 			'email', 'password', 'password_confirmation', 'token'
 		);
 
-        Password::validator(function($credentials)
-        {
-            return strlen($credentials['password']) >= 6;
-        });
+//        Password::validator(function($credentials)
+//        {
+//            return strlen($credentials['password']) >= 6;
+//        });
 
 		$response = Password::reset($credentials, function($user, $password)
 		{
@@ -73,7 +75,9 @@ class RemindersController extends Controller {
 			case Password::INVALID_PASSWORD:
 			case Password::INVALID_TOKEN:
 			case Password::INVALID_USER:
-				return Redirect::back()->with('error', Lang::get($response));
+				return Redirect::back()
+                    ->withInput()
+                    ->with('error', Lang::get($response));
 
 			case Password::PASSWORD_RESET:
 				return Redirect::to('/');

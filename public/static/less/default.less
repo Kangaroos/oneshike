@@ -21,8 +21,8 @@ body {
 }
 
 .container.osk-box {
-	background: @body-bg;
-	.box-default-shadow();
+	margin-top: 90px;
+	margin-bottom: 10px;
 }
 
 .navbar-osk.isStuck{
@@ -223,7 +223,8 @@ body {
 .osk-page {
 	display: inline-block;
 	width: 100%;
-	margin-top: 90px;
+	background: @body-bg;
+	.box-default-shadow();
 	.carousel {
 		.carousel-inner>.item>img, .carousel-inner>.item>a>img {
 			width: 100%;
@@ -257,6 +258,10 @@ body {
 				margin: 0 auto;
 			}
 		}
+	}
+
+	.error-box {
+		margin: 10px auto;
 	}
 }
 

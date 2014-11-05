@@ -617,10 +617,8 @@ body {
   color: #333333;
 }
 .container.osk-box {
-  background: #ffffff;
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  margin-top: 90px;
+  margin-bottom: 10px;
 }
 .navbar-osk.isStuck {
   z-index: 1030;
@@ -801,7 +799,10 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
 .osk-page {
   display: inline-block;
   width: 100%;
-  margin-top: 90px;
+  background: #ffffff;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 .osk-page .carousel .carousel-inner > .item > img,
 .osk-page .carousel .carousel-inner > .item > a > img {
@@ -829,6 +830,9 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
 }
 .osk-page .sign-in-up .form-horizontal .protocol {
   margin: 0 auto;
+}
+.osk-page .error-box {
+  margin: 10px auto;
 }
 .osk-screening {
   margin-top: 10px;

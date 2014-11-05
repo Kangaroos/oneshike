@@ -2,12 +2,12 @@
 /**
  * 账号激活码
  */
-class Activation extends BaseModel
+class PassowrdReminder extends BaseModel
 {
     /**
      * 数据库表名称（不包含前缀）
      * @var string
      */
-    protected $table = 'activations';
+    protected $table = 'password_reminders';
 
 }

@@ -94,7 +94,7 @@ class AuthorityController extends BaseController
                 Mail::send('authority.email.activation', $with, function ($message) use ($user) {
                     $message
                         ->to($user->email)
-                        ->subject('Simple - Blog 账号激活邮件'); // 标题
+                        ->subject('账号激活邮件'); // 标题
                 });
                 // 跳转到注册成功页面，提示用户激活
                 return Redirect::route('signupSuccess', $user->email);
@@ -166,7 +166,7 @@ class AuthorityController extends BaseController
     {
         // 调用系统提供的类
         $response = Password::remind(Input::only('email'), function ($m, $user, $token) {
-            $m->subject('Simple - Blog 密码重置邮件'); // 标题
+            $m->subject('密码重置邮件'); // 标题
         });
         // 检测邮箱并发送密码重置邮件
         switch ($response) {

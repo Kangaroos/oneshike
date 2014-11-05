@@ -18,6 +18,16 @@
         <h4>使用”食客网“帐号登录</h4>
         <span class="separated"></span>
         <div class="form-box">
+            @if(count($errors) > 0)
+            <div class="error-box">
+                <div class="alert alert-danger alert-dismissible fade in" role="alert">
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    @foreach ($errors->all() as $error)
+                    <p>{{ $error }}</p>
+                    @endforeach
+                </div>
+            </div>
+            @endif
             <form action="/auth/signin" method="post" class="form-horizontal" role="form">
                 <div class="form-group">
                     <div class="col-sm-10">

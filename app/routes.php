@@ -45,8 +45,7 @@ Route::group(array('prefix' => 'auth'), function () {
 Route::group(array(), function () {
     $controller = 'HomeController@';
     Route::get('/', array('as' => 'index', 'uses' => $controller.'getIndex'));
-    Route::get('/signin', array('as' => 'signin', 'uses' => $controller.'getSignin'));
-    Route::get('/signup', array('as' => 'signup', 'uses' => $controller.'getSignup'));
+    Route::get('/ucenter', array('as' => 'signin', 'uses' => $controller.'getUcenter'));
 });
 
 Route::controller('password', 'RemindersController');

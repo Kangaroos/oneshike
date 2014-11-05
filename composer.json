@@ -6,7 +6,9 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"mews/captcha": "dev-master",
-		"intervention/image": "dev-master"
+		"intervention/image": "dev-master",
+		"guzzlehttp/guzzle": "~4.0",
+		"yzalis/identicon": "*"
 	},
     "require-dev": {
         "way/generators": "~2.0"
