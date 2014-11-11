@@ -1,5 +1,7 @@
 <?php
 
+use Carbon\Carbon;
+
 class AuthorityController extends BaseController
 {
     /**
@@ -141,7 +143,7 @@ class AuthorityController extends BaseController
         // 数据库中有令牌
         // 激活对应用户
         $user = User::where('email', $activation->email)->first();
-        $user->activated_at = new Carbon;
+        $user->activated_at = Carbon::now();
         $user->save();
         // 删除令牌
         $activation->delete();

@@ -24,7 +24,7 @@ class User extends BaseModel implements UserInterface, RemindableInterface {
 	protected $hidden = array('password', 'remember_token');
 
     public static $rules  = array(
-        'email'    => 'required'
+        'email'    => 'required|email|unique:users'
     );
 
     /**
@@ -32,7 +32,9 @@ class User extends BaseModel implements UserInterface, RemindableInterface {
      * @var array
      */
     public static $validatorMessages = array(
-        'email.required'      => '请输入邮箱。'
+        'email.required'      => '请输入邮箱地址。',
+        'email.email'         => '请输入正确的邮箱地址。',
+        'email.unique'        => '此邮箱已被使用。',
     );
 
     /**

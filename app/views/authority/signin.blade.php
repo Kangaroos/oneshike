@@ -33,7 +33,7 @@
                     <div class="col-sm-10">
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon"><span class="icons"><i class="fa fa-envelope"></i></span></span>
-                            <input type="text" class="form-control" name="email" placeholder="请输入邮箱账号" autocomplete="off">
+                            <input type="text" class="form-control" name="email" placeholder="请输入邮箱账号" value="{{Input::old('email');}}" autocomplete="off">
                         </div>
                     </div>
                 </div>

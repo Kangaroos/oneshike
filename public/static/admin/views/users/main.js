@@ -40,6 +40,7 @@ $(function(){
 
 	editor.on( 'onInitCreate', function () {
 		editor.enable('email');
+		editor.val('points',0);
 	});
 
 	editor.on( 'onInitEdit', function () {
