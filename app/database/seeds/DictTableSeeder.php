@@ -41,5 +41,30 @@ class  DictTableSeeder extends Seeder {
             'para_code' => '003',
             'para_name' => '已禁用'
         ));
+
+        Dict::create(array(
+            'code' => 'ARTICLE_STATUS',
+            'name' => '文章状态',
+            'para_code' => '001',
+            'para_name' => '待发布'
+        ));
+        Dict::create(array(
+            'code' => 'ARTICLE_STATUS',
+            'name' => '文章状态',
+            'para_code' => '002',
+            'para_name' => '待审核'
+        ));
+        Dict::create(array(
+            'code' => 'ARTICLE_STATUS',
+            'name' => '文章状态',
+            'para_code' => '003',
+            'para_name' => '已审核'
+        ));
+        Dict::create(array(
+            'code' => 'ARTICLE_STATUS',
+            'name' => '文章状态',
+            'para_code' => '004',
+            'para_name' => '已拒绝'
+        ));
     }
 }

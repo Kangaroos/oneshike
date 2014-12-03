@@ -1,6 +1,6 @@
 <?php
 
-class DictController extends BaseController
+class AdminDictController extends BaseController
 {
     protected $resourceView = 'admin.dicts';
 

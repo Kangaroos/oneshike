@@ -1,7 +1,7 @@
 <?php
 
 define('LARAVEL_START', microtime(true));
-
+require __DIR__.'/../app/functions.php'; // 引入自定义函数库
 /*
 |--------------------------------------------------------------------------
 | Register The Composer Auto Loader

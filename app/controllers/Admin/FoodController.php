@@ -1,6 +1,7 @@
 <?php
 
-class FoodController extends BaseController
+
+class AdminFoodController extends BaseController
 {
     protected $resourceView = 'admin.foods';
 

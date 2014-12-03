@@ -65,7 +65,7 @@ Route::filter('auth', function () {
         }
         else
         {
-            return Redirect::guest('signin');
+            return Redirect::guest('/auth/signin');
         }
     }
 });

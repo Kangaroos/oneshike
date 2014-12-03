@@ -22,6 +22,7 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
 @section('title')后台管理-{{ $resourceName }}@stop
 @section('head')
 <link href="{{ asset('/static/admin/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('/static/library/bootstrap3-dialog/dist/css/bootstrap-dialog.css') }}" rel="stylesheet" type="text/css" >
 <link href="{{ asset('/static/admin/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/css/ionicons.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('/static/admin/js/plugins/jquery.gritter/css/jquery.gritter.css') }}" rel="stylesheet" type="text/css" />
@@ -144,14 +145,14 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> 菜谱分类管理</a></li>
                     </ul>
                 </li>
-                <li class="treeview">
+                <li class="treeview {{ $is_active(array('articles.check'),true) }}">
                     <a href="#">
                         <i class="fa fa-th"></i>
                         <span>美食图文</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> 图文审核</a></li>
+                        <li class="{{ $is_active('articles.check') }}"><a href="{{ url('/admin/articles/check') }}"><i class="fa fa-angle-double-right"></i> 图文审核</a></li>
                     </ul>
                 </li>
                 <li class="treeview {{ $is_active(array('users', 'users.level'),true) }}">
@@ -254,7 +255,7 @@ $is_active = function ($name='',$leaf = false) use ($resource) {
 @section('end')
 <!-- jQuery 2.0.2 -->
 <script src="{{ asset('/static/admin/js/jquery.min.js') }}"></script>
-<script src="{{ asset('/static/admin/js/plugins/bootbox.min.js') }}"></script>
+<script src="{{ asset('/static/library/bootstrap3-dialog/dist/js/bootstrap-dialog.js') }}"></script>
 <script src="{{ asset('/static/admin/js/plugins/jquery.gritter/jquery.gritter.min.js') }}"></script>
 <script src="{{ asset('/static/admin/js/plugins/jquery.validate.min.js') }}"></script>
 <!-- Bootstrap -->

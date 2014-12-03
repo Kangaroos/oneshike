@@ -1,0 +1,16 @@
+{{#if isPictures}}
+	<div class="picture-group" data-id="{{ id }}" data-path="{{ path }}">
+		<a class="delete-image" href="javascript:" title="删除该图片">X</a>
+		<div class="thumbnail-img">
+			<label class="image-name">&lt;图片{{ imgindex }}&gt;</label>
+			<div class="image-thumb">
+				<img src="{{ thumbnail }}" alt="{{ desc }}">
+			</div>
+		</div>
+		<div class="image-desc">
+			<label class="field" for="p{{ imgindex }}_title">图片备注</label>
+			<textarea id="p{{ imgindex }}_title" class="textarea-image-desc" placeholder="请输入图片备注信息" data-old-value="{{ desc }}">{{ desc }}</textarea>
+			<a class="insert-picture-editor" href="javascript:">插入图片</a>
+		</div>
+	</div>
+{{/if}}

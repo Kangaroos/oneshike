@@ -1,6 +1,6 @@
 <?php
 
-class UserController extends BaseController
+class AdminUserController extends BaseController
 {
     protected $resourceView = 'admin.users';
 

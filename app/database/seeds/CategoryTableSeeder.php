@@ -146,12 +146,27 @@ class  CategoryTableSeeder extends Seeder {
             'name'=> '炸'
         ));
 
-        #商品种类
+        /*** 商品分类 ***/
         Category::create(array(
-            'code' => 'PRODUCT_CATEGORY_xxsp',
+            'code' => 'PRODUCT_CATEGORY_XXSP',
             'parent_code' => 'PRODUCT_CATEGORY',
             'level' => 2,
             'name'=> '休闲食品'
+        ));
+
+        /*** 图文分类 ***/
+        Category::create(array(
+            'code' => 'ARTICLE_CATEGORY',
+            'parent_code' => 'ARTICLE',
+            'level' => 1,
+            'name'=> '图文分类'
+        ));
+
+        Category::create(array(
+            'code' => 'ARTICLE_CATEGORY_OTHER',
+            'parent_code' => 'ARTICLE_CATEGORY',
+            'level' => 2,
+            'name'=> '其他'
         ));
     }
 }

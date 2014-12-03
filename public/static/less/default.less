@@ -32,6 +32,7 @@ body {
 		top: 0;
 		border: 0;
 		background: transparent;
+		transition: all 0.5s ease-out 0s;
 	}
 }
 
@@ -50,6 +51,7 @@ body {
 		border: 1px solid transparent;
 		background: @body-bg;
 		.box-default-shadow();
+		transition: all 0.3s ease-out 0s;
 		a {
 			img {
 				width: 100px;
@@ -232,6 +234,84 @@ body {
 		}
 	}
 
+	.article-creale {
+		margin: 100px auto;
+		width: 70%;
+
+		.pictures {
+			margin: 10px auto;
+			border-bottom: 1px dashed @navbar-default-border;
+			.picture-group {
+				position: relative;
+				margin: 10px auto;
+				padding: 10px;
+				width: 100%;
+				outline: 1px solid #ccc;
+				background-color: @main-bg-color;
+				overflow: hidden;
+				.delete-image {
+					position: absolute;
+					right: 10px;
+					top: 10px;
+					display: block;
+					width: 16px;
+					height: 16px;
+					text-align: center;
+					vertical-align: middle;
+					font-weight: normal;
+					line-height: 16px;
+					color: #999;
+					text-decoration: none;
+				}
+
+				.thumbnail-img {
+					float: left;
+					margin-right: 20px;
+					width: 120px;
+					height: 100%;
+					overflow: hidden;
+					.image-name{
+						color:#666;
+						margin: 0;
+						font-weight: normal;
+					}
+					.image-thumb {
+						margin-top: 10px;
+						position: relative;
+						zoom: 1;
+						img {
+							width: 120px;
+							height: 120px;
+						}
+					}
+				}
+				.image-desc {
+					display: block;
+					margin-left: 140px;
+					.field{
+						display: block;
+						color:#666;
+						margin: 0;
+						font-weight: normal;
+					}
+
+					textarea {
+						margin-top: 10px;
+						width: 90%;
+						height: 90px;
+						resize: vertical;
+					}
+
+					a {
+						display: block;
+						text-decoration: none;
+					}
+				}
+
+			}
+		}
+	}
+
 	.sign-in-up {
 		margin: 100px auto;
 		width: 500px;
@@ -257,6 +337,66 @@ body {
 			.protocol {
 				margin: 0 auto;
 			}
+		}
+	}
+
+	.ucenter {
+		width: 95%;
+		margin: 40px auto;
+
+		.portrait-box {
+			width: 250px;
+			height: 315px;
+			background-color: #f4f1ec;
+			text-align: center;
+			img {
+				margin: 30px auto;
+				width: 140px;
+				height: 140px;
+			}
+		}
+
+		.change-pass-box {
+			width: 350px;
+			margin: 20px 0;
+		}
+
+		.base-info-box {
+			width: 350px;
+			margin: 20px 0;
+		}
+
+		.self-cookbook-box {
+			width: 400px;
+			margin: 100px auto;
+		}
+		
+		.self-article-box {
+			width: 400px;
+			margin: 100px auto;
+		}
+
+		.nav {
+			background-color: #f4f1ec;
+		}
+		.nav-pills {
+			&>li.active>a,
+			&>li.active>a:hover,
+			&>li.active>a:focus {
+				color: @navbar-default-link-active-color;
+				background-color: @navbar-default-link-active-bg;
+			}
+
+			&>li>a {
+				color: @navbar-default-link-color;
+			}
+
+			&>li>a:hover,
+			&>li>a:focus {
+				color: @navbar-default-link-hover-color;
+				background-color: @navbar-default-brand-hover-bg;
+			}
+
 		}
 	}
 

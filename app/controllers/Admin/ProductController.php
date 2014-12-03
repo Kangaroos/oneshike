@@ -6,7 +6,7 @@
  * Time: 下午9:28
  */
 
-class ProductController extends BaseController{
+class AdminProductController extends BaseController{
     protected $resourceView = 'admin.products';
 
     protected $model = 'Product';

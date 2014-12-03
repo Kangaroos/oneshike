@@ -125,6 +125,7 @@ return array(
         'Mews\Captcha\CaptchaServiceProvider',
         'Xyezir\Datatable\DatatableServiceProvider',
         'Xyezir\EloquentOAuth\EloquentOAuthServiceProvider',
+        'Intervention\Image\ImageServiceProvider',
 
 	),
 
@@ -195,6 +196,8 @@ return array(
         'Datatable'       => 'Xyezir\Datatable\Facades\DatatableFacade',
         'Captcha' => 'Mews\Captcha\Facades\Captcha',
         'OAuth' => 'Xyezir\EloquentOAuth\Facades\OAuth',
+        'Carbon'          => 'Carbon\Carbon',
+        'Image'           => 'Intervention\Image\Facades\Image',
 
 	),
 

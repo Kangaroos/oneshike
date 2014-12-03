@@ -173,6 +173,19 @@ function strip($string)
 |
 */
 
+function recursive_chmod($path, $mode = 0777) {
+    $dirs = explode(DIRECTORY_SEPARATOR , $path);
+    $count = count($dirs);
+    $path = '.';
+    for ($i = 0; $i < $count; ++$i) {
+        $path .= DIRECTORY_SEPARATOR . $dirs[$i];
+        if (!is_dir($path) && !mkdir($path, $mode)&& !chmod($path, $mode)) {
+            return false;
+        }
+    }
+    return true;
+}
+
 /**
  * 闭合 HTML 标签 （此函数仍存在缺陷，无法处理不完整的标签，暂无更优方案，慎用）
  * @param  string $html HTML 字符串

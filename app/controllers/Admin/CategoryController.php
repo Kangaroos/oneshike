@@ -1,6 +1,6 @@
 <?php
 
-class CategoryController extends BaseController
+class AdminCategoryController extends BaseController
 {
     protected $resourceView = 'admin.categorys';
 

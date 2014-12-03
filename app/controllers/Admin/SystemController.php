@@ -1,6 +1,6 @@
 <?php
 
-class SystemController extends BaseController
+class AdminSystemController extends BaseController
 {
     public function getAdminIndex()
     {

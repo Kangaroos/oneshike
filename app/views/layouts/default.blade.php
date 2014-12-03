@@ -2,6 +2,7 @@
 @section('title') 壹食客，做最好的美食网站 @stop
 @section('head')
 <link href="/static/library/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="{{ asset('/static/library/bootstrap3-dialog/dist/css/bootstrap-dialog.css') }}" rel="stylesheet">
 <!--<link href="/static/library/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">-->
 <link rel="stylesheet" href="/static/library/font-awesome/css/font-awesome.min.css">
 <link href="/static/css/animate.css" rel="stylesheet">
@@ -24,15 +25,15 @@
             </button>
         </div>
         <div class="logo">
-            <a href="#"><img src="/static/img/logo.png" alt="食客网"></a>
+            <a href="/"><img src="/static/img/logo.png" alt="食客网"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#about" class="active">原产地</a></li>
-                <li><a href="#about">百科</a></li>
-                <li><a href="#about">食谱</a></li>
-                <li><a href="#contact">美食</a></li>
-                <li><a href="#contact">厨具</a></li>
+                <li><a href="/origin">原产地</a></li>
+                <li><a href="/baike">百科</a></li>
+                <li><a href="/cookbook">食谱</a></li>
+                <li><a href="/article">美食</a></li>
+                <li><a href="/product">厨具</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::check())

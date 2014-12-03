@@ -628,6 +628,7 @@ body {
   top: 0;
   border: 0;
   background: transparent;
+  transition: all 0.5s ease-out 0s;
 }
 .navbar-osk {
   background-color: #ffffff;
@@ -649,6 +650,7 @@ body {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-out 0s;
 }
 .navbar-osk .logo a img {
   width: 100px;
@@ -809,6 +811,78 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
   width: 100%;
   height: 300px;
 }
+.osk-page .article-creale {
+  margin: 100px auto;
+  width: 70%;
+}
+.osk-page .article-creale .pictures {
+  margin: 10px auto;
+  border-bottom: 1px dashed #e7e7e7;
+}
+.osk-page .article-creale .pictures .picture-group {
+  position: relative;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  outline: 1px solid #ccc;
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+.osk-page .article-creale .pictures .picture-group .delete-image {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal;
+  line-height: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.osk-page .article-creale .pictures .picture-group .thumbnail-img {
+  float: left;
+  margin-right: 20px;
+  width: 120px;
+  height: 100%;
+  overflow: hidden;
+}
+.osk-page .article-creale .pictures .picture-group .thumbnail-img .image-name {
+  color: #666;
+  margin: 0;
+  font-weight: normal;
+}
+.osk-page .article-creale .pictures .picture-group .thumbnail-img .image-thumb {
+  margin-top: 10px;
+  position: relative;
+  zoom: 1;
+}
+.osk-page .article-creale .pictures .picture-group .thumbnail-img .image-thumb img {
+  width: 120px;
+  height: 120px;
+}
+.osk-page .article-creale .pictures .picture-group .image-desc {
+  display: block;
+  margin-left: 140px;
+}
+.osk-page .article-creale .pictures .picture-group .image-desc .field {
+  display: block;
+  color: #666;
+  margin: 0;
+  font-weight: normal;
+}
+.osk-page .article-creale .pictures .picture-group .image-desc textarea {
+  margin-top: 10px;
+  width: 90%;
+  height: 90px;
+  resize: vertical;
+}
+.osk-page .article-creale .pictures .picture-group .image-desc a {
+  display: block;
+  text-decoration: none;
+}
 .osk-page .sign-in-up {
   margin: 100px auto;
   width: 500px;
@@ -830,6 +904,54 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
 }
 .osk-page .sign-in-up .form-horizontal .protocol {
   margin: 0 auto;
+}
+.osk-page .ucenter {
+  width: 95%;
+  margin: 40px auto;
+}
+.osk-page .ucenter .portrait-box {
+  width: 250px;
+  height: 315px;
+  background-color: #f4f1ec;
+  text-align: center;
+}
+.osk-page .ucenter .portrait-box img {
+  margin: 30px auto;
+  width: 140px;
+  height: 140px;
+}
+.osk-page .ucenter .change-pass-box {
+  width: 350px;
+  margin: 20px 0;
+}
+.osk-page .ucenter .base-info-box {
+  width: 350px;
+  margin: 20px 0;
+}
+.osk-page .ucenter .self-cookbook-box {
+  width: 400px;
+  margin: 100px auto;
+}
+.osk-page .ucenter .self-article-box {
+  width: 400px;
+  margin: 100px auto;
+}
+.osk-page .ucenter .nav {
+  background-color: #f4f1ec;
+}
+.osk-page .ucenter .nav-pills > li.active > a,
+.osk-page .ucenter .nav-pills > li.active > a:hover,
+.osk-page .ucenter .nav-pills > li.active > a:focus {
+  color: #555555;
+  background-color: #e7e7e7;
+}
+.osk-page .ucenter .nav-pills > li > a {
+  color: #777777;
+}
+.osk-page .ucenter .nav-pills > li > a:hover,
+.osk-page .ucenter .nav-pills > li > a:focus {
+  color: #333333;
+  background-color: transparent;
 }
 .osk-page .error-box {
   margin: 10px auto;

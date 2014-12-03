@@ -1,9 +1,4 @@
 $(function(){
-	bootbox.setDefaults({
-		locale: 'zh_CN',
-		animate: true
-	});
-
 	jQuery.validator.addMethod("password", function (value, element) {
 		return this.optional(element) || /^[\w-\s_]+$/.test(value);
 	}, "请使用字母、数字、下划线、中划线。长度在5-15位之间。");
@@ -11,9 +6,11 @@ $(function(){
 
 	$('#logout-system').on('click',function(){
 		var link = $(this);
-		bootbox.confirm("您确定要退出系统?", function (result) {
-			if (result) {
+		BootstrapDialog.confirm('您确定要退出系统?', function(result){
+			if(result) {
 				location.href = link.data('url');
+			} else {
+				history.back();
 			}
 		});
 	});

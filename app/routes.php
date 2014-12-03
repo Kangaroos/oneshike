@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| 基础权限
+| 网站前台基础权限
 |--------------------------------------------------------------------------
 */
 Route::group(array('prefix' => 'auth'), function () {
@@ -39,13 +39,47 @@ Route::group(array('prefix' => 'auth'), function () {
 
 /*
 |--------------------------------------------------------------------------
+| 用户中心
+|--------------------------------------------------------------------------
+*/
+Route::group(array('prefix' => 'ucenter', 'before' => 'auth'), function(){
+    Route::get('/', array('as' => 'ucenter', 'uses' => 'HomeController@getUcenter'));
+});
+
+/*
+|--------------------------------------------------------------------------
+| 美食图文
+|--------------------------------------------------------------------------
+*/
+Route::group(array('prefix' => 'article', 'before' => 'auth'), function(){
+    Route::get('/create', array('as' => 'article.draft.create', 'uses' => 'ArticleController@getDraftCreate'));
+    Route::post('/save/{article_id}', array('as' => 'article.draft.save', 'uses' => 'ArticleController@saveDraftCreate'));
+    Route::post('/publish/{article_id}', array('as' => 'article.draft.publish', 'uses' => 'ArticleController@publishDraftCreate'));
+    Route::delete('/draft/delete/{article_id}', array('as' => 'article.draft.delete', 'uses' => 'ArticleController@deleteDraftCreate'));
+    Route::post('/images/{article_id}', array('as' => 'article.upload', 'uses' => 'ArticleController@postImage'));
+    Route::delete('/images/delete/{id}', array('as' => 'article.delete', 'uses' => 'ArticleController@deleteImage'));
+    Route::post('/images/desc/{id}', array('as' => 'article.desc', 'uses' => 'ArticleController@postDesc'));
+});
+
+/*
+|--------------------------------------------------------------------------
 | 网站前台
 |--------------------------------------------------------------------------
 */
 Route::group(array(), function () {
-    $controller = 'HomeController@';
-    Route::get('/', array('as' => 'index', 'uses' => $controller.'getIndex'));
-    Route::get('/ucenter', array('as' => 'signin', 'uses' => $controller.'getUcenter'));
+    Route::get('/', array('as' => 'index', 'uses' => 'HomeController@getIndex'));
+
+    Route::group(array('prefix' => 'article'), function(){
+        Route::get('/', array('as' => 'article.index', 'uses' => 'ArticleController@getIndex'));
+    });
+
+    Route::group(array('prefix' => 'cookbook'), function(){
+        Route::get('/', array('as' => 'cookbook.index', 'uses' => 'CookbookController@getIndex'));
+    });
+
+    Route::group(array('prefix' => 'product'), function(){
+        Route::get('/', array('as' => 'product.index', 'uses' => 'ProductController@getIndex'));
+    });
 });
 
 Route::controller('password', 'RemindersController');
@@ -66,7 +100,7 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
 
     #食材百科
     Route::group(array('prefix' => 'foods'), function () {
-        $controller = 'FoodController@';
+        $controller = 'AdminFoodController@';
         Route::get('/', array('as' => 'foods.index'  , 'uses' => $controller.'index'));
         Route::get('/tables', array('as' => 'foods.dataTables' , 'uses' => $controller.'dataTables' ));
         Route::post('/store', array('as' => 'foods.store' , 'uses' => $controller.'store' ));
@@ -82,8 +116,22 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
 
     #导购商品
     Route::group(array('prefix'=>'products'),function(){
-        $controller = 'ProductController@';
+        $controller = 'AdminProductController@';
         Route::get('/',array('as'=>'products.index' , 'uses'=>$controller.'index'));
+        Route::get('/tables', array('as' => 'products.dataTables' , 'uses' => $controller.'dataTables' ));
+        Route::post('/store',array('as'=> 'products.store','uses'=>$controller.'store'));
+
+        Route::get('/category',array('as'=> 'products.category' , 'uses'=>$controller.'getProductCategory'));
+        Route::get('/category/tables', array('as' => 'products.category.dataTables' , 'uses' => $controller.'getProductCategoryDataTables' ));
+        Route::post('/category/store', array('as' => 'products.product.store' , 'uses' => $controller.'getProductCategoryStore' ));
+
+    });
+
+    #美食图文
+    Route::group(array('prefix'=>'articles'),function(){
+        $controller = 'AdminArticleController@';
+        Route::get('/check',array('as'=>'articles.check' , 'uses'=>$controller.'getCheckArticle'));
+        Route::post('/check',array('as'=>'articles.postCheck' , 'uses'=>$controller.'postCheckArticle'));
         Route::get('/tables', array('as' => 'products.dataTables' , 'uses' => $controller.'dataTables' ));
         Route::post('/store',array('as'=> 'products.store','uses'=>$controller.'store'));
 
@@ -95,7 +143,7 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
 
     # 用户管理
     Route::group(array('prefix' => 'users'), function () {
-        $controller = 'UserController@';
+        $controller = 'AdminUserController@';
         Route::get('/', array('as' => 'users.index'  , 'uses' => $controller.'index'));
         Route::get('/tables', array('as' => 'users.dataTables' , 'uses' => $controller.'dataTables' ));
         Route::post('/store', array('as' => 'users.store' , 'uses' => $controller.'store' ));
@@ -106,7 +154,7 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
     });
 
     Route::group(array('prefix' => 'categorys'), function () {
-        $controller = 'CategoryController@';
+        $controller = 'AdminCategoryController@';
         Route::get('/', array('as' => 'categorys.index'  , 'uses' => $controller.'index'));
         Route::get('/tables', array('as' => 'categorys.dataTables' , 'uses' => $controller.'dataTables' ));
         Route::post('/store', array('as' => 'categorys.store' , 'uses' => $controller.'store' ));
@@ -114,13 +162,13 @@ Route::group(array('prefix' => 'admin', 'before' => 'admin'), function () {
 
     # 系统管理
     Route::group(array('prefix' => 'system'), function () {
-        $controller = 'SystemController@';
+        $controller = 'AdminSystemController@';
         Route::get('/admin', array('as' => 'system.admin'  , 'uses' => $controller.'getAdminIndex'));
     });
 
     # 字典管理
     Route::group(array('prefix' => 'dicts'), function () {
-        $controller = 'DictController@';
+        $controller = 'AdminDictController@';
         Route::get('/', array('as' => 'dicts.index'  , 'uses' => $controller.'index'));
         Route::get('/tables', array('as' => 'dicts.dataTables' , 'uses' => $controller.'dataTables' ));
         Route::post('/store', array('as' => 'dicts.store' , 'uses' => $controller.'store' ));
