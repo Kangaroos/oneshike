@@ -43,7 +43,12 @@ Route::group(array('prefix' => 'auth'), function () {
 |--------------------------------------------------------------------------
 */
 Route::group(array('prefix' => 'ucenter', 'before' => 'auth'), function(){
-    Route::get('/', array('as' => 'ucenter', 'uses' => 'HomeController@getUcenter'));
+    Route::get('/', array('as' => 'ucenter', 'uses' => 'UCenterController@getIndex'));
+    Route::get('/article', array('as' => 'ucenter.article', 'uses' => 'UCenterController@getUCenterArticle'));
+    Route::get('/cookbook', array('as' => 'ucenter.cookbook', 'uses' => 'UCenterController@getUCenterCookbook'));
+    Route::get('/like', array('as' => 'ucenter.like', 'uses' => 'UCenterController@getUCenterLike'));
+    Route::get('/favorite', array('as' => 'ucenter.favorite', 'uses' => 'UCenterController@getUCenterFavorite'));
+    Route::get('/buy', array('as' => 'ucenter.buy', 'uses' => 'UCenterController@getUCenterBuy'));
 });
 
 /*

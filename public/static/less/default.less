@@ -1,6 +1,8 @@
 @import "../library/bootstrap/less/variables.less";
 @import "bootstrap-social.less";
 @import "defind-variables.less";
+@import "navs";
+@import "timeline";
 
 .box-default-shadow(){
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
@@ -340,6 +342,104 @@ body {
 		}
 	}
 
+	.user-profile {
+		width: 95%;
+		margin: 40px auto;
+		.profile-picture {
+			border: 1px solid #CCC;
+			background-color: #FFF;
+			padding: 4px;
+			display: inline-block;
+			max-width: 100%;
+			-moz-box-sizing: border-box;
+			box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+
+			img {
+				display: block;
+				height: auto;
+				max-width: 100%;
+				border: 1px dotted #BBB;
+				border-bottom: 1px dashed #BBB;
+				cursor: pointer;
+				font-weight: normal;
+			}
+		}
+
+		.radius {
+			width: 60px;
+			height: 60px;
+			margin-left: 10px;
+			border-radius: 100px;
+		}
+
+		.center, .align-center {
+			text-align: center!important;
+		}
+
+		.space-4 {
+			max-height: 1px;
+			min-height: 1px;
+			overflow: hidden;
+			margin: 12px 0;
+			margin: 4px 0 3px;
+		}
+
+		.space-6 {
+			max-height: 1px;
+			min-height: 1px;
+			overflow: hidden;
+			margin: 12px 0;
+			margin: 6px 0 5px;
+		}
+
+		.profile-contact-links {
+			padding: 4px 2px 5px;
+			border: 1px solid #e0e2e5;
+			background-color: #f8fafc;
+		}
+
+		.hr.dotted, .hr-dotted {
+			border-top-style: dotted;
+		}
+		.hr-12, .hr12 {
+			margin: 12px 0;
+		}
+		.hr {
+			display: block;
+			height: 0;
+			overflow: hidden;
+			font-size: 0;
+			border-top: 1px solid #e3e3e3;
+			margin: 12px 0;
+		}
+
+		.follow {
+			width: 48%;
+			padding: 0 2%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			display: block;
+			margin: 0;
+			float: left;
+			border-left: 1px solid #e3e3e3;
+			&:first-child {
+				border-left: none;
+			}
+			.bigger-175 {
+				font-size: 175%;
+			}
+			.blue {
+				color: #478fca!important;
+			}
+		}
+
+		.self-article-box {
+			width: 400px;
+			margin: 100px auto;
+		}
+	}
+
 	.ucenter {
 		width: 95%;
 		margin: 40px auto;
@@ -527,8 +627,14 @@ body {
 					&:hover , &:active {
 						color: @main-text-color;
 					}
-					&.active {
-						color: palevioletred;
+					&.fa-heart.active {
+						color: #f56954;
+					}
+					&.fa-star.active {
+						color: #f39c12;
+					}
+					&.fa-comment.active {
+						color: #00a65a;
 					}
 				}
 			}
@@ -716,4 +822,117 @@ body {
 	box-shadow: 0 1px 3px rgba(0,0,0,.2);
 	cursor: pointer;
 	margin-bottom: 10px;
+}
+
+/* Background colors */
+.bg-red,
+.bg-yellow,
+.bg-aqua,
+.bg-blue,
+.bg-light-blue,
+.bg-green,
+.bg-navy,
+.bg-teal,
+.bg-olive,
+.bg-lime,
+.bg-orange,
+.bg-fuchsia,
+.bg-purple,
+.bg-maroon,
+.bg-black {
+	color: #f9f9f9 !important;
+}
+.bg-gray {
+	background-color: #eaeaec !important;
+}
+.bg-black {
+	background-color: #222222 !important;
+}
+.bg-red {
+	background-color: #f56954 !important;
+}
+.bg-yellow {
+	background-color: #f39c12 !important;
+}
+.bg-aqua {
+	background-color: #00c0ef !important;
+}
+.bg-blue {
+	background-color: #0073b7 !important;
+}
+.bg-light-blue {
+	background-color: #3c8dbc !important;
+}
+.bg-green {
+	background-color: #00a65a !important;
+}
+.bg-navy {
+	background-color: #001f3f !important;
+}
+.bg-teal {
+	background-color: #39cccc !important;
+}
+.bg-olive {
+	background-color: #3d9970 !important;
+}
+.bg-lime {
+	background-color: #01ff70 !important;
+}
+.bg-orange {
+	background-color: #ff851b !important;
+}
+.bg-fuchsia {
+	background-color: #f012be !important;
+}
+.bg-purple {
+	background-color: #932ab6 !important;
+}
+.bg-maroon {
+	background-color: #85144b !important;
+}
+/* Text colors */
+.text-red {
+	color: #f56954 !important;
+}
+.text-yellow {
+	color: #f39c12 !important;
+}
+.text-aqua {
+	color: #00c0ef !important;
+}
+.text-blue {
+	color: #0073b7 !important;
+}
+.text-black {
+	color: #222222 !important;
+}
+.text-light-blue {
+	color: #3c8dbc !important;
+}
+.text-green {
+	color: #00a65a !important;
+}
+.text-navy {
+	color: #001f3f !important;
+}
+.text-teal {
+	color: #39cccc !important;
+}
+.text-olive {
+	color: #3d9970 !important;
+}
+.text-lime {
+	color: #01ff70 !important;
+}
+.text-orange {
+	color: #ff851b !important;
+}
+.text-fuchsia {
+	color: #f012be !important;
+}
+.text-purple {
+	color: #932ab6 !important;
+}
+.text-maroon {
+	color: #85144b !important;
 }

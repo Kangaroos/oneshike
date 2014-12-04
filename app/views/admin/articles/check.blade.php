@@ -10,15 +10,15 @@
     <div class="box">
         <div class="box-header">
             <h3 class="box-title">美食图文审核</h3>
-            <div class="box-tools">
-                <ul class="pagination pagination-sm no-margin pull-right">
-                    <li><a href="#">&laquo;</a></li>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">&raquo;</a></li>
-                </ul>
-            </div>
+<!--            <div class="box-tools">-->
+<!--                <ul class="pagination pagination-sm no-margin pull-right">-->
+<!--                    <li><a href="#">&laquo;</a></li>-->
+<!--                    <li><a href="#">1</a></li>-->
+<!--                    <li><a href="#">2</a></li>-->
+<!--                    <li><a href="#">3</a></li>-->
+<!--                    <li><a href="#">&raquo;</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
         </div><!-- /.box-header -->
         <div class="box-body no-padding">
             <table class="table">
