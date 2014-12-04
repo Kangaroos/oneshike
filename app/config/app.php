@@ -124,7 +124,7 @@ return array(
         'Way\Generators\GeneratorsServiceProvider',
         'Mews\Captcha\CaptchaServiceProvider',
         'Xyezir\Datatable\DatatableServiceProvider',
-        'Xyezir\EloquentOAuth\EloquentOAuthServiceProvider',
+//        'Xyezir\EloquentOAuth\EloquentOAuthServiceProvider',
         'Intervention\Image\ImageServiceProvider',
 
 	),
