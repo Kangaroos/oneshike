@@ -13,8 +13,8 @@ class ArticleController extends BaseController {
     }
 
     public function getArticleEdit($article_id) {
-        $article = Article::firstOrCreate(array('user_id' => Auth::user()->id, 'id' => $article_id));
-        return View::make('article.edit')->with(compact('article'));
+        $article = DraftArticle::firstOrCreate(array('user_id' => Auth::user()->id, 'id' => $article_id));
+        return View::make('article.create')->with(compact('article'));
     }
 
     public function saveDraftCreate($article_id) {
@@ -43,7 +43,7 @@ class ArticleController extends BaseController {
     public function publishDraftCreate($article_id) {
         $input = Input::all();
 
-        $validator = Validator::make($input, DraftArticle::$rules, DraftArticle::$validatorMessages);
+        $validator = Validator::make($input, DraftArticle::$publish_rules, DraftArticle::$validatorMessages);
         if ($validator->passes()) {
             $model = DraftArticle::where('id', '=' , $article_id)->first();
 

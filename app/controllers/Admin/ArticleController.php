@@ -37,7 +37,7 @@ class AdminArticleController extends BaseController
 
         $draftArticle = DraftArticle::where('id', '=' , Input::get('id'))->first();
 
-        if($checked) {
+        if($checked == "true") {
             $draftArticle->status = '003';
             $article = Article::firstOrNew(array('draft_article_id' => $draftArticle->id));
             $article->title = $draftArticle->title;
@@ -54,7 +54,6 @@ class AdminArticleController extends BaseController
                 $articlePicture->desc = $picture->desc;
                 $article->pictures()->save($articlePicture);
             }
-
         } else {
             $draftArticle->status = '004';
         }

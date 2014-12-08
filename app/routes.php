@@ -58,6 +58,7 @@ Route::group(array('prefix' => 'ucenter', 'before' => 'auth'), function(){
 */
 Route::group(array('prefix' => 'article', 'before' => 'auth'), function(){
     Route::get('/create', array('as' => 'article.draft.create', 'uses' => 'ArticleController@getDraftCreate'));
+    Route::get('/edit/{article_id}', array('as' => 'article.draft.create', 'uses' => 'ArticleController@getArticleEdit'));
     Route::post('/save/{article_id}', array('as' => 'article.draft.save', 'uses' => 'ArticleController@saveDraftCreate'));
     Route::post('/publish/{article_id}', array('as' => 'article.draft.publish', 'uses' => 'ArticleController@publishDraftCreate'));
     Route::delete('/draft/delete/{article_id}', array('as' => 'article.draft.delete', 'uses' => 'ArticleController@deleteDraftCreate'));

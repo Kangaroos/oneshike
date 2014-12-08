@@ -19,7 +19,7 @@ class CreateArticlesTable extends Migration {
             $table->increments('id');
             $table->integer('draft_article_id')   ->nullable()         ->comment('关联草稿文章ID');
             $table->integer('user_id')            ->unsigned()         ->comment('作者ID');
-            $table->string('title', 100)->unique()->nullable()->comment('标题');
+            $table->string('title', 100)->nullable()->comment('标题');
             $table->text('content')->nullable()->comment('内容');
             $table->enum('content_format', array('markdown', 'html'))
                 ->default('html')->comment('内容格式，为后期加入非 markdown 编辑器做准备');

@@ -7,7 +7,7 @@ class UCenterController extends BaseController {
     }
 
     public function getUCenterArticle() {
-        $articles = DraftArticle::where('user_id', '=' , Auth::user()->id)->get();
+        $articles = DraftArticle::where('user_id', '=' , Auth::user()->id)->where('status', '!=', '001')->orderBy('created_at', 'desc')->get();
         return View::make('ucenter.article')->with(compact('articles'));
     }
 

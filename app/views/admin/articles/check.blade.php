@@ -37,9 +37,9 @@
                 @foreach ($datas as $data)
                 <tr>
                     <td>{{ $data->id }}</td>
-                    <td>{{ $data->title }}</td>
+                    <td>{{ str_limit(strip_tags($data->title), 10, '...') }}</td>
                     <td>{{ $data->user->nickname }}</td>
-                    <td>{{ $data->content }}</td>
+                    <td>{{ str_limit(strip_tags($data->content), 20, '...') }}</td>
                     <td>{{ $data->created_at }}</td>
                     <td>
                         <input class="simple" name="check-article" type="checkbox" data-article-id="{{ $data->id }}" data-on-text="审核中" data-off-text="待审核" data-size="mini" data-handle-width="40" data-on-color="default" data-off-color="default">
