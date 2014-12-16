@@ -345,26 +345,6 @@ body {
 	.user-profile {
 		width: 95%;
 		margin: 40px auto;
-		.profile-picture {
-			border: 1px solid #CCC;
-			background-color: #FFF;
-			padding: 4px;
-			display: inline-block;
-			max-width: 100%;
-			-moz-box-sizing: border-box;
-			box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
-
-			img {
-				display: block;
-				height: auto;
-				max-width: 100%;
-				border: 1px dotted #BBB;
-				border-bottom: 1px dashed #BBB;
-				cursor: pointer;
-				font-weight: normal;
-			}
-		}
-
 		.radius {
 			width: 60px;
 			height: 60px;
@@ -393,9 +373,11 @@ body {
 		}
 
 		.profile-contact-links {
+			display: none;
 			padding: 4px 2px 5px;
 			border: 1px solid #e0e2e5;
 			background-color: #f8fafc;
+			text-align: left;
 		}
 
 		.hr.dotted, .hr-dotted {
@@ -445,7 +427,7 @@ body {
 		width: 95%;
 		margin: 40px auto;
 
-		.portrait-box {
+		.avatar-box {
 			width: 250px;
 			height: 315px;
 			background-color: #f4f1ec;

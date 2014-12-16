@@ -9,7 +9,7 @@
 <div class="osk-page">
     <div class="ucenter row">
         <div class="col-sm-3">
-            <div class="portrait-box">
+            <div class="avatar-box">
                 <img src="/static/img/blank-head.jpg" alt="更改头像">
                 <div class="row">
                     <button class="btn btn-success">更改头像</button>

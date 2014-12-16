@@ -54,9 +54,3 @@
     </div>
 </div>
 @stop
-
-@section('end')
-@parent
-<script data-main="/static/js/views/password/remind/main" src="/static/library/requirejs/require.js"></script>
-@stop
-

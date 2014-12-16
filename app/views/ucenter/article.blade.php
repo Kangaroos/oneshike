@@ -129,6 +129,6 @@
 
 @section('end')
 @parent
-<script data-main="/static/js/views/ucenter/article/main" src="/static/library/requirejs/require.js"></script>
+<script src="/static/js/views/ucenter/article.js"></script>
 @stop
 

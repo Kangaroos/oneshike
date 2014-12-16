@@ -47,4 +47,8 @@ class User extends BaseModel implements UserInterface, RemindableInterface {
         // 若传入的字符串已经进行了 Hash 加密，则不重复处理
         $this->attributes['password'] = Hash::needsRehash($value) ? Hash::make($value) : $value;
     }
+
+    public function levelName() {
+        return Dict::where('code','USER_LEVEL')->where('para_code','001')->first()->para_name;
+    }
 }

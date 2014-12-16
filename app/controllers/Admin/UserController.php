@@ -30,7 +30,7 @@ class AdminUserController extends BaseController
     public function dataTables(){
         $users = User::all();
         return Datatable::collection($users)
-            ->showColumns("id", "email", "signature", "nickname", "status", "level", "points", "phone_number", "portrait", "qq", "wechat", "age", "address", "signin_at", "signin_ip", "signin_count", "created_at")
+            ->showColumns("id", "email", "signature", "nickname", "status", "level", "points", "phone_number", "avatar", "qq", "wechat", "age", "address", "signin_at", "signin_ip", "signin_count", "created_at")
             ->addColumn('status_list',function($model){
                 return Dict::where('code', 'USER_STATUS')->where('para_code', $model->status)->select('para_name as label', 'para_code as value')->first();
             })

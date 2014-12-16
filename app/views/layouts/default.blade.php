@@ -139,4 +139,8 @@
     </div>
 </footer>
 @stop
-@section('end')@parent @stop
+@section('end')
+@parent
+<script src="/static/library/requirejs/require.js"></script>
+<script src="/static/js/global.js"></script>
+@stop

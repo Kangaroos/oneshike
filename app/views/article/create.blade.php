@@ -47,6 +47,6 @@
 
 @section('end')
 @parent
-<script data-main="/static/js/views/article/create/main" src="/static/library/requirejs/require.js"></script>
+<script src="/static/js/views/article/create/create.js"></script>
 @stop
 

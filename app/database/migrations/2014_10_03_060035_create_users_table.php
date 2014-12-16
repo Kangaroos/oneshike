@@ -26,7 +26,7 @@ class CreateUsersTable extends Migration {
             $table->char('level',3)->default('001');//会员等级
             $table->integer('points')->default(0);//会员积分
             $table->string('phone_number', 16)->nullable();//联系电话
-            $table->string('portrait')->nullable();//头像
+            $table->string('avatar')->default('/static/img/blank-head.png')->nullable();//头像
             $table->string('qq')->nullable();//QQ
             $table->string('wechat')->nullable();//微信
             $table->string('age')->nullable();//年龄

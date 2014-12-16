@@ -1223,24 +1223,6 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
   width: 95%;
   margin: 40px auto;
 }
-.osk-page .user-profile .profile-picture {
-  border: 1px solid #CCC;
-  background-color: #FFF;
-  padding: 4px;
-  display: inline-block;
-  max-width: 100%;
-  -moz-box-sizing: border-box;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-}
-.osk-page .user-profile .profile-picture img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-  border: 1px dotted #BBB;
-  border-bottom: 1px dashed #BBB;
-  cursor: pointer;
-  font-weight: normal;
-}
 .osk-page .user-profile .radius {
   width: 60px;
   height: 60px;
@@ -1266,9 +1248,11 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
   margin: 6px 0 5px;
 }
 .osk-page .user-profile .profile-contact-links {
+  display: none;
   padding: 4px 2px 5px;
   border: 1px solid #e0e2e5;
   background-color: #f8fafc;
+  text-align: left;
 }
 .osk-page .user-profile .hr.dotted,
 .osk-page .user-profile .hr-dotted {
@@ -1314,13 +1298,13 @@ fieldset[disabled] .navbar-osk .btn-link:focus {
   width: 95%;
   margin: 40px auto;
 }
-.osk-page .ucenter .portrait-box {
+.osk-page .ucenter .avatar-box {
   width: 250px;
   height: 315px;
   background-color: #f4f1ec;
   text-align: center;
 }
-.osk-page .ucenter .portrait-box img {
+.osk-page .ucenter .avatar-box img {
   margin: 30px auto;
   width: 140px;
   height: 140px;

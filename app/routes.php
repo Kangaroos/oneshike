@@ -49,6 +49,7 @@ Route::group(array('prefix' => 'ucenter', 'before' => 'auth'), function(){
     Route::get('/like', array('as' => 'ucenter.like', 'uses' => 'UCenterController@getUCenterLike'));
     Route::get('/favorite', array('as' => 'ucenter.favorite', 'uses' => 'UCenterController@getUCenterFavorite'));
     Route::get('/buy', array('as' => 'ucenter.buy', 'uses' => 'UCenterController@getUCenterBuy'));
+    Route::post('/changeAvatar', array('as' => 'ucenter.changeAvatar', 'uses' => 'UCenterController@changeAvatar'));
 });
 
 /*

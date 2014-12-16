@@ -69,9 +69,3 @@
     </div>
 </div>
 @stop
-
-@section('end')
-@parent
-<script data-main="/static/js/views/authority/signup/main" src="/static/library/requirejs/require.js"></script>
-@stop
-
