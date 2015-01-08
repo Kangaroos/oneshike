@@ -1,0 +1,44 @@
+/* Just some basic styles; set the dimensions, etc. */
+.image-upload-wrapper {
+	width: 520px;
+	height: 300px;
+	position: relative;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.image-upload-wrapper.small {
+	width: 200px;
+	height: 150px;
+}
+
+/* Again, make sure the image fills the box */
+.image-upload-wrapper img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: inherit;
+	height: inherit;
+	cursor: pointer; /* We use the z-index to make sure the file input */
+	/* is above the image */
+	z-index: 100; /* Set a background color in case of times when no */
+	/* image is displayed */
+	background: #f5f5f5;
+}
+
+/* Position the input over top of the image */
+.image-upload-wrapper input {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	min-width: 100%;
+	height: inherit;
+	z-index: 102;
+	cursor: pointer; /* Make it invisible so that the user sees the */
+	/* image instead of the input. You cannot use */
+	/* visibilty:hidden here because it messes with */
+	/* the click event in the browser. */
+	opacity: 0;
+}
