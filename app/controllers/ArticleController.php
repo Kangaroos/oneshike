@@ -7,6 +7,17 @@ class ArticleController extends BaseController {
 		return View::make('article.index');
 	}
 
+    public function getArticleWaterfall() {
+        $articles = DB::table('articles')
+            ->leftJoin('users', 'users.id', '=', 'articles.user_id')
+            ->select('articles.id', 'articles.digest', 'articles.cover', 'users.nickname', 'users.avatar')
+            ->orderBy('articles.created_at', 'desc')
+            ->paginate(20);
+        $articles->setBaseUrl('article/waterfall');
+
+        return Response::json($articles);
+    }
+
     public function getDraftCreate() {
         $article = DraftArticle::firstOrCreate(array('user_id' => Auth::user()->id, 'status' => '001'));
         return View::make('article.create')->with(compact('article'));
@@ -48,6 +59,16 @@ class ArticleController extends BaseController {
             $model = DraftArticle::where('id', '=' , $article_id)->first();
 
             $model->title = Input::get('title');
+            $model->digest = str_limit(strip_tags(Input::get('content')), 30, '...');
+
+            $pictures = $model->pictures;
+
+            if(!$pictures->isEmpty()) {
+                $model->cover = $pictures->first()->path;
+            } else {
+                $model->cover = "/static/img/nopic.png";
+            }
+
             $model->status = '002';
             $model->content = Input::get('content');
 

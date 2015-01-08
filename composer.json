@@ -8,7 +8,8 @@
 		"mews/captcha": "dev-master",
 		"intervention/image": "dev-master",
 		"guzzlehttp/guzzle": "~4.0",
-		"yzalis/identicon": "*"
+		"yzalis/identicon": "*",
+		"kartik-v/bootstrap-fileinput": "dev-master"
 	},
     "require-dev": {
         "way/generators": "~2.0"

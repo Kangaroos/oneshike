@@ -42,6 +42,8 @@ class AdminArticleController extends BaseController
             $article = Article::firstOrNew(array('draft_article_id' => $draftArticle->id));
             $article->title = $draftArticle->title;
             $article->content = $draftArticle->content;
+            $article->cover = $draftArticle->cover;
+            $article->digest = $draftArticle->digest;
             $article->user_id = $draftArticle->user_id;
             $article->content_format = $draftArticle->content_format;
             $article->save();

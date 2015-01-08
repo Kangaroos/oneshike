@@ -47,6 +47,6 @@
 
 @section('end')
 @parent
-<script src="/static/js/views/article/create/create.js"></script>
+<script src="/static/js/views/article/create.js"></script>
 @stop
 

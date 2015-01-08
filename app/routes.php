@@ -50,6 +50,10 @@ Route::group(array('prefix' => 'ucenter', 'before' => 'auth'), function(){
     Route::get('/favorite', array('as' => 'ucenter.favorite', 'uses' => 'UCenterController@getUCenterFavorite'));
     Route::get('/buy', array('as' => 'ucenter.buy', 'uses' => 'UCenterController@getUCenterBuy'));
     Route::post('/changeAvatar', array('as' => 'ucenter.changeAvatar', 'uses' => 'UCenterController@changeAvatar'));
+    Route::get('/changePwd', array('as' => 'ucenter.changePwdGet', 'uses' => 'UCenterController@getChangePwd'));
+    Route::post('/changePwd', array('as' => 'ucenter.changePwdPost', 'uses' => 'UCenterController@postChangePwd'));Route::get('/changePwd', array('as' => 'ucenter.changePwdGet', 'uses' => 'UCenterController@getChangePwd'));
+    Route::get('/basic', array('as' => 'ucenter.basicGet', 'uses' => 'UCenterController@getBasic'));
+    Route::post('/basic', array('as' => 'ucenter.basicPost', 'uses' => 'UCenterController@postBasic'));
 });
 
 /*
@@ -66,6 +70,24 @@ Route::group(array('prefix' => 'article', 'before' => 'auth'), function(){
     Route::post('/images/{article_id}', array('as' => 'article.upload', 'uses' => 'ArticleController@postImage'));
     Route::delete('/images/delete/{id}', array('as' => 'article.delete', 'uses' => 'ArticleController@deleteImage'));
     Route::post('/images/desc/{id}', array('as' => 'article.desc', 'uses' => 'ArticleController@postDesc'));
+
+});
+
+/*
+|--------------------------------------------------------------------------
+| 菜谱
+|--------------------------------------------------------------------------
+*/
+Route::group(array('prefix' => 'cookbook', 'before' => 'auth'), function(){
+    Route::get('/create', array('as' => 'cookbook.draft.create', 'uses' => 'CookbookController@getDraftCreate'));
+    Route::get('/edit/{cookbook_id}', array('as' => 'cookbook.draft.create', 'uses' => 'CookbookController@getCookbookEdit'));
+    Route::post('/save/{cookbook_id}', array('as' => 'cookbook.draft.save', 'uses' => 'CookbookController@saveDraftCreate'));
+    Route::post('/publish/{cookbook_id}', array('as' => 'cookbook.draft.publish', 'uses' => 'CookbookController@publishDraftCreate'));
+    Route::delete('/draft/delete/{cookbook_id}', array('as' => 'cookbook.draft.delete', 'uses' => 'CookbookController@deleteDraftCreate'));
+    Route::post('/images/{cookbook_id}', array('as' => 'cookbook.upload', 'uses' => 'CookbookController@postImage'));
+    Route::delete('/images/delete/{id}', array('as' => 'cookbook.delete', 'uses' => 'CookbookController@deleteImage'));
+    Route::post('/images/desc/{id}', array('as' => 'cookbook.desc', 'uses' => 'CookbookController@postDesc'));
+
 });
 
 /*
@@ -78,6 +100,7 @@ Route::group(array(), function () {
 
     Route::group(array('prefix' => 'article'), function(){
         Route::get('/', array('as' => 'article.index', 'uses' => 'ArticleController@getIndex'));
+        Route::get('/waterfall', array('as' => 'article.waterfall', 'uses' => 'ArticleController@getArticleWaterfall'));
     });
 
     Route::group(array('prefix' => 'cookbook'), function(){

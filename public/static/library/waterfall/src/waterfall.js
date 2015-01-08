@@ -22,7 +22,7 @@
             colWidth: 240,  // column width
             gutterWidth: 10, // the brick element horizontal gutter
             gutterHeight: 10, // the brick element vertical gutter
-            align: 'center', // the brick align，'align', 'left', 'right'
+            align: 'left', // the brick align，'align', 'left', 'right'
             minCol: 1,  // min columns
             maxCol: undefined, // max columns, if undefined,max columns is infinite
             maxPage: undefined, // max page, if undefined,max page is infinite

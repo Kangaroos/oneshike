@@ -1,4 +1,4 @@
-require(['text!/static/tpl/article/article-tpl.hbs', 'handlebars', 'bootstrap-dialog', '../../.', 'summernote-zh-CN'], function(articleTpl, Handlebars, BootstrapDialog){
+require(['text!/static/tpl/article/article-tpl.hbs', 'handlebars', 'bootstrap-dialog', 'summernote-zh-CN'], function(articleTpl, Handlebars, BootstrapDialog){
 
 	var template = Handlebars.compile(articleTpl);
 

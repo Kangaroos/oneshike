@@ -14,3 +14,23 @@
 		</div>
 	</div>
 {{/if}}
+
+{{#if isWaterfall}}
+	{{#data}}
+		<div class="waterfall-item">
+			<a href="#" class="img">
+				<img src="{{ cover }}" alt=""/>
+				<span class="img-hover"></span>
+			</a>
+			<div class="box-digest">
+				{{ digest }}
+			</div>
+			<div class="box-users">
+				<img src="{{ avatar }}" alt="{{ nickname }}">
+				<span class="name"> 图文由 <a href="#">{{ nickname }}</a> 采集</span>
+			</div>
+		</div>
+	{{else}}
+		没有数据
+	{{/data}}
+{{/if}}

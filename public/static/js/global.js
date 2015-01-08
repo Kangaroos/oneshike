@@ -3,11 +3,13 @@ require.config({
 		'jquery': '/static/library/jquery-1.11.1/dist/jquery.min',
 		'bootstrap': '/static/library/bootstrap/dist/js/bootstrap.min',
 		'bootstrap-dialog': '/static/library/bootstrap3-dialog/dist/js/bootstrap-dialog',
+		'bootstrap-fileinput': '/static/library/bootstrap-fileinput/js/fileinput',
 		'stickUp': '/static/library/stickUp/stickUp',
 		'jquery.easing': '/static/library/jquery.easing/js/jquery.easing.min',
 		'text': '/static/library/requirejs-text/text',
 		'handlebars': '/static/library/handlebars/handlebars.min',
 		'waterfall': '/static/library/waterfall/src/waterfall',
+		'dropzone': '/static/library/dropzone/download/dropzone-amd-module',
 		'cropper': '/static/library/cropper/dist/cropper.min',
 		'crop-avatar': '/static/library/cropper/examples/crop-avatar/js/crop-avatar',
 		'summernote': '/static/library/summernote/dist/summernote',
@@ -26,6 +28,9 @@ require.config({
 		'bootstrap': {
 			deps: ['jquery']
 		},
+		'bootstrap-fileinput': {
+			deps: ['bootstrap']
+		},
 		'handlebars': {
 			exports: 'Handlebars'
 		},
@@ -33,7 +38,7 @@ require.config({
 			deps: ['jquery', 'handlebars']
 		},
 		'summernote-zh-CN': {
-			deps: ['bootstrap']
+			deps: ['summernote', 'bootstrap']
 		},
 		'crop-avatar': {
 			deps: ['bootstrap']
